@@ -6171,1344 +6171,1344 @@
 				{
 					"sampler": 0,
 					"target": {
-						"node": 128,
+						"node": 41,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 1,
 					"target": {
-						"node": 128,
+						"node": 41,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 2,
 					"target": {
-						"node": 128,
+						"node": 41,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 3,
 					"target": {
-						"node": 147,
+						"node": 108,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 4,
 					"target": {
-						"node": 147,
+						"node": 108,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 5,
 					"target": {
-						"node": 147,
+						"node": 108,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 6,
 					"target": {
-						"node": 116,
+						"node": 102,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 7,
 					"target": {
-						"node": 116,
+						"node": 102,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 8,
 					"target": {
-						"node": 116,
+						"node": 102,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 9,
 					"target": {
-						"node": 163,
+						"node": 5,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 10,
 					"target": {
-						"node": 163,
+						"node": 5,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 11,
 					"target": {
-						"node": 163,
+						"node": 5,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 12,
 					"target": {
-						"node": 98,
+						"node": 36,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 13,
 					"target": {
-						"node": 98,
+						"node": 36,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 14,
 					"target": {
-						"node": 98,
+						"node": 36,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 15,
 					"target": {
-						"node": 102,
+						"node": 127,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 16,
 					"target": {
-						"node": 102,
+						"node": 127,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 17,
 					"target": {
-						"node": 102,
+						"node": 127,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 18,
 					"target": {
-						"node": 59,
+						"node": 83,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 19,
 					"target": {
-						"node": 59,
+						"node": 83,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 20,
 					"target": {
-						"node": 59,
+						"node": 83,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 21,
 					"target": {
-						"node": 141,
+						"node": 146,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 22,
 					"target": {
-						"node": 141,
+						"node": 146,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 23,
 					"target": {
-						"node": 141,
+						"node": 146,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 24,
 					"target": {
-						"node": 143,
+						"node": 91,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 25,
 					"target": {
-						"node": 143,
+						"node": 91,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 26,
 					"target": {
-						"node": 143,
+						"node": 91,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 27,
 					"target": {
-						"node": 161,
+						"node": 6,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 28,
 					"target": {
-						"node": 161,
+						"node": 6,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 29,
 					"target": {
-						"node": 161,
+						"node": 6,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 30,
 					"target": {
-						"node": 145,
+						"node": 169,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 31,
 					"target": {
-						"node": 145,
+						"node": 169,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 32,
 					"target": {
-						"node": 145,
+						"node": 169,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 33,
 					"target": {
-						"node": 159,
+						"node": 56,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 34,
 					"target": {
-						"node": 159,
+						"node": 56,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 35,
 					"target": {
-						"node": 159,
+						"node": 56,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 36,
 					"target": {
-						"node": 132,
+						"node": 97,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 37,
 					"target": {
-						"node": 132,
+						"node": 97,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 38,
 					"target": {
-						"node": 132,
+						"node": 97,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 39,
 					"target": {
-						"node": 133,
+						"node": 171,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 40,
 					"target": {
-						"node": 133,
+						"node": 171,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 41,
 					"target": {
-						"node": 133,
+						"node": 171,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 42,
 					"target": {
-						"node": 144,
+						"node": 62,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 43,
 					"target": {
-						"node": 144,
+						"node": 62,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 44,
 					"target": {
-						"node": 144,
+						"node": 62,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 45,
 					"target": {
-						"node": 151,
+						"node": 170,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 46,
 					"target": {
-						"node": 151,
+						"node": 170,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 47,
 					"target": {
-						"node": 151,
+						"node": 170,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 48,
 					"target": {
-						"node": 123,
+						"node": 118,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 49,
 					"target": {
-						"node": 123,
+						"node": 118,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 50,
 					"target": {
-						"node": 123,
+						"node": 118,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 51,
 					"target": {
-						"node": 122,
+						"node": 1,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 52,
 					"target": {
-						"node": 122,
+						"node": 1,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 53,
 					"target": {
-						"node": 122,
+						"node": 1,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 54,
 					"target": {
-						"node": 121,
+						"node": 77,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 55,
 					"target": {
-						"node": 121,
+						"node": 77,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 56,
 					"target": {
-						"node": 121,
+						"node": 77,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 57,
 					"target": {
-						"node": 142,
+						"node": 63,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 58,
 					"target": {
-						"node": 142,
+						"node": 63,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 59,
 					"target": {
-						"node": 142,
+						"node": 63,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 60,
 					"target": {
-						"node": 150,
+						"node": 58,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 61,
 					"target": {
-						"node": 150,
+						"node": 58,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 62,
 					"target": {
-						"node": 150,
+						"node": 58,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 63,
 					"target": {
-						"node": 171,
+						"node": 152,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 64,
 					"target": {
-						"node": 171,
+						"node": 152,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 65,
 					"target": {
-						"node": 171,
+						"node": 152,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 66,
 					"target": {
-						"node": 5,
+						"node": 98,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 67,
 					"target": {
-						"node": 5,
+						"node": 98,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 68,
 					"target": {
-						"node": 5,
+						"node": 98,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 69,
 					"target": {
-						"node": 3,
+						"node": 68,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 70,
 					"target": {
-						"node": 3,
+						"node": 68,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 71,
 					"target": {
-						"node": 3,
+						"node": 68,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 72,
 					"target": {
-						"node": 4,
+						"node": 104,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 73,
 					"target": {
-						"node": 4,
+						"node": 104,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 74,
 					"target": {
-						"node": 4,
+						"node": 104,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 75,
 					"target": {
-						"node": 44,
+						"node": 116,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 76,
 					"target": {
-						"node": 44,
+						"node": 116,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 77,
 					"target": {
-						"node": 44,
+						"node": 116,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 78,
 					"target": {
-						"node": 43,
+						"node": 93,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 79,
 					"target": {
-						"node": 43,
+						"node": 93,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 80,
 					"target": {
-						"node": 43,
+						"node": 93,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 81,
 					"target": {
-						"node": 57,
+						"node": 27,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 82,
 					"target": {
-						"node": 57,
+						"node": 27,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 83,
 					"target": {
-						"node": 57,
+						"node": 27,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 84,
 					"target": {
-						"node": 58,
+						"node": 39,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 85,
 					"target": {
-						"node": 58,
+						"node": 39,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 86,
 					"target": {
-						"node": 58,
+						"node": 39,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 87,
 					"target": {
-						"node": 169,
+						"node": 158,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 88,
 					"target": {
-						"node": 169,
+						"node": 158,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 89,
 					"target": {
-						"node": 169,
+						"node": 158,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 90,
 					"target": {
-						"node": 168,
+						"node": 69,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 91,
 					"target": {
-						"node": 168,
+						"node": 69,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 92,
 					"target": {
-						"node": 168,
+						"node": 69,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 93,
 					"target": {
-						"node": 37,
+						"node": 138,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 94,
 					"target": {
-						"node": 37,
+						"node": 138,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 95,
 					"target": {
-						"node": 37,
+						"node": 138,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 96,
 					"target": {
-						"node": 32,
+						"node": 154,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 97,
 					"target": {
-						"node": 32,
+						"node": 154,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 98,
 					"target": {
-						"node": 32,
+						"node": 154,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 99,
 					"target": {
-						"node": 33,
+						"node": 137,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 100,
 					"target": {
-						"node": 33,
+						"node": 137,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 101,
 					"target": {
-						"node": 33,
+						"node": 137,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 102,
 					"target": {
-						"node": 66,
+						"node": 80,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 103,
 					"target": {
-						"node": 66,
+						"node": 80,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 104,
 					"target": {
-						"node": 66,
+						"node": 80,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 105,
 					"target": {
-						"node": 64,
+						"node": 94,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 106,
 					"target": {
-						"node": 64,
+						"node": 94,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 107,
 					"target": {
-						"node": 64,
+						"node": 94,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 108,
 					"target": {
-						"node": 65,
+						"node": 71,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 109,
 					"target": {
-						"node": 65,
+						"node": 71,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 110,
 					"target": {
-						"node": 65,
+						"node": 71,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 111,
 					"target": {
-						"node": 34,
+						"node": 87,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 112,
 					"target": {
-						"node": 34,
+						"node": 87,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 113,
 					"target": {
-						"node": 34,
+						"node": 87,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 114,
 					"target": {
-						"node": 154,
+						"node": 119,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 115,
 					"target": {
-						"node": 154,
+						"node": 119,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 116,
 					"target": {
-						"node": 154,
+						"node": 119,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 117,
 					"target": {
-						"node": 152,
+						"node": 85,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 118,
 					"target": {
-						"node": 152,
+						"node": 85,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 119,
 					"target": {
-						"node": 152,
+						"node": 85,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 120,
 					"target": {
-						"node": 153,
+						"node": 29,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 121,
 					"target": {
-						"node": 153,
+						"node": 29,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 122,
 					"target": {
-						"node": 153,
+						"node": 29,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 123,
 					"target": {
-						"node": 35,
+						"node": 55,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 124,
 					"target": {
-						"node": 35,
+						"node": 55,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 125,
 					"target": {
-						"node": 35,
+						"node": 55,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 126,
 					"target": {
-						"node": 78,
+						"node": 20,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 127,
 					"target": {
-						"node": 78,
+						"node": 20,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 128,
 					"target": {
-						"node": 78,
+						"node": 20,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 129,
 					"target": {
-						"node": 76,
+						"node": 109,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 130,
 					"target": {
-						"node": 76,
+						"node": 109,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 131,
 					"target": {
-						"node": 76,
+						"node": 109,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 132,
 					"target": {
-						"node": 77,
+						"node": 86,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 133,
 					"target": {
-						"node": 77,
+						"node": 86,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 134,
 					"target": {
-						"node": 77,
+						"node": 86,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 135,
 					"target": {
-						"node": 36,
+						"node": 161,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 136,
 					"target": {
-						"node": 36,
+						"node": 161,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 137,
 					"target": {
-						"node": 36,
+						"node": 161,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 138,
 					"target": {
-						"node": 130,
+						"node": 92,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 139,
 					"target": {
-						"node": 130,
+						"node": 92,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 140,
 					"target": {
-						"node": 130,
+						"node": 92,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 141,
 					"target": {
-						"node": 131,
+						"node": 117,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 142,
 					"target": {
-						"node": 131,
+						"node": 117,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 143,
 					"target": {
-						"node": 131,
+						"node": 117,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 144,
 					"target": {
-						"node": 155,
+						"node": 168,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 145,
 					"target": {
-						"node": 155,
+						"node": 168,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 146,
 					"target": {
-						"node": 155,
+						"node": 168,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 147,
 					"target": {
-						"node": 60,
+						"node": 53,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 148,
 					"target": {
-						"node": 60,
+						"node": 53,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 149,
 					"target": {
-						"node": 60,
+						"node": 53,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 150,
 					"target": {
-						"node": 28,
+						"node": 165,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 151,
 					"target": {
-						"node": 28,
+						"node": 165,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 152,
 					"target": {
-						"node": 28,
+						"node": 165,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 153,
 					"target": {
-						"node": 26,
+						"node": 81,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 154,
 					"target": {
-						"node": 26,
+						"node": 81,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 155,
 					"target": {
-						"node": 26,
+						"node": 81,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 156,
 					"target": {
-						"node": 27,
+						"node": 46,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 157,
 					"target": {
-						"node": 27,
+						"node": 46,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 158,
 					"target": {
-						"node": 27,
+						"node": 46,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 159,
 					"target": {
-						"node": 17,
+						"node": 61,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 160,
 					"target": {
-						"node": 17,
+						"node": 61,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 161,
 					"target": {
-						"node": 17,
+						"node": 61,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 162,
 					"target": {
-						"node": 15,
+						"node": 132,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 163,
 					"target": {
-						"node": 15,
+						"node": 132,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 164,
 					"target": {
-						"node": 15,
+						"node": 132,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 165,
 					"target": {
-						"node": 16,
+						"node": 121,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 166,
 					"target": {
-						"node": 16,
+						"node": 121,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 167,
 					"target": {
-						"node": 16,
+						"node": 121,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 168,
 					"target": {
-						"node": 149,
+						"node": 148,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 169,
 					"target": {
-						"node": 149,
+						"node": 148,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 170,
 					"target": {
-						"node": 149,
+						"node": 148,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 171,
 					"target": {
-						"node": 55,
+						"node": 15,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 172,
 					"target": {
-						"node": 55,
+						"node": 15,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 173,
 					"target": {
-						"node": 55,
+						"node": 15,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 174,
 					"target": {
-						"node": 53,
+						"node": 166,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 175,
 					"target": {
-						"node": 53,
+						"node": 166,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 176,
 					"target": {
-						"node": 53,
+						"node": 166,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 177,
 					"target": {
-						"node": 54,
+						"node": 167,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 178,
 					"target": {
-						"node": 54,
+						"node": 167,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 179,
 					"target": {
-						"node": 54,
+						"node": 167,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 180,
 					"target": {
-						"node": 126,
+						"node": 135,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 181,
 					"target": {
-						"node": 126,
+						"node": 135,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 182,
 					"target": {
-						"node": 126,
+						"node": 135,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 183,
 					"target": {
-						"node": 70,
+						"node": 133,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 184,
 					"target": {
-						"node": 70,
+						"node": 133,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 185,
 					"target": {
-						"node": 70,
+						"node": 133,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 186,
 					"target": {
-						"node": 69,
+						"node": 103,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 187,
 					"target": {
-						"node": 69,
+						"node": 103,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 188,
 					"target": {
-						"node": 69,
+						"node": 103,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 189,
 					"target": {
-						"node": 136,
+						"node": 48,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 190,
 					"target": {
-						"node": 136,
+						"node": 48,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 191,
 					"target": {
-						"node": 136,
+						"node": 48,
 						"path": "scale"
 					}
 				},
@@ -7536,1092 +7536,1092 @@
 				{
 					"sampler": 195,
 					"target": {
-						"node": 87,
+						"node": 160,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 196,
 					"target": {
-						"node": 87,
+						"node": 160,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 197,
 					"target": {
-						"node": 87,
+						"node": 160,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 198,
 					"target": {
-						"node": 49,
+						"node": 26,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 199,
 					"target": {
-						"node": 49,
+						"node": 26,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 200,
 					"target": {
-						"node": 49,
+						"node": 26,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 201,
 					"target": {
-						"node": 45,
+						"node": 35,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 202,
 					"target": {
-						"node": 45,
+						"node": 35,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 203,
 					"target": {
-						"node": 45,
+						"node": 35,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 204,
 					"target": {
-						"node": 46,
+						"node": 159,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 205,
 					"target": {
-						"node": 46,
+						"node": 159,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 206,
 					"target": {
-						"node": 46,
+						"node": 159,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 207,
 					"target": {
-						"node": 95,
+						"node": 57,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 208,
 					"target": {
-						"node": 95,
+						"node": 57,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 209,
 					"target": {
-						"node": 95,
+						"node": 57,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 210,
 					"target": {
-						"node": 63,
+						"node": 111,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 211,
 					"target": {
-						"node": 63,
+						"node": 111,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 212,
 					"target": {
-						"node": 63,
+						"node": 111,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 213,
 					"target": {
-						"node": 61,
+						"node": 54,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 214,
 					"target": {
-						"node": 61,
+						"node": 54,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 215,
 					"target": {
-						"node": 61,
+						"node": 54,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 216,
 					"target": {
-						"node": 62,
+						"node": 107,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 217,
 					"target": {
-						"node": 62,
+						"node": 107,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 218,
 					"target": {
-						"node": 62,
+						"node": 107,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 219,
 					"target": {
-						"node": 91,
+						"node": 122,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 220,
 					"target": {
-						"node": 91,
+						"node": 122,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 221,
 					"target": {
-						"node": 91,
+						"node": 122,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 222,
 					"target": {
-						"node": 104,
+						"node": 106,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 223,
 					"target": {
-						"node": 104,
+						"node": 106,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 224,
 					"target": {
-						"node": 104,
+						"node": 106,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 225,
 					"target": {
-						"node": 105,
+						"node": 128,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 226,
 					"target": {
-						"node": 105,
+						"node": 128,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 227,
 					"target": {
-						"node": 105,
+						"node": 128,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 228,
 					"target": {
-						"node": 113,
+						"node": 124,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 229,
 					"target": {
-						"node": 113,
+						"node": 124,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 230,
 					"target": {
-						"node": 113,
+						"node": 124,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 231,
 					"target": {
-						"node": 114,
+						"node": 59,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 232,
 					"target": {
-						"node": 114,
+						"node": 59,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 233,
 					"target": {
-						"node": 114,
+						"node": 59,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 234,
 					"target": {
-						"node": 93,
+						"node": 50,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 235,
 					"target": {
-						"node": 93,
+						"node": 50,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 236,
 					"target": {
-						"node": 93,
+						"node": 50,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 237,
 					"target": {
-						"node": 94,
+						"node": 76,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 238,
 					"target": {
-						"node": 94,
+						"node": 76,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 239,
 					"target": {
-						"node": 94,
+						"node": 76,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 240,
 					"target": {
-						"node": 19,
+						"node": 28,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 241,
 					"target": {
-						"node": 19,
+						"node": 28,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 242,
 					"target": {
-						"node": 19,
+						"node": 28,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 243,
 					"target": {
-						"node": 18,
+						"node": 140,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 244,
 					"target": {
-						"node": 18,
+						"node": 140,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 245,
 					"target": {
-						"node": 18,
+						"node": 140,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 246,
 					"target": {
-						"node": 162,
+						"node": 114,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 247,
 					"target": {
-						"node": 162,
+						"node": 114,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 248,
 					"target": {
-						"node": 162,
+						"node": 114,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 249,
 					"target": {
-						"node": 156,
+						"node": 11,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 250,
 					"target": {
-						"node": 156,
+						"node": 11,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 251,
 					"target": {
-						"node": 156,
+						"node": 11,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 252,
 					"target": {
-						"node": 2,
+						"node": 99,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 253,
 					"target": {
-						"node": 2,
+						"node": 99,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 254,
 					"target": {
-						"node": 2,
+						"node": 99,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 255,
 					"target": {
-						"node": 1,
+						"node": 130,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 256,
 					"target": {
-						"node": 1,
+						"node": 130,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 257,
 					"target": {
-						"node": 1,
+						"node": 130,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 258,
 					"target": {
-						"node": 164,
+						"node": 143,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 259,
 					"target": {
-						"node": 164,
+						"node": 143,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 260,
 					"target": {
-						"node": 164,
+						"node": 143,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 261,
 					"target": {
-						"node": 108,
+						"node": 156,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 262,
 					"target": {
-						"node": 108,
+						"node": 156,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 263,
 					"target": {
-						"node": 108,
+						"node": 156,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 264,
 					"target": {
-						"node": 107,
+						"node": 95,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 265,
 					"target": {
-						"node": 107,
+						"node": 95,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 266,
 					"target": {
-						"node": 107,
+						"node": 95,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 267,
 					"target": {
-						"node": 166,
+						"node": 129,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 268,
 					"target": {
-						"node": 166,
+						"node": 129,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 269,
 					"target": {
-						"node": 166,
+						"node": 129,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 270,
 					"target": {
-						"node": 165,
+						"node": 105,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 271,
 					"target": {
-						"node": 165,
+						"node": 105,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 272,
 					"target": {
-						"node": 165,
+						"node": 105,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 273,
 					"target": {
-						"node": 112,
+						"node": 4,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 274,
 					"target": {
-						"node": 112,
+						"node": 4,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 275,
 					"target": {
-						"node": 112,
+						"node": 4,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 276,
 					"target": {
-						"node": 111,
+						"node": 44,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 277,
 					"target": {
-						"node": 111,
+						"node": 44,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 278,
 					"target": {
-						"node": 111,
+						"node": 44,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 279,
 					"target": {
-						"node": 96,
+						"node": 82,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 280,
 					"target": {
-						"node": 96,
+						"node": 82,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 281,
 					"target": {
-						"node": 96,
+						"node": 82,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 282,
 					"target": {
-						"node": 97,
+						"node": 25,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 283,
 					"target": {
-						"node": 97,
+						"node": 25,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 284,
 					"target": {
-						"node": 97,
+						"node": 25,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 285,
 					"target": {
-						"node": 109,
+						"node": 32,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 286,
 					"target": {
-						"node": 109,
+						"node": 32,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 287,
 					"target": {
-						"node": 109,
+						"node": 32,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 288,
 					"target": {
-						"node": 110,
+						"node": 78,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 289,
 					"target": {
-						"node": 110,
+						"node": 78,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 290,
 					"target": {
-						"node": 110,
+						"node": 78,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 291,
 					"target": {
-						"node": 48,
+						"node": 164,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 292,
 					"target": {
-						"node": 48,
+						"node": 164,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 293,
 					"target": {
-						"node": 48,
+						"node": 164,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 294,
 					"target": {
-						"node": 160,
+						"node": 10,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 295,
 					"target": {
-						"node": 160,
+						"node": 10,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 296,
 					"target": {
-						"node": 160,
+						"node": 10,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 297,
 					"target": {
-						"node": 167,
+						"node": 89,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 298,
 					"target": {
-						"node": 167,
+						"node": 89,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 299,
 					"target": {
-						"node": 167,
+						"node": 89,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 300,
 					"target": {
-						"node": 47,
+						"node": 51,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 301,
 					"target": {
-						"node": 47,
+						"node": 51,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 302,
 					"target": {
-						"node": 47,
+						"node": 51,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 303,
 					"target": {
-						"node": 92,
+						"node": 150,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 304,
 					"target": {
-						"node": 92,
+						"node": 150,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 305,
 					"target": {
-						"node": 92,
+						"node": 150,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 306,
 					"target": {
-						"node": 120,
+						"node": 30,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 307,
 					"target": {
-						"node": 120,
+						"node": 30,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 308,
 					"target": {
-						"node": 120,
+						"node": 30,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 309,
 					"target": {
-						"node": 115,
+						"node": 139,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 310,
 					"target": {
-						"node": 115,
+						"node": 139,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 311,
 					"target": {
-						"node": 115,
+						"node": 139,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 312,
 					"target": {
-						"node": 25,
+						"node": 72,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 313,
 					"target": {
-						"node": 25,
+						"node": 72,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 314,
 					"target": {
-						"node": 25,
+						"node": 72,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 315,
 					"target": {
-						"node": 20,
+						"node": 8,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 316,
 					"target": {
-						"node": 20,
+						"node": 8,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 317,
 					"target": {
-						"node": 20,
+						"node": 8,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 318,
 					"target": {
-						"node": 21,
+						"node": 66,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 319,
 					"target": {
-						"node": 21,
+						"node": 66,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 320,
 					"target": {
-						"node": 21,
+						"node": 66,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 321,
 					"target": {
-						"node": 139,
+						"node": 31,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 322,
 					"target": {
-						"node": 139,
+						"node": 31,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 323,
 					"target": {
-						"node": 139,
+						"node": 31,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 324,
 					"target": {
-						"node": 140,
+						"node": 153,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 325,
 					"target": {
-						"node": 140,
+						"node": 153,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 326,
 					"target": {
-						"node": 140,
+						"node": 153,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 327,
 					"target": {
-						"node": 148,
+						"node": 60,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 328,
 					"target": {
-						"node": 148,
+						"node": 60,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 329,
 					"target": {
-						"node": 148,
+						"node": 60,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 330,
 					"target": {
-						"node": 22,
+						"node": 18,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 331,
 					"target": {
-						"node": 22,
+						"node": 18,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 332,
 					"target": {
-						"node": 22,
+						"node": 18,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 333,
 					"target": {
-						"node": 99,
+						"node": 155,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 334,
 					"target": {
-						"node": 99,
+						"node": 155,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 335,
 					"target": {
-						"node": 99,
+						"node": 155,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 336,
 					"target": {
-						"node": 100,
+						"node": 7,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 337,
 					"target": {
-						"node": 100,
+						"node": 7,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 338,
 					"target": {
-						"node": 100,
+						"node": 7,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 339,
 					"target": {
-						"node": 119,
+						"node": 17,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 340,
 					"target": {
-						"node": 119,
+						"node": 17,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 341,
 					"target": {
-						"node": 119,
+						"node": 17,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 342,
 					"target": {
-						"node": 23,
+						"node": 2,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 343,
 					"target": {
-						"node": 23,
+						"node": 2,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 344,
 					"target": {
-						"node": 23,
+						"node": 2,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 345,
 					"target": {
-						"node": 84,
+						"node": 70,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 346,
 					"target": {
-						"node": 84,
+						"node": 70,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 347,
 					"target": {
-						"node": 84,
+						"node": 70,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 348,
 					"target": {
-						"node": 75,
+						"node": 112,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 349,
 					"target": {
-						"node": 75,
+						"node": 112,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 350,
 					"target": {
-						"node": 75,
+						"node": 112,
 						"path": "scale"
 					}
 				},
@@ -8649,1050 +8649,1050 @@
 				{
 					"sampler": 354,
 					"target": {
-						"node": 24,
+						"node": 123,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 355,
 					"target": {
-						"node": 24,
+						"node": 123,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 356,
 					"target": {
-						"node": 24,
+						"node": 123,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 357,
 					"target": {
-						"node": 67,
+						"node": 64,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 358,
 					"target": {
-						"node": 67,
+						"node": 64,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 359,
 					"target": {
-						"node": 67,
+						"node": 64,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 360,
 					"target": {
-						"node": 68,
+						"node": 131,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 361,
 					"target": {
-						"node": 68,
+						"node": 131,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 362,
 					"target": {
-						"node": 68,
+						"node": 131,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 363,
 					"target": {
-						"node": 106,
+						"node": 49,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 364,
 					"target": {
-						"node": 106,
+						"node": 49,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 365,
 					"target": {
-						"node": 106,
+						"node": 49,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 366,
 					"target": {
-						"node": 124,
+						"node": 12,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 367,
 					"target": {
-						"node": 124,
+						"node": 12,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 368,
 					"target": {
-						"node": 124,
+						"node": 12,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 369,
 					"target": {
-						"node": 125,
+						"node": 34,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 370,
 					"target": {
-						"node": 125,
+						"node": 34,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 371,
 					"target": {
-						"node": 125,
+						"node": 34,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 372,
 					"target": {
-						"node": 40,
+						"node": 162,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 373,
 					"target": {
-						"node": 40,
+						"node": 162,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 374,
 					"target": {
-						"node": 40,
+						"node": 162,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 375,
 					"target": {
-						"node": 14,
+						"node": 126,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 376,
 					"target": {
-						"node": 14,
+						"node": 126,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 377,
 					"target": {
-						"node": 14,
+						"node": 126,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 378,
 					"target": {
-						"node": 12,
+						"node": 45,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 379,
 					"target": {
-						"node": 12,
+						"node": 45,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 380,
 					"target": {
-						"node": 12,
+						"node": 45,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 381,
 					"target": {
-						"node": 13,
+						"node": 151,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 382,
 					"target": {
-						"node": 13,
+						"node": 151,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 383,
 					"target": {
-						"node": 13,
+						"node": 151,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 384,
 					"target": {
-						"node": 56,
+						"node": 110,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 385,
 					"target": {
-						"node": 56,
+						"node": 110,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 386,
 					"target": {
-						"node": 56,
+						"node": 110,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 387,
 					"target": {
-						"node": 38,
+						"node": 14,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 388,
 					"target": {
-						"node": 38,
+						"node": 14,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 389,
 					"target": {
-						"node": 38,
+						"node": 14,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 390,
 					"target": {
-						"node": 39,
+						"node": 75,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 391,
 					"target": {
-						"node": 39,
+						"node": 75,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 392,
 					"target": {
-						"node": 39,
+						"node": 75,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 393,
 					"target": {
-						"node": 89,
+						"node": 52,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 394,
 					"target": {
-						"node": 89,
+						"node": 52,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 395,
 					"target": {
-						"node": 89,
+						"node": 52,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 396,
 					"target": {
-						"node": 90,
+						"node": 22,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 397,
 					"target": {
-						"node": 90,
+						"node": 22,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 398,
 					"target": {
-						"node": 90,
+						"node": 22,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 399,
 					"target": {
-						"node": 11,
+						"node": 125,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 400,
 					"target": {
-						"node": 11,
+						"node": 125,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 401,
 					"target": {
-						"node": 11,
+						"node": 125,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 402,
 					"target": {
-						"node": 9,
+						"node": 136,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 403,
 					"target": {
-						"node": 9,
+						"node": 136,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 404,
 					"target": {
-						"node": 9,
+						"node": 136,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 405,
 					"target": {
-						"node": 10,
+						"node": 141,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 406,
 					"target": {
-						"node": 10,
+						"node": 141,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 407,
 					"target": {
-						"node": 10,
+						"node": 141,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 408,
 					"target": {
-						"node": 101,
+						"node": 24,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 409,
 					"target": {
-						"node": 101,
+						"node": 24,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 410,
 					"target": {
-						"node": 101,
+						"node": 24,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 411,
 					"target": {
-						"node": 137,
+						"node": 115,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 412,
 					"target": {
-						"node": 137,
+						"node": 115,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 413,
 					"target": {
-						"node": 137,
+						"node": 115,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 414,
 					"target": {
-						"node": 138,
+						"node": 21,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 415,
 					"target": {
-						"node": 138,
+						"node": 21,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 416,
 					"target": {
-						"node": 138,
+						"node": 21,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 417,
 					"target": {
-						"node": 118,
+						"node": 37,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 418,
 					"target": {
-						"node": 118,
+						"node": 37,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 419,
 					"target": {
-						"node": 118,
+						"node": 37,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 420,
 					"target": {
-						"node": 117,
+						"node": 145,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 421,
 					"target": {
-						"node": 117,
+						"node": 145,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 422,
 					"target": {
-						"node": 117,
+						"node": 145,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 423,
 					"target": {
-						"node": 146,
+						"node": 65,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 424,
 					"target": {
-						"node": 146,
+						"node": 65,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 425,
 					"target": {
-						"node": 146,
+						"node": 65,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 426,
 					"target": {
-						"node": 8,
+						"node": 3,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 427,
 					"target": {
-						"node": 8,
+						"node": 3,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 428,
 					"target": {
-						"node": 8,
+						"node": 3,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 429,
 					"target": {
-						"node": 103,
+						"node": 13,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 430,
 					"target": {
-						"node": 103,
+						"node": 13,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 431,
 					"target": {
-						"node": 103,
+						"node": 13,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 432,
 					"target": {
-						"node": 52,
+						"node": 9,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 433,
 					"target": {
-						"node": 52,
+						"node": 9,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 434,
 					"target": {
-						"node": 52,
+						"node": 9,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 435,
 					"target": {
-						"node": 50,
+						"node": 90,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 436,
 					"target": {
-						"node": 50,
+						"node": 90,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 437,
 					"target": {
-						"node": 50,
+						"node": 90,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 438,
 					"target": {
-						"node": 51,
+						"node": 16,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 439,
 					"target": {
-						"node": 51,
+						"node": 16,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 440,
 					"target": {
-						"node": 51,
+						"node": 16,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 441,
 					"target": {
-						"node": 83,
+						"node": 113,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 442,
 					"target": {
-						"node": 83,
+						"node": 113,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 443,
 					"target": {
-						"node": 83,
+						"node": 113,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 444,
 					"target": {
-						"node": 82,
+						"node": 120,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 445,
 					"target": {
-						"node": 82,
+						"node": 120,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 446,
 					"target": {
-						"node": 82,
+						"node": 120,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 447,
 					"target": {
-						"node": 81,
+						"node": 149,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 448,
 					"target": {
-						"node": 81,
+						"node": 149,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 449,
 					"target": {
-						"node": 81,
+						"node": 149,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 450,
 					"target": {
-						"node": 79,
+						"node": 147,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 451,
 					"target": {
-						"node": 79,
+						"node": 147,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 452,
 					"target": {
-						"node": 79,
+						"node": 147,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 453,
 					"target": {
-						"node": 80,
+						"node": 84,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 454,
 					"target": {
-						"node": 80,
+						"node": 84,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 455,
 					"target": {
-						"node": 80,
+						"node": 84,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 456,
 					"target": {
-						"node": 85,
+						"node": 43,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 457,
 					"target": {
-						"node": 85,
+						"node": 43,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 458,
 					"target": {
-						"node": 85,
+						"node": 43,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 459,
 					"target": {
-						"node": 86,
+						"node": 19,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 460,
 					"target": {
-						"node": 86,
+						"node": 19,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 461,
 					"target": {
-						"node": 86,
+						"node": 19,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 462,
 					"target": {
-						"node": 135,
+						"node": 47,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 463,
 					"target": {
-						"node": 135,
+						"node": 47,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 464,
 					"target": {
-						"node": 135,
+						"node": 47,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 465,
 					"target": {
-						"node": 134,
+						"node": 157,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 466,
 					"target": {
-						"node": 134,
+						"node": 157,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 467,
 					"target": {
-						"node": 134,
+						"node": 157,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 468,
 					"target": {
-						"node": 73,
+						"node": 40,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 469,
 					"target": {
-						"node": 73,
+						"node": 40,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 470,
 					"target": {
-						"node": 73,
+						"node": 40,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 471,
 					"target": {
-						"node": 71,
+						"node": 144,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 472,
 					"target": {
-						"node": 71,
+						"node": 144,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 473,
 					"target": {
-						"node": 71,
+						"node": 144,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 474,
 					"target": {
-						"node": 72,
+						"node": 33,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 475,
 					"target": {
-						"node": 72,
+						"node": 33,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 476,
 					"target": {
-						"node": 72,
+						"node": 33,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 477,
 					"target": {
-						"node": 6,
+						"node": 100,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 478,
 					"target": {
-						"node": 6,
+						"node": 100,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 479,
 					"target": {
-						"node": 6,
+						"node": 100,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 480,
 					"target": {
-						"node": 7,
+						"node": 23,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 481,
 					"target": {
-						"node": 7,
+						"node": 23,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 482,
 					"target": {
-						"node": 7,
+						"node": 23,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 483,
 					"target": {
-						"node": 157,
+						"node": 163,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 484,
 					"target": {
-						"node": 157,
+						"node": 163,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 485,
 					"target": {
-						"node": 157,
+						"node": 163,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 486,
 					"target": {
-						"node": 158,
+						"node": 134,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 487,
 					"target": {
-						"node": 158,
+						"node": 134,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 488,
 					"target": {
-						"node": 158,
+						"node": 134,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 489,
 					"target": {
-						"node": 170,
+						"node": 67,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 490,
 					"target": {
-						"node": 170,
+						"node": 67,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 491,
 					"target": {
-						"node": 170,
+						"node": 67,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 492,
 					"target": {
-						"node": 31,
+						"node": 142,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 493,
 					"target": {
-						"node": 31,
+						"node": 142,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 494,
 					"target": {
-						"node": 31,
+						"node": 142,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 495,
 					"target": {
-						"node": 29,
+						"node": 96,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 496,
 					"target": {
-						"node": 29,
+						"node": 96,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 497,
 					"target": {
-						"node": 29,
+						"node": 96,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 498,
 					"target": {
-						"node": 30,
+						"node": 101,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 499,
 					"target": {
-						"node": 30,
+						"node": 101,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 500,
 					"target": {
-						"node": 30,
+						"node": 101,
 						"path": "scale"
 					}
 				},
 				{
 					"sampler": 501,
 					"target": {
-						"node": 41,
+						"node": 79,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 502,
 					"target": {
-						"node": 41,
+						"node": 79,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 503,
 					"target": {
-						"node": 41,
+						"node": 79,
 						"path": "scale"
 					}
 				},
@@ -12344,7 +12344,7 @@
 	],
 	"meshes": [
 		{
-			"name": "mesh_ou_ok001_13864ou_ok001",
+			"name": "mesh_ou_ok001_13922ou_ok001",
 			"primitives": [
 				{
 					"attributes": {
@@ -12366,1017 +12366,352 @@
 		{
 			"name": "UnityGlTF_root",
 			"children": [
-				127
+				38
 			]
 		},
 		{
-			"name": "node_Bone064_-7086",
-			"translation": [ -0.04105408, -1.907349E-08, 0],
-			"rotation": [0.005726379, -0.01077956, 0.04527834, -0.9988999]
-		},
-		{
-			"name": "node_Bone063_-6942",
-			"children": [
-				1
-			],
-			"translation": [ -0.03163513, 1.907349E-08, 0],
-			"rotation": [0.100284, 0.01530069, 0.1305587, -0.986237]
-		},
-		{
-			"name": "node_Bone008_-7252",
-			"children": [
-				4
-			],
-			"translation": [ -0.01073251, 1.392364E-06, 9.37641E-10],
-			"rotation": [0.002301161, -0.0004136563, 0.1264917, -0.9919649]
-		},
-		{
-			"name": "node_Bone009_-6962",
-			"translation": [ -0.01147074, -3.814697E-08, -9.386936E-16],
-			"rotation": [0.001162539, -0.00400647, 0.1195375, -0.9928209]
-		},
-		{
-			"name": "node_Bone007_-6938",
-			"children": [
-				3
-			],
-			"translation": [ -0.01066165, -0.02672675, -9.652691E-08],
-			"rotation": [0.7293305, 0.6840946, -0.007028681, 0.006496718]
-		},
-		{
-			"name": "node_Bone018(mirrored)_-6948",
-			"children": [
-				7
-			],
-			"translation": [ -0.02691174, -0.000182848, 0.008969993],
-			"rotation": [0.996644, 0.07224858, -0.0384667, 0.001058375]
-		},
-		{
-			"name": "node_Bone019(mirrored)_-6688",
-			"children": [
-				157
-			],
-			"translation": [ -0.03000755, 4.768371E-08, 0],
-			"rotation": [-0.001117926, -0.0003548612, 0.04570262, -0.9989544]
-		},
-		{
-			"name": "node_Bone011_-6608",
-			"children": [
-				52,
-				31,
-				103,
-				81,
-				6,
-				135
-			],
-			"translation": [ -0.03827673, -9.536743E-09, -1.189065E-09],
-			"rotation": [-0.0006473099, -0.0004070398, -0.124907, -0.9921682]
-		},
-		{
-			"name": "node_Bip001 R Toe21_-7104",
-			"children": [
-				10
-			],
-			"translation": [ -0.004268894, -2.384186E-09, 0]
-		},
-		{
-			"name": "node_Bip001 R Toe22_-7124",
-			"children": [
-				101
-			],
-			"translation": [ -0.004125996, -2.384186E-09, 7.629394E-08]
-		},
-		{
-			"name": "node_Bip001 R Toe2_-7054",
-			"children": [
-				9
-			],
-			"translation": [ -0.004238911, 0.001911926, 0.002440224],
-			"rotation": [-0.212631, -0.2126311, 0.6743797, -0.6743798]
-		},
-		{
-			"name": "node_Bip001 R Toe01_-6798",
-			"children": [
-				13
-			],
-			"translation": [ -0.004805145, -2.384186E-09, 1.907349E-08]
-		},
-		{
-			"name": "node_Bip001 R Toe02_-7146",
-			"children": [
-				56
-			],
-			"translation": [ -0.004629593, 2.384186E-09, -3.814697E-08]
-		},
-		{
-			"name": "node_Bip001 R Toe0_-7056",
-			"children": [
-				12
-			],
-			"translation": [ -0.004248712, 0.002732239, -0.003587494],
-			"rotation": [0.1830127, 0.1830127, 0.6830127, -0.6830127]
-		},
-		{
-			"name": "node_Bone046(mirrored)_-7094",
-			"children": [
-				16
-			],
-			"translation": [ -0.02330961, -5.960464E-09, 0],
-			"rotation": [-0.02658895, -0.1996492, -0.09268241, -0.9751119]
-		},
-		{
-			"name": "node_Bone047(mirrored)_-7024",
-			"children": [
-				149
-			],
-			"translation": [ -0.02099459, 2.026558E-08, 0],
-			"rotation": [-0.04545958, -0.1759228, -0.0678466, -0.9810104]
-		},
-		{
-			"name": "node_Bone045(mirrored)_-6766",
-			"children": [
-				15
-			],
-			"translation": [ -0.05802194, -0.02100126, 0.0004511267],
-			"rotation": [0.06828357, -0.2034162, 0.5094428, -0.833323]
-		},
-		{
-			"name": "node_Bone060_-7118",
-			"translation": [ -0.03518402, 0, 0],
-			"rotation": [-0.0001077717, -0.004281331, 0.0475373, -0.9988603]
-		},
-		{
-			"name": "node_Bone059_-6668",
-			"children": [
-				18
-			],
-			"translation": [ -0.02730442, -2.87489E-09, -5.749781E-09],
-			"rotation": [0.06783302, -0.01195292, 0.1424897, -0.9873968]
-		},
-		{
-			"name": "node_Bip001 L Foot_-6720",
-			"children": [
-				21,
-				22,
-				23,
-				24
-			],
-			"translation": [ -0.02331594, 7.629394E-08, 7.629394E-08],
-			"rotation": [0.9808767, -0.1946237, 0.001156429, -0.001079481]
-		},
-		{
-			"name": "node_Bip001 L Toe0_-6786",
-			"children": [
-				139
-			],
-			"translation": [ -0.004248709, 0.002732162, 0.00358757],
-			"rotation": [-0.1830128, -0.1830129, 0.6830127, -0.6830127]
-		},
-		{
-			"name": "node_Bip001 L Toe1_-6716",
-			"children": [
-				99
-			],
-			"translation": [ -0.004258134, 0.00352005, 0.0001922607],
-			"rotation": [-2.075444E-08, -4.742549E-08, 0.7071067, -0.7071068]
-		},
-		{
-			"name": "node_Bip001 L Toe2_-6602",
-			"children": [
-				84
-			],
-			"translation": [ -0.004238913, 0.00191185, -0.002440109],
-			"rotation": [0.2126312, 0.2126311, 0.6743797, -0.6743797]
-		},
-		{
-			"name": "node_Bip001 L Toe3_-7044",
-			"children": [
-				67
-			],
-			"translation": [ -0.004201176, -0.00321846, -0.001188202],
-			"rotation": [0.7064338, 0.7064338, 0.03084347, -0.03084347]
-		},
-		{
-			"name": "node_Bip001 L Calf_-7264",
-			"children": [
-				20
-			],
-			"translation": [ -0.02594402, 0, -7.629394E-08],
-			"rotation": [4.096331E-09, -3.974964E-09, -0.5605407, -0.8281269]
-		},
-		{
-			"name": "node_Bone043(mirrored)_-6886",
-			"children": [
-				27
-			],
-			"translation": [ -0.02122173, 2.384186E-08, 0],
-			"rotation": [-0.02526247, -0.2956081, -0.07337067, -0.9521526]
-		},
-		{
-			"name": "node_Bone044(mirrored)_-6802",
-			"translation": [ -0.01717011, -9.536743E-09, 0],
-			"rotation": [0.008201287, -0.009052592, -0.04167182, -0.9990567]
-		},
-		{
-			"name": "node_Bone042(mirrored)_-7220",
-			"children": [
-				26
-			],
-			"translation": [ -0.02380941, -2.861023E-08, 0],
-			"rotation": [-0.01279425, -0.3221798, -0.1427249, -0.9357703]
-		},
-		{
-			"name": "node_Bone013(mirrored)_-6932",
-			"children": [
-				30
-			],
-			"translation": [ -0.02924699, 9.536743E-09, 0],
-			"rotation": [-0.00297525, -0.0009290863, 0.0470439, -0.998888]
-		},
-		{
-			"name": "node_Bone014(mirrored)_-6950",
-			"children": [
-				41
-			],
-			"translation": [ -0.02748007, 0, 1.907349E-08],
-			"rotation": [-0.0006441117, -0.001777177, 0.04479454, -0.9989945]
-		},
-		{
-			"name": "node_Bone012(mirrored)_-7126",
-			"children": [
-				29
-			],
-			"translation": [ -0.02705117, -3.118515E-05, 0.01438],
-			"rotation": [0.9928544, 0.073267, -0.09416339, 0.002307636]
-		},
-		{
-			"name": "node_Bip001 L Hand_-7158",
-			"children": [
-				33,
-				34,
-				35,
-				36
-			],
-			"translation": [ -0.1078497, 1.907349E-08, 0],
-			"rotation": [0.03180021, 0.7158463, -0.6330667, -0.2928813]
-		},
-		{
-			"name": "node_Bone049(mirrored)_-7106",
-			"children": [
-				66
-			],
-			"translation": [ -0.01928091, -0.0001454926, -0.01121915],
-			"rotation": [0.7086464, 0.2940185, 0.2968179, -0.5685706]
-		},
-		{
-			"name": "node_Bone053(mirrored)_-6904",
-			"children": [
-				154
-			],
-			"translation": [ -0.06038101, -0.001880598, -0.008464193],
-			"rotation": [0.5940616, 0.1503334, 0.2645912, -0.7446356]
-		},
-		{
-			"name": "node_Bone057(mirrored)_-6742",
-			"children": [
-				78
-			],
-			"translation": [ -0.1030795, -0.002751329, -0.005888195],
-			"rotation": [0.6470536, 0.09710384, 0.2327016, -0.7195432]
-		},
-		{
-			"name": "node_Bone061(mirrored)_-7208",
-			"children": [
-				130
-			],
-			"translation": [ -0.1219254, -0.002387524, 0.002847872],
-			"rotation": [0.7663698, 0.08678324, 0.1167656, -0.6257091]
-		},
-		{
-			"name": "node_Bip001 L Forearm_-7110",
-			"children": [
-				32,
-				55,
-				60,
-				17
-			],
-			"translation": [ -0.09584376, 9.536743E-09, 7.629394E-08],
-			"rotation": [-3.613752E-09, 3.833584E-09, -0.9995646, -0.02950527]
-		},
-		{
-			"name": "node_Bip001 R Toe1_-6702",
-			"children": [
-				39
-			],
-			"translation": [ -0.004258132, 0.00352005, -0.0001921082],
-			"rotation": [-3.578777E-08, -3.249506E-08, 0.7071067, -0.7071068]
-		},
-		{
-			"name": "node_Bip001 R Toe11_-6856",
-			"children": [
-				89
-			],
-			"translation": [ -0.008697586, -2.384186E-09, -7.629394E-08]
-		},
-		{
-			"name": "node_Bip001 R Foot_-7210",
-			"children": [
-				14,
-				38,
-				11,
-				137
-			],
-			"translation": [ -0.02331596, 0, 0],
-			"rotation": [0.9069287, -0.4212794, 0.001122326, -0.001631086]
-		},
-		{
-			"name": "node_Bone015(mirrored)_-6878",
-			"children": [
-				42
-			],
-			"translation": [ -0.02705082, 1.907349E-08, -1.907349E-08],
-			"rotation": [0.001202052, -0.002201739, 0.04142109, -0.9991387]
-		},
-		{
-			"name": "node_Bone016(mirrored)_-6630",
-			"translation": [ -0.03210514, -1.907349E-08, 1.907349E-08],
-			"rotation": [0.002056659, -0.002569587, 0.003992954, -0.9999866]
-		},
-		{
-			"name": "node_Bone066(mirrored)_-6918",
-			"translation": [ -0.01193867, 2.908707E-07, 3.814697E-08]
-		},
-		{
-			"name": "node_Bone065(mirrored)_-7012",
-			"children": [
-				43
-			],
-			"translation": [ -0.02050932, 0.02156112, -0.02065019],
-			"rotation": [0.6284309, -0.5497888, 0.4223465, 0.3527471]
-		},
-		{
-			"name": "node_Bip001 R UpperArm_-6646",
-			"children": [
-				46,
-				47,
-				48
-			],
-			"translation": [ -0.0187867, 7.629394E-08, 0],
-			"rotation": [0.1996464, 0.7521776, 0.2231402, -0.5870082]
-		},
-		{
-			"name": "node_Bip001 R Forearm_-7186",
-			"children": [
-				95,
-				164,
-				166,
-				96
-			],
-			"translation": [ -0.09584377, -7.629394E-08, -3.814697E-08],
-			"rotation": [6.045364E-10, 2.048018E-08, -0.9995646, -0.02950527]
-		},
-		{
-			"name": "node_Bone032_-6824",
-			"children": [
-				92
-			],
-			"translation": [ -0.01620263, -0.02185741, -0.003223824],
-			"rotation": [0.7148059, -0.6838945, 0.01675025, -0.1451216]
-		},
-		{
-			"name": "node_Bone035_-7214",
-			"children": [
-				160
-			],
-			"translation": [ -0.05071149, -0.01928548, -0.001326507],
-			"rotation": [0.7656836, -0.6414703, 0.008404223, -0.04662503]
-		},
-		{
-			"name": "node_Bip001 R Clavicle_-6662",
-			"children": [
-				45
-			],
-			"translation": [ 0.01998896, -0.04381222, 0.01309219],
-			"rotation": [0.7404596, -0.1425536, -0.6447479, -0.125293]
-		},
-		{
-			"name": "node_Bone013_-6912",
-			"children": [
-				51
-			],
-			"translation": [ -0.029247, -1.907349E-08, 2.286918E-09],
-			"rotation": [0.002974202, -0.0009290447, -0.04704292, -0.998888]
-		},
-		{
-			"name": "node_Bone014_-6712",
-			"children": [
-				83
-			],
-			"translation": [ -0.02748005, 0, 3.778255E-09],
-			"rotation": [0.0006619694, -0.001778036, -0.04479675, -0.9989944]
-		},
-		{
-			"name": "node_Bone012_-6724",
-			"children": [
-				50
-			],
-			"translation": [ -0.02705118, -3.120422E-05, -0.01438295],
-			"rotation": [-0.002308593, 0.0941644, -0.07326379, -0.9928545]
-		},
-		{
-			"name": "node_Bone039(mirrored)_-7224",
-			"children": [
-				54
-			],
-			"translation": [ -0.02075512, -3.576279E-09, 0],
-			"rotation": [-0.0155129, -0.01059707, -0.009794653, -0.9997755]
-		},
-		{
-			"name": "node_Bone040(mirrored)_-7236",
-			"translation": [ -0.02368111, 0, 0],
-			"rotation": [0.02872821, -0.004050971, -0.03758932, -0.998872]
-		},
-		{
-			"name": "node_Bone038(mirrored)_-6710",
-			"children": [
-				53
-			],
-			"translation": [ 0.01565699, -0.0161256, 0.002001105],
-			"rotation": [0.05675839, -0.05490854, -0.02264689, -0.9966196]
-		},
-		{
-			"name": "node_Bip001 R Toe0Nub_-6990",
-			"translation": [ -0.003173752, -2.384186E-09, 0]
-		},
-		{
-			"name": "node_Bone065_-6664",
-			"children": [
-				58
-			],
-			"translation": [ -0.02050941, 0.0215612, 0.02065239],
-			"rotation": [-0.3527463, -0.4223449, 0.549789, -0.628432]
-		},
-		{
-			"name": "node_Bone066_-6620",
-			"translation": [ -0.01193866, -2.670288E-07, 1.098783E-11]
-		},
-		{
-			"name": "node_Bip001 Head_-6890",
-			"children": [
-				141,
-				123,
-				142,
-				5,
-				132,
-				143,
-				144,
-				145,
-				57,
-				44
-			],
-			"translation": [ -0.02571309, -7.629394E-08, 0],
-			"rotation": [9.774378E-09, 1.272931E-07, 0.04196601, -0.999119]
-		},
-		{
-			"name": "node_Bone041(mirrored)_-6830",
-			"children": [
-				28
-			],
-			"translation": [ -0.0190351, -0.02117959, 0.002479133],
-			"rotation": [-0.3443438, -0.1421648, 0.56902, -0.733098]
-		},
-		{
-			"name": "node_Bone050_-6850",
-			"children": [
-				62
-			],
-			"translation": [ -0.02853145, 0, 0],
-			"rotation": [-0.0724945, -0.01828887, 0.1447481, -0.9866398]
-		},
-		{
-			"name": "node_Bone051_-6976",
-			"children": [
-				91
-			],
-			"translation": [ -0.02827598, 0, 0],
-			"rotation": [0.01855287, 0.04333642, 0.1120715, -0.9925814]
-		},
-		{
-			"name": "node_Bone049_-6992",
-			"children": [
-				61
-			],
-			"translation": [ -0.02777462, -9.340109E-05, 0.01410388],
-			"rotation": [0.5901575, -0.3174202, -0.2595454, -0.6954097]
-		},
-		{
-			"name": "node_Bone051(mirrored)_-6920",
-			"children": [
-				65
-			],
-			"translation": [ -0.02827599, -2.384186E-08, 0],
-			"rotation": [-0.01935892, -0.01305657, -0.1459934, -0.98901]
-		},
-		{
-			"name": "node_Bone052(mirrored)_-7260",
-			"translation": [ -0.03059158, -4.291534E-08, 0],
-			"rotation": [0.01224767, 0.002153003, -0.04603587, -0.9988624]
-		},
-		{
-			"name": "node_Bone050(mirrored)_-6884",
-			"children": [
-				64
-			],
-			"translation": [ -0.02853144, 1.430511E-08, 0],
-			"rotation": [0.07873191, -0.05685703, -0.1418734, -0.9851094]
-		},
-		{
-			"name": "node_Bip001 L Toe31_-6778",
-			"children": [
-				68
-			],
-			"translation": [ -0.003319283, -4.768371E-09, -7.629394E-08]
-		},
-		{
-			"name": "node_Bip001 L Toe32_-7092",
-			"children": [
-				106
-			],
-			"translation": [ -0.003687096, 2.384186E-09, 0]
-		},
-		{
-			"name": "node_Bone037(mirrored)_-6956",
-			"translation": [ -0.01955788, -3.814697E-08, 0],
-			"rotation": [0.03155497, 0.003546712, -0.02648813, -0.9991447]
-		},
-		{
-			"name": "node_Bone036(mirrored)_-7096",
-			"children": [
-				69
-			],
-			"translation": [ -0.01808559, 1.430511E-08, 0],
-			"rotation": [-0.01490171, -0.004643749, -0.1118637, -0.993601]
-		},
-		{
-			"name": "node_Bone026_-7130",
-			"children": [
-				72
-			],
-			"translation": [ -0.02663885, -9.536743E-09, -3.202008E-09],
-			"rotation": [5.121211E-05, 2.660065E-06, -0.04722865, -0.9988841]
-		},
-		{
-			"name": "node_Bone027_-6640",
-			"translation": [ -0.03192079, -9.536743E-09, -4.112269E-09],
-			"rotation": [5.169201E-05, 4.09248E-07, -0.003304711, -0.9999946]
-		},
-		{
-			"name": "node_Bone025_-6626",
-			"children": [
-				71
-			],
-			"translation": [ -0.02754818, 2.861023E-08, -6.82121E-15],
-			"rotation": [-5.144616E-05, -2.331591E-06, -0.04989888, -0.9987543]
-		},
-		{
-			"name": "node_Bip001 L Toe2Nub_-6854",
-			"translation": [ -0.003409195, -2.384186E-09, -1.907349E-08],
-			"scale": [ -1, -1, -1],
-			"rotation": [5.093169E-09, -3.118667E-25, -1, -6.123234E-17]
-		},
-		{
-			"name": "node_Bip001 L Toe22_-6998",
-			"children": [
-				74
-			],
-			"translation": [ -0.004126053, -2.384186E-09, 1.907349E-08]
-		},
-		{
-			"name": "node_Bone059(mirrored)_-6984",
+			"name": "node_Bone002_-1202",
 			"children": [
 				77
-			],
-			"translation": [ -0.02730443, 5.960464E-09, 0],
-			"rotation": [-0.07683403, 0.0488224, -0.1048352, -0.9903144]
-		},
-		{
-			"name": "node_Bone060(mirrored)_-6896",
-			"translation": [ -0.03518401, 3.576279E-09, 0],
-			"rotation": [0.0006483349, -0.006176602, -0.04680064, -0.998885]
-		},
-		{
-			"name": "node_Bone058(mirrored)_-6680",
-			"children": [
-				76
-			],
-			"translation": [ -0.02826877, -2.384186E-09, 0],
-			"rotation": [0.01871379, 0.01291332, -0.1649461, -0.9860405]
-		},
-		{
-			"name": "node_Bone019_-7138",
-			"children": [
-				80
-			],
-			"translation": [ -0.03000755, -3.814697E-08, 8.543793E-10],
-			"rotation": [0.001119346, -0.0003566442, -0.04569766, -0.9989547]
-		},
-		{
-			"name": "node_Bone020_-6892",
-			"children": [
-				85
-			],
-			"translation": [ -0.02627865, 9.536743E-09, -3.893774E-14],
-			"rotation": [0.0002149343, -0.0006762445, -0.04258644, -0.9990925]
-		},
-		{
-			"name": "node_Bone018_-7142",
-			"children": [
-				79
-			],
-			"translation": [ -0.02691175, -0.0001828384, -0.008969221],
-			"rotation": [-0.001061143, 0.03846452, -0.07224848, -0.9966441]
-		},
-		{
-			"name": "node_Bone016_-7020",
-			"translation": [ -0.0321051, 1.907349E-08, -8.147992E-11],
-			"rotation": [-0.002066818, -0.002573662, -0.003994174, -0.9999866]
-		},
-		{
-			"name": "node_Bone015_-7002",
-			"children": [
-				82
-			],
-			"translation": [ -0.02705086, -9.536743E-09, 0],
-			"rotation": [-0.001210572, -0.002203444, -0.04142094, -0.9991387]
-		},
-		{
-			"name": "node_Bip001 L Toe21_-7256",
-			"children": [
-				75
-			],
-			"translation": [ -0.004268951, 2.384186E-09, 1.907349E-08]
-		},
-		{
-			"name": "node_Bone021_-6790",
-			"children": [
-				86
-			],
-			"translation": [ -0.02606104, -2.861023E-08, -5.601578E-11],
-			"rotation": [-0.0004500308, -0.0008454508, -0.05014157, -0.9987417]
-		},
-		{
-			"name": "node_Bone022_-6678",
-			"translation": [ -0.03078581, 0, -1.458039E-10],
-			"rotation": [-0.0007623745, -0.0009823743, -0.00349091, -0.9999931]
-		},
-		{
-			"name": "node_Bone034(mirrored)_-7188",
-			"translation": [ -0.018633, 4.768371E-09, 0],
-			"rotation": [0.02995922, 0.01913733, -0.0156535, -0.9992453]
-		},
-		{
-			"name": "node_Bone033(mirrored)_-6906",
-			"children": [
-				87
-			],
-			"translation": [ -0.02045456, 3.099441E-08, 0],
-			"rotation": [-0.0178539, 0.00792496, -0.07465002, -0.9970185]
-		},
-		{
-			"name": "node_Bip001 R Toe12_-6828",
-			"children": [
-				90
-			],
-			"translation": [ -0.005325088, 4.768371E-09, 3.814697E-08]
-		},
-		{
-			"name": "node_Bip001 R Toe1Nub_-6686",
-			"translation": [ -0.004234085, 2.384186E-09, 0]
-		},
-		{
-			"name": "node_Bone052_-7038",
-			"translation": [ -0.03059158, 3.814697E-08, 0],
-			"rotation": [-0.01056476, 0.001807399, 0.04605148, -0.9988816]
-		},
-		{
-			"name": "node_Bone033_-7144",
-			"children": [
-				120
-			],
-			"translation": [ -0.02045457, -3.814697E-08, 0],
-			"rotation": [0.05977929, -0.09611403, 0.05203535, -0.9922101]
-		},
-		{
-			"name": "node_Bone057_-6816",
-			"children": [
-				94
-			],
-			"translation": [ -0.1124403, -0.002503629, 0.007339011],
-			"rotation": [0.654745, -0.1702434, -0.157059, -0.719485]
-		},
-		{
-			"name": "node_Bone058_-6858",
-			"children": [
-				19
-			],
-			"translation": [ -0.02826877, 2.87489E-09, 0],
-			"rotation": [-0.04114967, -0.04639823, 0.1170442, -0.9911885]
-		},
-		{
-			"name": "node_Bip001 R Hand_-6750",
-			"children": [
-				63,
-				104,
-				93,
-				162
-			],
-			"translation": [ -0.1078498, -7.629394E-08, -9.536743E-09],
-			"rotation": [0.03180024, 0.7158463, 0.6330667, 0.2928813]
-		},
-		{
-			"name": "node_Bone045_-6888",
-			"children": [
-				97
-			],
-			"translation": [ -0.05694243, -0.02229623, 0.00124154],
-			"rotation": [0.860762, -0.4860589, 0.03907111, -0.1459762]
-		},
-		{
-			"name": "node_Bone046_-6656",
-			"children": [
-				109
-			],
-			"translation": [ -0.02330963, 0, 0],
-			"rotation": [0.02407978, -0.2722918, 0.08381099, -0.9582552]
-		},
-		{
-			"name": "node_Bip001 Neck_-6654",
-			"children": [
-				169,
-				102,
-				49
-			],
-			"translation": [ -0.05371678, -0.004162597, 7.629394E-08],
-			"rotation": [-4.361778E-09, -5.344525E-07, -0.1901782, -0.9817496]
-		},
-		{
-			"name": "node_Bip001 L Toe11_-7170",
-			"children": [
-				100
-			],
-			"translation": [ -0.008697586, -4.768371E-09, -7.629394E-08]
-		},
-		{
-			"name": "node_Bip001 L Toe12_-6718",
-			"children": [
-				119
-			],
-			"translation": [ -0.005325088, 2.384186E-09, 7.629394E-08]
-		},
-		{
-			"name": "node_Bip001 R Toe2Nub_-6696",
-			"translation": [ -0.003409271, -2.384186E-09, -7.629394E-08]
-		},
-		{
-			"name": "node_Bip001 Neck1_-7072",
-			"children": [
-				59
-			],
-			"translation": [ -0.02709387, -2.037048E-05, -7.629394E-08]
-		},
-		{
-			"name": "node_Bone017_-6700",
-			"translation": [ -0.02589247, -1.907349E-08, 0],
-			"rotation": [-0.000170857, -0.001123676, 0.01052141, -0.999944]
-		},
-		{
-			"name": "node_Bone053_-6968",
-			"children": [
-				105
-			],
-			"translation": [ -0.07065071, -0.001689519, 0.01062943],
-			"rotation": [0.7005523, -0.2231525, -0.202467, -0.6468667]
-		},
-		{
-			"name": "node_Bone054_-7076",
-			"children": [
-				113
-			],
-			"translation": [ -0.03066768, -1.144409E-07, 2.87489E-09],
-			"rotation": [-0.0611113, -0.04991616, 0.1011472, -0.9917374]
-		},
-		{
-			"name": "node_Bip001 L Toe3Nub_-6812",
-			"translation": [ -0.002907028, 2.384186E-09, 0],
-			"scale": [ -1, -1, -1],
-			"rotation": [-2.939486E-09, -4.656613E-10, -1, -5.986354E-17]
-		},
-		{
-			"name": "node_Bone040_-6928",
-			"translation": [ -0.02368116, 0, 0],
-			"rotation": [-0.0282534, -0.004101724, 0.03758449, -0.9988856]
-		},
-		{
-			"name": "node_Bone039_-7174",
-			"children": [
-				107
-			],
-			"translation": [ -0.02075509, 0, 0],
-			"rotation": [0.01563195, -0.01060048, 0.009791967, -0.9997737]
-		},
-		{
-			"name": "node_Bone047_-6638",
-			"children": [
-				110
-			],
-			"translation": [ -0.02099457, 0, 0],
-			"rotation": [0.04777633, -0.2422541, 0.1345586, -0.9596481]
-		},
-		{
-			"name": "node_Bone048_-6866",
-			"translation": [ -0.02108744, 1.907349E-08, 0],
-			"rotation": [-0.003341026, -0.01124336, 0.04372058, -0.998975]
-		},
-		{
-			"name": "node_Bone044_-6792",
-			"translation": [ -0.0171701, 0, 0],
-			"rotation": [-0.005692082, -0.007593594, 0.04405255, -0.9989842]
-		},
-		{
-			"name": "node_Bone043_-6590",
-			"children": [
-				111
-			],
-			"translation": [ -0.02122175, -9.536743E-09, 0],
-			"rotation": [0.02585956, -0.01023495, 0.03597602, -0.9989656]
-		},
-		{
-			"name": "node_Bone055_-7052",
-			"children": [
-				114
-			],
-			"translation": [ -0.02934191, 0, 2.87489E-09],
-			"rotation": [0.03961948, -0.002118024, 0.1016127, -0.9940326]
-		},
-		{
-			"name": "node_Bone056_-6762",
-			"translation": [ -0.03500604, 3.814697E-08, 0],
-			"rotation": [-0.003659659, -0.001240474, 0.04739282, -0.9988689]
-		},
-		{
-			"name": "node_Bip001 L Thigh_-7114",
-			"children": [
-				25
-			],
-			"translation": [ 0.02425194, 0.02333057, -0.0257296],
-			"rotation": [-0.0002866792, 0.001554431, -0.9999683, 0.007800948]
-		},
-		{
-			"name": "node_Bip001 Spine_-6954",
-			"children": [
-				115,
-				124,
-				163
-			],
-			"translation": [ -0.01786251, -0.02852024, -1.525879E-07],
-			"rotation": [-1.986931E-06, 6.182183E-07, -0.1223025, -0.9924929]
-		},
-		{
-			"name": "node_Bip001 R Toe3Nub_-7134",
-			"translation": [ -0.002906875, 2.384186E-09, -3.814697E-08]
-		},
-		{
-			"name": "node_Bip001 R Toe32_-6614",
-			"children": [
-				117
-			],
-			"translation": [ -0.003687134, -9.536743E-09, 7.629394E-08]
-		},
-		{
-			"name": "node_Bip001 L Toe1Nub_-6714",
-			"translation": [ -0.004234085, 2.384186E-09, -7.629394E-08],
-			"scale": [ -1, -1, -1],
-			"rotation": [3.245077E-09, -2.328306E-10, -1, -6.19879E-17]
-		},
-		{
-			"name": "node_Bone034_-6676",
-			"translation": [ -0.01863299, 0, 0],
-			"rotation": [-0.02883767, 0.0209174, 0.01562176, -0.9992431]
-		},
-		{
-			"name": "node_Bone003_-6862",
-			"translation": [ -0.01818024, -1.907349E-07, 3.037305E-09],
-			"rotation": [0.0007160797, -0.003418662, 0.09321067, -0.9956403]
-		},
-		{
-			"name": "node_Bone002_-6600",
-			"children": [
-				121
 			],
 			"translation": [ -0.01793035, 2.098083E-07, 1.537922E-09],
 			"rotation": [0.001263849, -0.001049023, 0.1140622, -0.9934723]
 		},
 		{
-			"name": "node_Bone001_-7016",
+			"name": "node_Bip001 L Toe2_-1204",
 			"children": [
-				122
+				70
 			],
-			"translation": [ -0.03450995, -0.01703938, -1.554311E-07],
-			"rotation": [0.7615176, 0.6481012, -0.005920112, 0.00456109]
+			"translation": [ -0.004238913, 0.00191185, -0.002440109],
+			"rotation": [0.2126312, 0.2126311, 0.6743797, -0.6743797]
 		},
 		{
-			"name": "node_Bip001 R Thigh_-6738",
+			"name": "node_Bone011_-1206",
 			"children": [
-				125
+				9,
+				142,
+				13,
+				149,
+				100,
+				47
+			],
+			"translation": [ -0.03827673, -9.536743E-09, -1.189065E-09],
+			"rotation": [-0.0006473099, -0.0004070398, -0.124907, -0.9921682]
+		},
+		{
+			"name": "node_Bone043_-1196",
+			"children": [
+				44
+			],
+			"translation": [ -0.02122175, -9.536743E-09, 0],
+			"rotation": [0.02585956, -0.01023495, 0.03597602, -0.9989656]
+		},
+		{
+			"name": "node_Bip001 Spine1_-1198",
+			"children": [
+				36
+			],
+			"translation": [ -0.04720882, -4.360199E-05, -7.629394E-08],
+			"rotation": [-1.060791E-08, -4.925556E-07, -0.1771013, -0.9841927]
+		},
+		{
+			"name": "node_Bone029(mirrored)_-1200",
+			"translation": [ -0.0103474, -2.241135E-07, 1.907349E-08]
+		},
+		{
+			"name": "node_Bip001 L Toe12_-1268",
+			"children": [
+				17
+			],
+			"translation": [ -0.005325088, 2.384186E-09, 7.629394E-08]
+		},
+		{
+			"name": "node_Bip001 L Foot_-1270",
+			"children": [
+				66,
+				18,
+				2,
+				123
+			],
+			"translation": [ -0.02331594, 7.629394E-08, 7.629394E-08],
+			"rotation": [0.9808767, -0.1946237, 0.001156429, -0.001079481]
+		},
+		{
+			"name": "node_Bone012_-1272",
+			"children": [
+				90
+			],
+			"translation": [ -0.02705118, -3.120422E-05, -0.01438295],
+			"rotation": [-0.002308593, 0.0941644, -0.07326379, -0.9928545]
+		},
+		{
+			"name": "node_Bone036_-1274",
+			"children": [
+				89
+			],
+			"translation": [ -0.01808558, 0, 0],
+			"rotation": [0.0150072, -0.004655638, 0.111862, -0.9935995]
+		},
+		{
+			"name": "node_Bone062_-1276",
+			"children": [
+				99
+			],
+			"translation": [ -0.02992958, -8.201599E-07, 0],
+			"rotation": [-0.007612757, -0.01176797, 0.1106238, -0.9937635]
+		},
+		{
+			"name": "node_Bip001 R Thigh_-1278",
+			"children": [
+				34
 			],
 			"translation": [ 0.02425194, 0.02333069, 0.02572937],
 			"rotation": [-0.0006273445, 0.001876764, -0.947991, 0.3182911]
 		},
 		{
-			"name": "node_Bip001 R Calf_-6644",
+			"name": "node_Bone017_-1256",
+			"translation": [ -0.02589247, -1.907349E-08, 0],
+			"rotation": [-0.000170857, -0.001123676, 0.01052141, -0.999944]
+		},
+		{
+			"name": "node_Bip001 R Toe1_-1258",
 			"children": [
-				40
+				75
+			],
+			"translation": [ -0.004258132, 0.00352005, -0.0001921082],
+			"rotation": [-3.578777E-08, -3.249506E-08, 0.7071067, -0.7071068]
+		},
+		{
+			"name": "node_Bone038(mirrored)_-1260",
+			"children": [
+				166
+			],
+			"translation": [ 0.01565699, -0.0161256, 0.002001105],
+			"rotation": [0.05675839, -0.05490854, -0.02264689, -0.9966196]
+		},
+		{
+			"name": "node_Bone014_-1262",
+			"children": [
+				113
+			],
+			"translation": [ -0.02748005, 0, 3.778255E-09],
+			"rotation": [0.0006619694, -0.001778036, -0.04479675, -0.9989944]
+		},
+		{
+			"name": "node_Bip001 L Toe1Nub_-1264",
+			"translation": [ -0.004234085, 2.384186E-09, -7.629394E-08],
+			"scale": [ -1, -1, -1],
+			"rotation": [3.245077E-09, -2.328306E-10, -1, -6.19879E-17]
+		},
+		{
+			"name": "node_Bip001 L Toe1_-1266",
+			"children": [
+				155
+			],
+			"translation": [ -0.004258134, 0.00352005, 0.0001922607],
+			"rotation": [-2.075444E-08, -4.742549E-08, 0.7071067, -0.7071068]
+		},
+		{
+			"name": "node_Bone022_-1244",
+			"translation": [ -0.03078581, 0, -1.458039E-10],
+			"rotation": [-0.0007623745, -0.0009823743, -0.00349091, -0.9999931]
+		},
+		{
+			"name": "node_Bone058(mirrored)_-1246",
+			"children": [
+				109
+			],
+			"translation": [ -0.02826877, -2.384186E-09, 0],
+			"rotation": [0.01871379, 0.01291332, -0.1649461, -0.9860405]
+		},
+		{
+			"name": "node_Bip001 R Toe31_-1248",
+			"children": [
+				37
+			],
+			"translation": [ -0.003319244, 4.768371E-09, 0]
+		},
+		{
+			"name": "node_Bip001 R Toe1Nub_-1250",
+			"translation": [ -0.004234085, 2.384186E-09, 0]
+		},
+		{
+			"name": "node_Bone019(mirrored)_-1252",
+			"children": [
+				163
+			],
+			"translation": [ -0.03000755, 4.768371E-08, 0],
+			"rotation": [-0.001117926, -0.0003548612, 0.04570262, -0.9989544]
+		},
+		{
+			"name": "node_Bip001 R Toe2Nub_-1254",
+			"translation": [ -0.003409271, -2.384186E-09, -7.629394E-08]
+		},
+		{
+			"name": "node_Bone046_-1232",
+			"children": [
+				32
+			],
+			"translation": [ -0.02330963, 0, 0],
+			"rotation": [0.02407978, -0.2722918, 0.08381099, -0.9582552]
+		},
+		{
+			"name": "node_Bip001 R Clavicle_-1234",
+			"children": [
+				35
+			],
+			"translation": [ 0.01998896, -0.04381222, 0.01309219],
+			"rotation": [0.7404596, -0.1425536, -0.6447479, -0.125293]
+		},
+		{
+			"name": "node_Bone065_-1236",
+			"children": [
+				39
+			],
+			"translation": [ -0.02050941, 0.0215612, 0.02065239],
+			"rotation": [-0.3527463, -0.4223449, 0.549789, -0.628432]
+		},
+		{
+			"name": "node_Bone059_-1238",
+			"children": [
+				140
+			],
+			"translation": [ -0.02730442, -2.87489E-09, -5.749781E-09],
+			"rotation": [0.06783302, -0.01195292, 0.1424897, -0.9873968]
+		},
+		{
+			"name": "node_Bone056(mirrored)_-1240",
+			"translation": [ -0.03500606, -4.291534E-08, 0],
+			"rotation": [0.006327216, -0.0002622983, -0.04771263, -0.998841]
+		},
+		{
+			"name": "node_Bone034_-1242",
+			"translation": [ -0.01863299, 0, 0],
+			"rotation": [-0.02883767, 0.0209174, 0.01562176, -0.9992431]
+		},
+		{
+			"name": "node_Bip001 L Toe01_-1220",
+			"children": [
+				153
+			],
+			"translation": [ -0.004805069, -2.384186E-09, 0]
+		},
+		{
+			"name": "node_Bone047_-1222",
+			"children": [
+				78
+			],
+			"translation": [ -0.02099457, 0, 0],
+			"rotation": [0.04777633, -0.2422541, 0.1345586, -0.9596481]
+		},
+		{
+			"name": "node_Bone027_-1224",
+			"translation": [ -0.03192079, -9.536743E-09, -4.112269E-09],
+			"rotation": [5.169201E-05, 4.09248E-07, -0.003304711, -0.9999946]
+		},
+		{
+			"name": "node_Bip001 R Calf_-1226",
+			"children": [
+				162
 			],
 			"translation": [ -0.02594403, 0, -7.629394E-08],
 			"rotation": [8.69651E-09, -1.996635E-08, -0.4950523, -0.8688632]
 		},
 		{
-			"name": "node_Bone035(mirrored)_-7102",
+			"name": "node_Bip001 R UpperArm_-1228",
 			"children": [
-				70
+				159,
+				51,
+				164
 			],
-			"translation": [ -0.05026884, -0.02221353, 0.003934401],
-			"rotation": [0.07673473, 0.01882909, 0.6391891, -0.7649802]
+			"translation": [ -0.0187867, 7.629394E-08, 0],
+			"rotation": [0.1996464, 0.7521776, 0.2231402, -0.5870082]
 		},
 		{
-			"name": "node_Bird_-6616",
+			"name": "node_Bip001 Neck_-1230",
 			"children": [
-				128,
-				129
+				158,
+				127,
+				26
+			],
+			"translation": [ -0.05371678, -0.004162597, 7.629394E-08],
+			"rotation": [-4.361778E-09, -5.344525E-07, -0.1901782, -0.9817496]
+		},
+		{
+			"name": "node_Bip001 R Toe32_-1208",
+			"children": [
+				145
+			],
+			"translation": [ -0.003687134, -9.536743E-09, 7.629394E-08]
+		},
+		{
+			"name": "node_Bird_-1210",
+			"children": [
+				41,
+				73
 			],
 			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.17, 0, 1]
 		},
 		{
-			"name": "node_Bip001_-6628",
+			"name": "node_Bone066_-1212",
+			"translation": [ -0.01193866, -2.670288E-07, 1.098783E-11]
+		},
+		{
+			"name": "node_Bone025_-1214",
 			"children": [
-				147
+				144
+			],
+			"translation": [ -0.02754818, 2.861023E-08, -6.82121E-15],
+			"rotation": [-5.144616E-05, -2.331591E-06, -0.04989888, -0.9987543]
+		},
+		{
+			"name": "node_Bip001_-1216",
+			"children": [
+				108
 			],
 			"translation": [ -0.8086127, -0.01119325, -0.5089712],
 			"rotation": [0.2792635, 0.576693, -0.6526062, -0.4044035]
 		},
 		{
-			"name": "node_ou_ok001_-6994",
-			"mesh": 0,
-			"rotation": [-0.7071068, 0, 0, -0.7071068]
-,
-			"skin": 0
+			"name": "node_Bone016(mirrored)_-1218",
+			"translation": [ -0.03210514, -1.907349E-08, 1.907349E-08],
+			"rotation": [0.002056659, -0.002569587, 0.003992954, -0.9999866]
 		},
 		{
-			"name": "node_Bone062(mirrored)_-6916",
+			"name": "node_Bone021_-1304",
 			"children": [
-				131
+				19
 			],
-			"translation": [ -0.02992956, 8.177757E-07, 0],
-			"rotation": [0.002053837, 0.04386215, -0.1101671, -0.9929426]
+			"translation": [ -0.02606104, -2.861023E-08, -5.601578E-11],
+			"rotation": [-0.0004500308, -0.0008454508, -0.05014157, -0.9987417]
 		},
 		{
-			"name": "node_Bone063(mirrored)_-7014",
+			"name": "node_Bone044_-1306",
+			"translation": [ -0.0171701, 0, 0],
+			"rotation": [-0.005692082, -0.007593594, 0.04405255, -0.9989842]
+		},
+		{
+			"name": "node_Bip001 R Toe01_-1308",
 			"children": [
-				155
+				151
 			],
-			"translation": [ -0.03163514, -7.152557E-09, 0],
-			"rotation": [-0.1007241, 0.07056955, -0.1195249, -0.9851844]
+			"translation": [ -0.004805145, -2.384186E-09, 1.907349E-08]
 		},
 		{
-			"name": "node_Bone028_-6934",
+			"name": "node_Bone044(mirrored)_-1310",
+			"translation": [ -0.01717011, -9.536743E-09, 0],
+			"rotation": [0.008201287, -0.009052592, -0.04167182, -0.9990567]
+		},
+		{
+			"name": "node_Bone023_-1312",
 			"children": [
-				133
-			],
-			"translation": [ -0.02869531, 0.02256327, 0.02538503],
-			"rotation": [0.5388839, 0.6385392, 0.3758438, -0.4007661]
-		},
-		{
-			"name": "node_Bone029_-6822",
-			"translation": [ -0.01034744, 2.288818E-07, 1.22381E-09]
-		},
-		{
-			"name": "node_Bone024_-7180",
-			"children": [
-				73
-			],
-			"translation": [ -0.0287494, 0, 2.225772E-09],
-			"rotation": [2.962253E-09, -1.16868E-07, -0.02533886, -0.9996789]
-		},
-		{
-			"name": "node_Bone023_-6804",
-			"children": [
-				134
+				157
 			],
 			"translation": [ -0.02709514, -0.0002005577, 0],
 			"rotation": [-1.992281E-08, 2.375847E-07, -0.08356233, -0.9965026]
 		},
 		{
-			"name": "node_Bone032(mirrored)_-6808",
+			"name": "node_Bone032(mirrored)_-1314",
 			"children": [
 				88
 			],
@@ -13384,247 +12719,912 @@
 			"rotation": [-0.210536, 0.04702765, 0.7186851, -0.6610256]
 		},
 		{
-			"name": "node_Bip001 R Toe3_-7010",
+			"name": "node_Bip001 L Toe3Nub_-1316",
+			"translation": [ -0.002907028, 2.384186E-09, 0],
+			"scale": [ -1, -1, -1],
+			"rotation": [-2.939486E-09, -4.656613E-10, -1, -5.986354E-17]
+		},
+		{
+			"name": "node_Bone057_-1318",
 			"children": [
-				138
+				76
 			],
-			"translation": [ -0.004201178, -0.003218384, 0.001188278],
-			"rotation": [0.7064338, 0.7064338, -0.03084347, 0.03084347]
+			"translation": [ -0.1124403, -0.002503629, 0.007339011],
+			"rotation": [0.654745, -0.1702434, -0.157059, -0.719485]
 		},
 		{
-			"name": "node_Bip001 R Toe31_-6682",
-			"children": [
-				118
-			],
-			"translation": [ -0.003319244, 4.768371E-09, 0]
-		},
-		{
-			"name": "node_Bip001 L Toe01_-6636",
-			"children": [
-				140
-			],
-			"translation": [ -0.004805069, -2.384186E-09, 0]
-		},
-		{
-			"name": "node_Bip001 L Toe02_-7156",
-			"children": [
-				148
-			],
-			"translation": [ -0.004629612, 2.384186E-09, 0]
-		},
-		{
-			"name": "node_Bip001 HeadNub_-7136",
-			"translation": [ -0.04018034, 7.629394E-08, 0]
-		},
-		{
-			"name": "node_Bone004_-6774",
+			"name": "node_Bone032_-1320",
 			"children": [
 				150
 			],
-			"translation": [ -0.02293169, -0.02557051, -1.354703E-07],
-			"rotation": [0.7343477, 0.6787262, -0.006020084, 0.005293419]
+			"translation": [ -0.01620263, -0.02185741, -0.003223824],
+			"rotation": [0.7148059, -0.6838945, 0.01675025, -0.1451216]
 		},
 		{
-			"name": "node_Bone028(mirrored)_-6914",
+			"name": "node_Bip001 R Toe12_-1322",
 			"children": [
-				161
+				22
 			],
-			"translation": [ -0.02869521, 0.02256317, -0.02539021],
-			"rotation": [0.4007685, -0.375844, -0.6385379, -0.5388834]
+			"translation": [ -0.005325088, 4.768371E-09, 3.814697E-08]
 		},
 		{
-			"name": "node_Bone030_-6768",
+			"name": "node_Bone041(mirrored)_-1324",
 			"children": [
-				151
+				165
 			],
-			"translation": [ -0.01341456, 0.02548719, 0.02619944],
-			"rotation": [0.5447645, 0.6314726, 0.3604358, -0.4178039]
+			"translation": [ -0.0190351, -0.02117959, 0.002479133],
+			"rotation": [-0.3443438, -0.1421648, 0.56902, -0.733098]
 		},
 		{
-			"name": "node_Bone030(mirrored)_-7244",
+			"name": "node_Bone050_-1326",
 			"children": [
-				159
+				107
 			],
-			"translation": [ -0.01341455, 0.02548708, -0.02620021],
-			"rotation": [0.4178059, -0.3604359, -0.6314718, -0.5447638]
+			"translation": [ -0.02853145, 0, 0],
+			"rotation": [-0.0724945, -0.01828887, 0.1447481, -0.9866398]
 		},
 		{
-			"name": "node_Bone010_-6784",
+			"name": "node_Bone057(mirrored)_-1280",
 			"children": [
-				8
+				20
 			],
-			"translation": [ 0.02497687, -0.04456022, -9.255109E-08],
-			"rotation": [0.2769935, 0.9608692, -0.0008372502, 0.00207367]
+			"translation": [ -0.1030795, -0.002751329, -0.005888195],
+			"rotation": [0.6470536, 0.09710384, 0.2327016, -0.7195432]
 		},
 		{
-			"name": "node_Bip001 Pelvis_-6980",
+			"name": "node_Bone031(mirrored)_-1282",
+			"translation": [ -0.01322565, 0, 1.907349E-08]
+		},
+		{
+			"name": "node_Bip001 R Hand_-1284",
 			"children": [
-				116,
-				146
+				111,
+				106,
+				50,
+				114
 			],
-			"rotation": [-0.5, 0.5, -0.4999993, -0.5000007]
+			"translation": [ -0.1078498, -7.629394E-08, -9.536743E-09],
+			"rotation": [0.03180024, 0.7158463, 0.6330667, 0.2928813]
 		},
 		{
-			"name": "node_Bip001 L Toe0Nub_-6764",
-			"translation": [ -0.003173733, 0, 7.629394E-08],
-			"scale": [ -1, -0.9999999, -0.9999999],
-			"rotation": [1.557055E-08, 9.313227E-10, -1, 7.573355E-17]
-		},
-		{
-			"name": "node_Bone048(mirrored)_-7140",
-			"translation": [ -0.02108745, -2.145767E-08, 0],
-			"rotation": [0.006804666, -0.01028239, -0.04595564, -0.9988674]
-		},
-		{
-			"name": "node_Bone005_-6756",
+			"name": "node_Bone005_-1286",
 			"children": [
-				171
+				152
 			],
 			"translation": [ -0.01525801, 4.386902E-07, 4.843554E-10],
 			"rotation": [0.001963245, 0.0003190604, 0.1253665, -0.9921085]
 		},
 		{
-			"name": "node_Bone031_-6674",
-			"translation": [ -0.01322566, 0, 1.576623E-09]
+			"name": "node_Bone056_-1288",
+			"translation": [ -0.03500604, 3.814697E-08, 0],
+			"rotation": [-0.003659659, -0.001240474, 0.04739282, -0.9988689]
 		},
 		{
-			"name": "node_Bone055(mirrored)_-6894",
+			"name": "node_Bip001 L Toe0Nub_-1290",
+			"translation": [ -0.003173733, 0, 7.629394E-08],
+			"scale": [ -1, -0.9999999, -0.9999999],
+			"rotation": [1.557055E-08, 9.313227E-10, -1, 7.573355E-17]
+		},
+		{
+			"name": "node_Bone045(mirrored)_-1292",
 			"children": [
-				153
+				132
 			],
-			"translation": [ -0.02934191, 2.384186E-09, 0],
-			"rotation": [-0.04191892, -0.008091427, -0.127839, -0.9908757]
+			"translation": [ -0.05802194, -0.02100126, 0.0004511267],
+			"rotation": [0.06828357, -0.2034162, 0.5094428, -0.833323]
 		},
 		{
-			"name": "node_Bone056(mirrored)_-6672",
-			"translation": [ -0.03500606, -4.291534E-08, 0],
-			"rotation": [0.006327216, -0.0002622983, -0.04771263, -0.998841]
-		},
-		{
-			"name": "node_Bone054(mirrored)_-7018",
-			"children": [
-				152
-			],
-			"translation": [ -0.03066768, 9.775162E-08, 0],
-			"rotation": [0.06134767, -0.05368161, -0.1071067, -0.9909]
-		},
-		{
-			"name": "node_Bone064(mirrored)_-7238",
-			"translation": [ -0.04105408, 1.788139E-08, 0],
-			"rotation": [-0.003928069, -0.01042381, -0.04535916, -0.9989086]
-		},
-		{
-			"name": "node_Bone062_-6734",
-			"children": [
-				2
-			],
-			"translation": [ -0.02992958, -8.201599E-07, 0],
-			"rotation": [-0.007612757, -0.01176797, 0.1106238, -0.9937635]
-		},
-		{
-			"name": "node_Bone020(mirrored)_-7212",
-			"children": [
-				158
-			],
-			"translation": [ -0.02627866, -3.814697E-08, 2.861023E-08],
-			"rotation": [-0.0002099067, -0.0006752347, 0.04258763, -0.9990925]
-		},
-		{
-			"name": "node_Bone021(mirrored)_-7100",
+			"name": "node_Bone030_-1294",
 			"children": [
 				170
 			],
-			"translation": [ -0.02606102, 1.907349E-08, 0],
-			"rotation": [0.00043118, -0.0008445682, 0.05014125, -0.9987417]
+			"translation": [ -0.01341456, 0.02548719, 0.02619944],
+			"rotation": [0.5447645, 0.6314726, 0.3604358, -0.4178039]
 		},
 		{
-			"name": "node_Bone031(mirrored)_-6746",
-			"translation": [ -0.01322565, 0, 1.907349E-08]
-		},
-		{
-			"name": "node_Bone036_-6730",
+			"name": "node_Bone004_-1296",
 			"children": [
-				167
+				58
 			],
-			"translation": [ -0.01808558, 0, 0],
-			"rotation": [0.0150072, -0.004655638, 0.111862, -0.9935995]
+			"translation": [ -0.02293169, -0.02557051, -1.354703E-07],
+			"rotation": [0.7343477, 0.6787262, -0.006020084, 0.005293419]
 		},
 		{
-			"name": "node_Bone029(mirrored)_-6598",
-			"translation": [ -0.0103474, -2.241135E-07, 1.907349E-08]
-		},
-		{
-			"name": "node_Bone061_-7004",
+			"name": "node_Bip001 L Toe31_-1298",
 			"children": [
-				156
+				131
 			],
-			"translation": [ -0.1259028, -0.0019386, -0.001774197],
-			"rotation": [0.6888425, -0.1322954, -0.05181643, -0.7108509]
+			"translation": [ -0.003319283, -4.768371E-09, -7.629394E-08]
 		},
 		{
-			"name": "node_Bip001 Spine1_-6596",
+			"name": "node_Bone010_-1300",
 			"children": [
-				98
+				3
 			],
-			"translation": [ -0.04720882, -4.360199E-05, -7.629394E-08],
-			"rotation": [-1.060791E-08, -4.925556E-07, -0.1771013, -0.9841927]
+			"translation": [ 0.02497687, -0.04456022, -9.255109E-08],
+			"rotation": [0.2769935, 0.9608692, -0.0008372502, 0.00207367]
 		},
 		{
-			"name": "node_Bone038_-7128",
+			"name": "node_Bip001 L Toe0_-1302",
 			"children": [
-				108
+				31
 			],
-			"translation": [ 0.01299337, -0.009506764, -0.001512137],
-			"rotation": [0.9965462, 0.06558498, 0.04571394, -0.02246257]
+			"translation": [ -0.004248709, 0.002732162, 0.00358757],
+			"rotation": [-0.1830128, -0.1830129, 0.6830127, -0.6830127]
 		},
 		{
-			"name": "node_Bone042_-6966",
+			"name": "node_Bone022(mirrored)_-1520",
+			"translation": [ -0.03078581, 3.814697E-08, 0],
+			"rotation": [0.0007705094, -0.0009859502, 0.003491108, -0.9999931]
+		},
+		{
+			"name": "node_Bone008_-1522",
 			"children": [
-				112
+				104
 			],
-			"translation": [ -0.0238094, 1.907349E-08, 0],
-			"rotation": [0.0157968, -0.01752304, 0.06457458, -0.997634]
+			"translation": [ -0.01073251, 1.392364E-06, 9.37641E-10],
+			"rotation": [0.002301161, -0.0004136563, 0.1264917, -0.9919649]
 		},
 		{
-			"name": "node_Bone041_-7082",
+			"name": "node_Bip001 L UpperArm_-1524",
 			"children": [
-				165
-			],
-			"translation": [ -0.0197878, -0.01954869, -0.003179689],
-			"rotation": [0.8560164, -0.5095618, 0.002466625, -0.08704477]
-		},
-		{
-			"name": "node_Bone037_-6908",
-			"translation": [ -0.01955789, 0, 0],
-			"rotation": [-0.03112807, 0.00351713, 0.02649448, -0.999158]
-		},
-		{
-			"name": "node_Bip001 L UpperArm_-7254",
-			"children": [
-				37,
-				136,
-				126
+				138,
+				48,
+				135
 			],
 			"translation": [ -0.0187867, 7.629394E-08, -1.907349E-08],
 			"rotation": [-0.1996463, -0.7521777, 0.2231402, -0.5870082]
 		},
 		{
-			"name": "node_Bip001 L Clavicle_-7184",
+			"name": "node_Bip001 L Toe21_-1526",
+			"children": [
+				112
+			],
+			"translation": [ -0.004268951, 2.384186E-09, 1.907349E-08]
+		},
+		{
+			"name": "node_Bone052(mirrored)_-1528",
+			"translation": [ -0.03059158, -4.291534E-08, 0],
+			"rotation": [0.01224767, 0.002153003, -0.04603587, -0.9988624]
+		},
+		{
+			"name": "node_Bip001 L Calf_-1530",
+			"children": [
+				8
+			],
+			"translation": [ -0.02594402, 0, -7.629394E-08],
+			"rotation": [4.096331E-09, -3.974964E-09, -0.5605407, -0.8281269]
+		},
+		{
+			"name": "node_ou_ok001_-1532",
+			"mesh": 0,
+			"rotation": [-0.7071068, 0, 0, -0.7071068]
+,
+			"skin": 0
+		},
+		{
+			"name": "node_Bip001 L Toe2Nub_-1328",
+			"translation": [ -0.003409195, -2.384186E-09, -1.907349E-08],
+			"scale": [ -1, -1, -1],
+			"rotation": [5.093169E-09, -3.118667E-25, -1, -6.123234E-17]
+		},
+		{
+			"name": "node_Bip001 R Toe11_-1330",
+			"children": [
+				52
+			],
+			"translation": [ -0.008697586, -2.384186E-09, -7.629394E-08]
+		},
+		{
+			"name": "node_Bone058_-1332",
+			"children": [
+				28
+			],
+			"translation": [ -0.02826877, 2.87489E-09, 0],
+			"rotation": [-0.04114967, -0.04639823, 0.1170442, -0.9911885]
+		},
+		{
+			"name": "node_Bone003_-1334",
+			"translation": [ -0.01818024, -1.907349E-07, 3.037305E-09],
+			"rotation": [0.0007160797, -0.003418662, 0.09321067, -0.9956403]
+		},
+		{
+			"name": "node_Bone048_-1336",
+			"translation": [ -0.02108744, 1.907349E-08, 0],
+			"rotation": [-0.003341026, -0.01124336, 0.04372058, -0.998975]
+		},
+		{
+			"name": "node_Bone015(mirrored)_-1338",
+			"children": [
+				42
+			],
+			"translation": [ -0.02705082, 1.907349E-08, -1.907349E-08],
+			"rotation": [0.001202052, -0.002201739, 0.04142109, -0.9991387]
+		},
+		{
+			"name": "node_Bone050(mirrored)_-1340",
+			"children": [
+				94
+			],
+			"translation": [ -0.02853144, 1.430511E-08, 0],
+			"rotation": [0.07873191, -0.05685703, -0.1418734, -0.9851094]
+		},
+		{
+			"name": "node_Bone043(mirrored)_-1342",
+			"children": [
+				46
+			],
+			"translation": [ -0.02122173, 2.384186E-08, 0],
+			"rotation": [-0.02526247, -0.2956081, -0.07337067, -0.9521526]
+		},
+		{
+			"name": "node_Bone045_-1344",
+			"children": [
+				25
+			],
+			"translation": [ -0.05694243, -0.02229623, 0.00124154],
+			"rotation": [0.860762, -0.4860589, 0.03907111, -0.1459762]
+		},
+		{
+			"name": "node_Bip001 Head_-1346",
+			"children": [
+				146,
+				118,
+				63,
+				98,
+				97,
+				91,
+				62,
+				169,
+				27,
+				116
+			],
+			"translation": [ -0.02571309, -7.629394E-08, 0],
+			"rotation": [9.774378E-09, 1.272931E-07, 0.04196601, -0.999119]
+		},
+		{
+			"name": "node_Bone020_-1348",
+			"children": [
+				43
+			],
+			"translation": [ -0.02627865, 9.536743E-09, -3.893774E-14],
+			"rotation": [0.0002149343, -0.0006762445, -0.04258644, -0.9990925]
+		},
+		{
+			"name": "node_Bone055(mirrored)_-1350",
+			"children": [
+				29
+			],
+			"translation": [ -0.02934191, 2.384186E-09, 0],
+			"rotation": [-0.04191892, -0.008091427, -0.127839, -0.9908757]
+		},
+		{
+			"name": "node_Bone060(mirrored)_-1352",
+			"translation": [ -0.03518401, 3.576279E-09, 0],
+			"rotation": [0.0006483349, -0.006176602, -0.04680064, -0.998885]
+		},
+		{
+			"name": "node_Bone053(mirrored)_-1354",
+			"children": [
+				119
+			],
+			"translation": [ -0.06038101, -0.001880598, -0.008464193],
+			"rotation": [0.5940616, 0.1503334, 0.2645912, -0.7446356]
+		},
+		{
+			"name": "node_Bone033(mirrored)_-1356",
+			"children": [
+				160
+			],
+			"translation": [ -0.02045456, 3.099441E-08, 0],
+			"rotation": [-0.0178539, 0.00792496, -0.07465002, -0.9970185]
+		},
+		{
+			"name": "node_Bone037_-1358",
+			"translation": [ -0.01955789, 0, 0],
+			"rotation": [-0.03112807, 0.00351713, 0.02649448, -0.999158]
+		},
+		{
+			"name": "node_Bone013_-1360",
+			"children": [
+				16
+			],
+			"translation": [ -0.029247, -1.907349E-08, 2.286918E-09],
+			"rotation": [0.002974202, -0.0009290447, -0.04704292, -0.998888]
+		},
+		{
+			"name": "node_Bone028(mirrored)_-1362",
+			"children": [
+				6
+			],
+			"translation": [ -0.02869521, 0.02256317, -0.02539021],
+			"rotation": [0.4007685, -0.375844, -0.6385379, -0.5388834]
+		},
+		{
+			"name": "node_Bone062(mirrored)_-1364",
+			"children": [
+				117
+			],
+			"translation": [ -0.02992956, 8.177757E-07, 0],
+			"rotation": [0.002053837, 0.04386215, -0.1101671, -0.9929426]
+		},
+		{
+			"name": "node_Bone066(mirrored)_-1366",
+			"translation": [ -0.01193867, 2.908707E-07, 3.814697E-08]
+		},
+		{
+			"name": "node_Bone051(mirrored)_-1368",
+			"children": [
+				71
+			],
+			"translation": [ -0.02827599, -2.384186E-08, 0],
+			"rotation": [-0.01935892, -0.01305657, -0.1459934, -0.98901]
+		},
+		{
+			"name": "node_Bone040_-1370",
+			"translation": [ -0.02368116, 0, 0],
+			"rotation": [-0.0282534, -0.004101724, 0.03758449, -0.9988856]
+		},
+		{
+			"name": "node_Bone013(mirrored)_-1372",
+			"children": [
+				101
+			],
+			"translation": [ -0.02924699, 9.536743E-09, 0],
+			"rotation": [-0.00297525, -0.0009290863, 0.0470439, -0.998888]
+		},
+		{
+			"name": "node_Bone028_-1374",
+			"children": [
+				171
+			],
+			"translation": [ -0.02869531, 0.02256327, 0.02538503],
+			"rotation": [0.5388839, 0.6385392, 0.3758438, -0.4007661]
+		},
+		{
+			"name": "node_Bone007_-1376",
+			"children": [
+				68
+			],
+			"translation": [ -0.01066165, -0.02672675, -9.652691E-08],
+			"rotation": [0.7293305, 0.6840946, -0.007028681, 0.006496718]
+		},
+		{
+			"name": "node_Bone063_-1378",
+			"children": [
+				130
+			],
+			"translation": [ -0.03163513, 1.907349E-08, 0],
+			"rotation": [0.100284, 0.01530069, 0.1305587, -0.986237]
+		},
+		{
+			"name": "node_Bone018(mirrored)_-1380",
+			"children": [
+				23
+			],
+			"translation": [ -0.02691174, -0.000182848, 0.008969993],
+			"rotation": [0.996644, 0.07224858, -0.0384667, 0.001058375]
+		},
+		{
+			"name": "node_Bone014(mirrored)_-1382",
+			"children": [
+				79
+			],
+			"translation": [ -0.02748007, 0, 1.907349E-08],
+			"rotation": [-0.0006441117, -0.001777177, 0.04479454, -0.9989945]
+		},
+		{
+			"name": "node_Bip001 Spine_-1384",
+			"children": [
+				139,
+				12,
+				5
+			],
+			"translation": [ -0.01786251, -0.02852024, -1.525879E-07],
+			"rotation": [-1.986931E-06, 6.182183E-07, -0.1223025, -0.9924929]
+		},
+		{
+			"name": "node_Bone037(mirrored)_-1386",
+			"translation": [ -0.01955788, -3.814697E-08, 0],
+			"rotation": [0.03155497, 0.003546712, -0.02648813, -0.9991447]
+		},
+		{
+			"name": "node_Bone009_-1388",
+			"translation": [ -0.01147074, -3.814697E-08, -9.386936E-16],
+			"rotation": [0.001162539, -0.00400647, 0.1195375, -0.9928209]
+		},
+		{
+			"name": "node_Bone042_-1390",
+			"children": [
+				4
+			],
+			"translation": [ -0.0238094, 1.907349E-08, 0],
+			"rotation": [0.0157968, -0.01752304, 0.06457458, -0.997634]
+		},
+		{
+			"name": "node_Bone053_-1392",
+			"children": [
+				128
+			],
+			"translation": [ -0.07065071, -0.001689519, 0.01062943],
+			"rotation": [0.7005523, -0.2231525, -0.202467, -0.6468667]
+		},
+		{
+			"name": "node_Bone051_-1394",
+			"children": [
+				122
+			],
+			"translation": [ -0.02827598, 0, 0],
+			"rotation": [0.01855287, 0.04333642, 0.1120715, -0.9925814]
+		},
+		{
+			"name": "node_Bip001 Pelvis_-1396",
+			"children": [
+				102,
+				65
+			],
+			"rotation": [-0.5, 0.5, -0.4999993, -0.5000007]
+		},
+		{
+			"name": "node_Bone059(mirrored)_-1398",
+			"children": [
+				86
+			],
+			"translation": [ -0.02730443, 5.960464E-09, 0],
+			"rotation": [-0.07683403, 0.0488224, -0.1048352, -0.9903144]
+		},
+		{
+			"name": "node_Bip001 R Toe0Nub_-1400",
+			"translation": [ -0.003173752, -2.384186E-09, 0]
+		},
+		{
+			"name": "node_Bone049_-1402",
+			"children": [
+				54
+			],
+			"translation": [ -0.02777462, -9.340109E-05, 0.01410388],
+			"rotation": [0.5901575, -0.3174202, -0.2595454, -0.6954097]
+		},
+		{
+			"name": "node_Bip001 L Toe22_-1404",
+			"children": [
+				74
+			],
+			"translation": [ -0.004126053, -2.384186E-09, 1.907349E-08]
+		},
+		{
+			"name": "node_Bone015_-1406",
+			"children": [
+				120
+			],
+			"translation": [ -0.02705086, -9.536743E-09, 0],
+			"rotation": [-0.001210572, -0.002203444, -0.04142094, -0.9991387]
+		},
+		{
+			"name": "node_Bone061_-1408",
+			"children": [
+				11
+			],
+			"translation": [ -0.1259028, -0.0019386, -0.001774197],
+			"rotation": [0.6888425, -0.1322954, -0.05181643, -0.7108509]
+		},
+		{
+			"name": "node_Bip001 R Toe3_-1410",
+			"children": [
+				21
+			],
+			"translation": [ -0.004201178, -0.003218384, 0.001188278],
+			"rotation": [0.7064338, 0.7064338, -0.03084347, 0.03084347]
+		},
+		{
+			"name": "node_Bone065(mirrored)_-1412",
+			"children": [
+				93
+			],
+			"translation": [ -0.02050932, 0.02156112, -0.02065019],
+			"rotation": [0.6284309, -0.5497888, 0.4223465, 0.3527471]
+		},
+		{
+			"name": "node_Bone063(mirrored)_-1414",
 			"children": [
 				168
+			],
+			"translation": [ -0.03163514, -7.152557E-09, 0],
+			"rotation": [-0.1007241, 0.07056955, -0.1195249, -0.9851844]
+		},
+		{
+			"name": "node_Bone001_-1416",
+			"children": [
+				1
+			],
+			"translation": [ -0.03450995, -0.01703938, -1.554311E-07],
+			"rotation": [0.7615176, 0.6481012, -0.005920112, 0.00456109]
+		},
+		{
+			"name": "node_Bone054(mirrored)_-1418",
+			"children": [
+				85
+			],
+			"translation": [ -0.03066768, 9.775162E-08, 0],
+			"rotation": [0.06134767, -0.05368161, -0.1071067, -0.9909]
+		},
+		{
+			"name": "node_Bone016_-1420",
+			"translation": [ -0.0321051, 1.907349E-08, -8.147992E-11],
+			"rotation": [-0.002066818, -0.002573662, -0.003994174, -0.9999866]
+		},
+		{
+			"name": "node_Bone047(mirrored)_-1422",
+			"children": [
+				148
+			],
+			"translation": [ -0.02099459, 2.026558E-08, 0],
+			"rotation": [-0.04545958, -0.1759228, -0.0678466, -0.9810104]
+		},
+		{
+			"name": "node_Bone052_-1424",
+			"translation": [ -0.03059158, 3.814697E-08, 0],
+			"rotation": [-0.01056476, 0.001807399, 0.04605148, -0.9988816]
+		},
+		{
+			"name": "node_Bip001 L Toe3_-1426",
+			"children": [
+				64
+			],
+			"translation": [ -0.004201176, -0.00321846, -0.001188202],
+			"rotation": [0.7064338, 0.7064338, 0.03084347, -0.03084347]
+		},
+		{
+			"name": "node_Bone055_-1428",
+			"children": [
+				59
+			],
+			"translation": [ -0.02934191, 0, 2.87489E-09],
+			"rotation": [0.03961948, -0.002118024, 0.1016127, -0.9940326]
+		},
+		{
+			"name": "node_Bip001 R Toe2_-1430",
+			"children": [
+				136
+			],
+			"translation": [ -0.004238911, 0.001911926, 0.002440224],
+			"rotation": [-0.212631, -0.2126311, 0.6743797, -0.6743798]
+		},
+		{
+			"name": "node_Bip001 R Toe0_-1432",
+			"children": [
+				45
+			],
+			"translation": [ -0.004248712, 0.002732239, -0.003587494],
+			"rotation": [0.1830127, 0.1830127, 0.6830127, -0.6830127]
+		},
+		{
+			"name": "node_Bip001 Neck1_-1434",
+			"children": [
+				83
+			],
+			"translation": [ -0.02709387, -2.037048E-05, -7.629394E-08]
+		},
+		{
+			"name": "node_Bone054_-1436",
+			"children": [
+				124
+			],
+			"translation": [ -0.03066768, -1.144409E-07, 2.87489E-09],
+			"rotation": [-0.0611113, -0.04991616, 0.1011472, -0.9917374]
+		},
+		{
+			"name": "node_Bone041_-1438",
+			"children": [
+				105
+			],
+			"translation": [ -0.0197878, -0.01954869, -0.003179689],
+			"rotation": [0.8560164, -0.5095618, 0.002466625, -0.08704477]
+		},
+		{
+			"name": "node_Bone064_-1440",
+			"translation": [ -0.04105408, -1.907349E-08, 0],
+			"rotation": [0.005726379, -0.01077956, 0.04527834, -0.9988999]
+		},
+		{
+			"name": "node_Bip001 L Toe32_-1442",
+			"children": [
+				49
+			],
+			"translation": [ -0.003687096, 2.384186E-09, 0]
+		},
+		{
+			"name": "node_Bone046(mirrored)_-1444",
+			"children": [
+				121
+			],
+			"translation": [ -0.02330961, -5.960464E-09, 0],
+			"rotation": [-0.02658895, -0.1996492, -0.09268241, -0.9751119]
+		},
+		{
+			"name": "node_Bone036(mirrored)_-1446",
+			"children": [
+				103
+			],
+			"translation": [ -0.01808559, 1.430511E-08, 0],
+			"rotation": [-0.01490171, -0.004643749, -0.1118637, -0.993601]
+		},
+		{
+			"name": "node_Bone021(mirrored)_-1448",
+			"children": [
+				67
+			],
+			"translation": [ -0.02606102, 1.907349E-08, 0],
+			"rotation": [0.00043118, -0.0008445682, 0.05014125, -0.9987417]
+		},
+		{
+			"name": "node_Bone035(mirrored)_-1450",
+			"children": [
+				133
+			],
+			"translation": [ -0.05026884, -0.02221353, 0.003934401],
+			"rotation": [0.07673473, 0.01882909, 0.6391891, -0.7649802]
+		},
+		{
+			"name": "node_Bip001 R Toe21_-1452",
+			"children": [
+				141
+			],
+			"translation": [ -0.004268894, -2.384186E-09, 0]
+		},
+		{
+			"name": "node_Bone049(mirrored)_-1454",
+			"children": [
+				80
+			],
+			"translation": [ -0.01928091, -0.0001454926, -0.01121915],
+			"rotation": [0.7086464, 0.2940185, 0.2968179, -0.5685706]
+		},
+		{
+			"name": "node_Bip001 L Forearm_-1456",
+			"children": [
+				154,
+				15,
+				53,
+				61
+			],
+			"translation": [ -0.09584376, 9.536743E-09, 7.629394E-08],
+			"rotation": [-3.613752E-09, 3.833584E-09, -0.9995646, -0.02950527]
+		},
+		{
+			"name": "node_Bip001 L Thigh_-1458",
+			"children": [
+				72
+			],
+			"translation": [ 0.02425194, 0.02333057, -0.0257296],
+			"rotation": [-0.0002866792, 0.001554431, -0.9999683, 0.007800948]
+		},
+		{
+			"name": "node_Bone060_-1460",
+			"translation": [ -0.03518402, 0, 0],
+			"rotation": [-0.0001077717, -0.004281331, 0.0475373, -0.9988603]
+		},
+		{
+			"name": "node_Bip001 R Toe22_-1462",
+			"children": [
+				24
+			],
+			"translation": [ -0.004125996, -2.384186E-09, 7.629394E-08]
+		},
+		{
+			"name": "node_Bone012(mirrored)_-1464",
+			"children": [
+				96
+			],
+			"translation": [ -0.02705117, -3.118515E-05, 0.01438],
+			"rotation": [0.9928544, 0.073267, -0.09416339, 0.002307636]
+		},
+		{
+			"name": "node_Bone038_-1466",
+			"children": [
+				156
+			],
+			"translation": [ 0.01299337, -0.009506764, -0.001512137],
+			"rotation": [0.9965462, 0.06558498, 0.04571394, -0.02246257]
+		},
+		{
+			"name": "node_Bone026_-1468",
+			"children": [
+				33
+			],
+			"translation": [ -0.02663885, -9.536743E-09, -3.202008E-09],
+			"rotation": [5.121211E-05, 2.660065E-06, -0.04722865, -0.9988841]
+		},
+		{
+			"name": "node_Bip001 R Toe3Nub_-1470",
+			"translation": [ -0.002906875, 2.384186E-09, -3.814697E-08]
+		},
+		{
+			"name": "node_Bip001 HeadNub_-1472",
+			"translation": [ -0.04018034, 7.629394E-08, 0]
+		},
+		{
+			"name": "node_Bone019_-1474",
+			"children": [
+				84
+			],
+			"translation": [ -0.03000755, -3.814697E-08, 8.543793E-10],
+			"rotation": [0.001119346, -0.0003566442, -0.04569766, -0.9989547]
+		},
+		{
+			"name": "node_Bone048(mirrored)_-1476",
+			"translation": [ -0.02108745, -2.145767E-08, 0],
+			"rotation": [0.006804666, -0.01028239, -0.04595564, -0.9988674]
+		},
+		{
+			"name": "node_Bone018_-1478",
+			"children": [
+				147
+			],
+			"translation": [ -0.02691175, -0.0001828384, -0.008969221],
+			"rotation": [-0.001061143, 0.03846452, -0.07224848, -0.9966441]
+		},
+		{
+			"name": "node_Bone033_-1480",
+			"children": [
+				30
+			],
+			"translation": [ -0.02045457, -3.814697E-08, 0],
+			"rotation": [0.05977929, -0.09611403, 0.05203535, -0.9922101]
+		},
+		{
+			"name": "node_Bip001 R Toe02_-1482",
+			"children": [
+				110
+			],
+			"translation": [ -0.004629593, 2.384186E-09, -3.814697E-08]
+		},
+		{
+			"name": "node_Bone006_-1484",
+			"translation": [ -0.01102586, 0, 1.927711E-16],
+			"rotation": [0.001127812, -0.003349866, 0.1178971, -0.9930195]
+		},
+		{
+			"name": "node_Bip001 L Toe02_-1486",
+			"children": [
+				60
+			],
+			"translation": [ -0.004629612, 2.384186E-09, 0]
+		},
+		{
+			"name": "node_Bip001 L Hand_-1488",
+			"children": [
+				137,
+				87,
+				55,
+				161
+			],
+			"translation": [ -0.1078497, 1.907349E-08, 0],
+			"rotation": [0.03180021, 0.7158463, -0.6330667, -0.2928813]
+		},
+		{
+			"name": "node_Bip001 L Toe11_-1490",
+			"children": [
+				7
+			],
+			"translation": [ -0.008697586, -4.768371E-09, -7.629394E-08]
+		},
+		{
+			"name": "node_Bone039_-1492",
+			"children": [
+				95
+			],
+			"translation": [ -0.02075509, 0, 0],
+			"rotation": [0.01563195, -0.01060048, 0.009791967, -0.9997737]
+		},
+		{
+			"name": "node_Bone024_-1494",
+			"children": [
+				40
+			],
+			"translation": [ -0.0287494, 0, 2.225772E-09],
+			"rotation": [2.962253E-09, -1.16868E-07, -0.02533886, -0.9996789]
+		},
+		{
+			"name": "node_Bip001 L Clavicle_-1496",
+			"children": [
+				69
 			],
 			"translation": [ 0.01998895, -0.04381229, -0.01309196],
 			"rotation": [0.7404592, -0.1425519, 0.6447482, 0.1252952]
 		},
 		{
-			"name": "node_Bone022(mirrored)_-7246",
-			"translation": [ -0.03078581, 3.814697E-08, 0],
-			"rotation": [0.0007705094, -0.0009859502, 0.003491108, -0.9999931]
+			"name": "node_Bip001 R Forearm_-1498",
+			"children": [
+				57,
+				143,
+				129,
+				82
+			],
+			"translation": [ -0.09584377, -7.629394E-08, -3.814697E-08],
+			"rotation": [6.045364E-10, 2.048018E-08, -0.9995646, -0.02950527]
 		},
 		{
-			"name": "node_Bone006_-7152",
-			"translation": [ -0.01102586, 0, 1.927711E-16],
-			"rotation": [0.001127812, -0.003349866, 0.1178971, -0.9930195]
+			"name": "node_Bone034(mirrored)_-1500",
+			"translation": [ -0.018633, 4.768371E-09, 0],
+			"rotation": [0.02995922, 0.01913733, -0.0156535, -0.9992453]
+		},
+		{
+			"name": "node_Bone061(mirrored)_-1502",
+			"children": [
+				92
+			],
+			"translation": [ -0.1219254, -0.002387524, 0.002847872],
+			"rotation": [0.7663698, 0.08678324, 0.1167656, -0.6257091]
+		},
+		{
+			"name": "node_Bip001 R Foot_-1504",
+			"children": [
+				126,
+				14,
+				125,
+				115
+			],
+			"translation": [ -0.02331596, 0, 0],
+			"rotation": [0.9069287, -0.4212794, 0.001122326, -0.001631086]
+		},
+		{
+			"name": "node_Bone020(mirrored)_-1506",
+			"children": [
+				134
+			],
+			"translation": [ -0.02627866, -3.814697E-08, 2.861023E-08],
+			"rotation": [-0.0002099067, -0.0006752347, 0.04258763, -0.9990925]
+		},
+		{
+			"name": "node_Bone035_-1508",
+			"children": [
+				10
+			],
+			"translation": [ -0.05071149, -0.01928548, -0.001326507],
+			"rotation": [0.7656836, -0.6414703, 0.008404223, -0.04662503]
+		},
+		{
+			"name": "node_Bone042(mirrored)_-1510",
+			"children": [
+				81
+			],
+			"translation": [ -0.02380941, -2.861023E-08, 0],
+			"rotation": [-0.01279425, -0.3221798, -0.1427249, -0.9357703]
+		},
+		{
+			"name": "node_Bone039(mirrored)_-1512",
+			"children": [
+				167
+			],
+			"translation": [ -0.02075512, -3.576279E-09, 0],
+			"rotation": [-0.0155129, -0.01059707, -0.009794653, -0.9997755]
+		},
+		{
+			"name": "node_Bone040(mirrored)_-1514",
+			"translation": [ -0.02368111, 0, 0],
+			"rotation": [0.02872821, -0.004050971, -0.03758932, -0.998872]
+		},
+		{
+			"name": "node_Bone064(mirrored)_-1516",
+			"translation": [ -0.04105408, 1.788139E-08, 0],
+			"rotation": [-0.003928069, -0.01042381, -0.04535916, -0.9989086]
+		},
+		{
+			"name": "node_Bone030(mirrored)_-1518",
+			"children": [
+				56
+			],
+			"translation": [ -0.01341455, 0.02548708, -0.02620021],
+			"rotation": [0.4178059, -0.3604359, -0.6314718, -0.5447638]
+		},
+		{
+			"name": "node_Bone031_-1632",
+			"translation": [ -0.01322566, 0, 1.576623E-09]
+		},
+		{
+			"name": "node_Bone029_-1654",
+			"translation": [ -0.01034744, 2.288818E-07, 1.22381E-09]
 		}
 	],
 	"samplers": [
@@ -13648,134 +13648,134 @@
 		{
 			"inverseBindMatrices": 683,
 			"joints": [
-				59,
-				147,
-				102,
-				163,
-				145,
-				143,
-				98,
-				116,
-				168,
-				146,
-				8,
-				169,
-				123,
-				142,
-				5,
-				115,
-				31,
-				6,
-				73,
-				71,
-				136,
-				32,
-				37,
-				33,
-				17,
-				126,
-				55,
-				60,
-				34,
-				35,
-				36,
-				64,
-				88,
-				70,
-				53,
-				28,
-				26,
-				16,
-				15,
-				76,
-				152,
-				131,
-				66,
-				78,
-				154,
-				130,
-				150,
-				122,
-				3,
-				135,
-				134,
-				158,
-				41,
-				30,
-				157,
-				7,
-				29,
-				144,
-				132,
-				45,
-				49,
-				124,
-				52,
-				81,
-				47,
-				95,
-				46,
-				63,
-				96,
-				48,
-				164,
-				166,
-				104,
-				93,
-				162,
-				62,
-				92,
-				160,
-				108,
-				165,
-				112,
-				109,
-				97,
-				19,
-				113,
-				2,
-				61,
-				94,
-				105,
-				156,
-				85,
 				83,
-				51,
-				80,
-				79,
-				50,
-				57,
-				125,
-				40,
-				38,
-				11,
-				137,
-				14,
-				89,
-				39,
-				10,
-				9,
-				13,
-				12,
+				108,
+				127,
+				5,
+				169,
+				91,
+				36,
+				102,
+				69,
+				65,
+				3,
+				158,
 				118,
-				138,
-				44,
-				25,
-				20,
-				22,
-				23,
-				24,
-				21,
-				100,
-				99,
-				75,
-				84,
-				140,
+				63,
+				98,
 				139,
+				142,
+				100,
+				40,
+				144,
+				48,
+				154,
+				138,
+				137,
+				61,
+				135,
+				15,
+				53,
+				87,
+				55,
+				161,
+				94,
+				88,
+				133,
+				166,
+				165,
+				81,
+				121,
+				132,
+				109,
+				85,
+				117,
+				80,
+				20,
+				119,
+				92,
+				58,
+				1,
 				68,
-				67
+				47,
+				157,
+				134,
+				79,
+				101,
+				163,
+				23,
+				96,
+				62,
+				97,
+				35,
+				26,
+				12,
+				9,
+				149,
+				51,
+				57,
+				159,
+				111,
+				82,
+				164,
+				143,
+				129,
+				106,
+				50,
+				114,
+				107,
+				150,
+				10,
+				156,
+				105,
+				4,
+				32,
+				25,
+				28,
+				124,
+				99,
+				54,
+				76,
+				128,
+				11,
+				43,
+				113,
+				16,
+				84,
+				147,
+				90,
+				27,
+				34,
+				162,
+				14,
+				125,
+				115,
+				126,
+				52,
+				75,
+				141,
+				136,
+				151,
+				45,
+				37,
+				21,
+				116,
+				72,
+				8,
+				18,
+				2,
+				123,
+				66,
+				7,
+				155,
+				112,
+				70,
+				153,
+				31,
+				131,
+				64
 			],
-			"name": "Bip001 Pelvis_skeleton_ou_ok001-6994"
+			"name": "Bip001 Pelvis_skeleton_ou_ok001-1532"
 		}
 	],
 	"textures": [
