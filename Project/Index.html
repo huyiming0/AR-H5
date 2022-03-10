@@ -1,0 +1,364 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.0.0/dist/mindar-image.prod.js"></script>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.0.0/dist/mindar-image-aframe.prod.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.3/dist/mindar-image.prod.js"></script>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.3/dist/mindar-image-aframe.prod.js"></script> -->
+    <script>
+        var sceneW;
+        var sceneH;
+        var uiDiv;
+        var arSystem;
+        var isAnimationOver = true;
+        document.addEventListener("DOMContentLoaded", function () {
+            const sceneEl = document.querySelector('a-scene');
+            arSystem = sceneEl.systems["mindar-image-system"];
+            const mytarget = document.querySelector("#mytarget");
+
+            sceneW = document.body.clientWidth;
+            sceneH = document.body.clientHeight;
+            uiDiv = AddNewDiv("uiDiv")
+
+            var time = 0;
+            var clock;
+            AFRAME.registerComponent('mytarget', {
+                init: function () {
+                    this.el.addEventListener('targetFound', event => {
+                        console.log("target found");
+                        if (isAnimationOver) {
+                            isAnimationOver = false;
+                            var model = document.createElement('a-gltf-model');
+                            model.setAttribute("id", "modelBrid");
+                            model.setAttribute("src", "#gltfBird");
+                            model.setAttribute("rotation", { x: -90, y: 180, z: 0 });
+                            model.setAttribute("scale", { x: 1.5, y: 1.5, z: 1.5 });
+                            model.setAttribute("animation-mixer", { clampWhenFinished: true, loop: "once" });
+                            var modelball = document.createElement('a-gltf-model');
+                            modelball.setAttribute("id", "ball");
+                            modelball.setAttribute("src", "#gltfBall");
+                            modelball.setAttribute("rotation", { x: -90, y: 180, z: 0 });
+                            modelball.setAttribute("scale", { x: 1.5, y: 1.5, z: 1.5 });
+                            var modeltext = document.createElement('a-gltf-model');
+                            modeltext.setAttribute("id", "text");
+                            modeltext.setAttribute("src", "#gltfText");
+                            modeltext.setAttribute("rotation", { x: -90, y: 180, z: 0 });
+                            modeltext.setAttribute("scale", { x: 1.5, y: 1.5, z: 1.5 });
+                            mytarget.appendChild(model);
+                            mytarget.appendChild(modelball);
+                            mytarget.appendChild(modeltext);
+                            if (clock != null) {
+                                clearInterval(clock);
+                                time = 0;
+                            }
+                            clock = setInterval(frame, 10);
+                            function frame() {
+                                time++;
+                                update();
+                            }
+                        }
+                    });
+                    this.el.addEventListener('targetLost', event => {
+
+
+                    });
+                    //this.el.emit('targetFound');
+                }
+            });
+            var removeModel = function () {
+                RemoveModel();
+            }
+            var update = function () {
+                UpData(time);
+            }
+            Start();
+
+        });
+
+        function RemoveModel() {
+            var model = document.querySelector('#modelBrid');
+            var ball = document.querySelector('#ball');
+            var text = document.querySelector('#text');
+            mytarget.removeChild(model);
+            mytarget.removeChild(ball);
+            mytarget.removeChild(text);
+        }
+
+        function Start() {
+            CreateStartBtnUI();
+        }
+
+        function UpData(time) {
+            if (time == 500) {
+                console.log("开启动画")
+                CreateAnimationBtn();
+            }
+        }
+
+        function CreateStartBtnUI() {
+            var startBtn = document.getElementById("startBtn");
+            if (startBtn == null) {
+                startBtn = CreateBtnElement("startBtn", "开始", sceneW / 5 * 4, sceneW / 5 * 4, sceneW / 5, "test00.png", false)
+                startBtn.addEventListener("click", () => {
+                    arSystem.start();
+                    SetActive(startBtn, false);
+                })
+                SetElementPos(startBtn, (sceneH - (sceneW / 5 * 4)) / 2, sceneW / 5 / 2, 0, 0)
+                AddChild(uiDiv, startBtn);
+            } else {
+                SetElementPos(startBtn, (sceneH - (sceneW / 5 * 4)) / 2, sceneW / 5 / 2, 0, 0)
+                SetActive(startBtn, true);
+            }
+
+        }
+
+        function CreateAnimationBtn() {
+            var animaBtnwidth = sceneW / 6;
+            var animaBtnTop = (sceneH - animaBtnwidth) / 5;
+            var animaBtnLeft = (sceneW - animaBtnwidth) / 5 * 4;
+            var animaBtn = document.getElementById("animationBtn");
+            var isAddEvent = true;
+            if (animaBtn == null) {
+                animaBtn = CreateBtnElement("animationBtn", "", animaBtnwidth, animaBtnwidth, animaBtnwidth / 5, "lightBtn.png", false);
+                SetElementPos(animaBtn, animaBtnTop, animaBtnLeft, 0, 0);
+                AddChild(uiDiv, animaBtn)
+            } else {
+                isAddEvent = false;
+                SetElementPos(animaBtn, animaBtnTop, animaBtnLeft, 0, 0);
+                SetActive(animaBtn, true);
+            }
+            var anima = AnimaBtnAnimation(animaBtn);
+            if (isAddEvent) {
+                animaBtn.addEventListener("click", () => {
+                    console.log("开始播放动画");
+                    clearInterval(anima);
+                    SetActive(animaBtn, false);
+                    StartUIAnimation();
+                });
+            }
+        }
+
+        function AnimaBtnAnimation(animaBtn) {
+            var opa = 0;
+            var add = false;
+            var anima = setInterval(frame, 5);
+            function frame() {
+                if (opa >= 100) {
+                    add = false;
+                } else if (opa <= 30) {
+                    add = true;
+                }
+                if (add) {
+                    opa += 1;
+                } else {
+                    opa -= 1;
+                }
+                animaBtn.style.opacity = opa + "%";
+            }
+            return anima;
+        }
+
+        function StartUIAnimation() {
+            CreateAnimationUI();
+            PlayUILightAnimation();
+        }
+
+        function CreateAnimationUI() {
+            var animaLight = document.getElementById("lightImage")
+            if (animaLight == null) {
+                animaLight = CreateImageElement("lightImage", sceneH * 2, sceneH * 2, "light.png", false);
+                SetElementPos(animaLight, -2 * sceneH, sceneW, 0, 0);
+                AddChild(uiDiv, animaLight);
+            } else {
+                SetElementPos(animaLight, -2 * sceneH, sceneW, 0, 0);
+            }
+
+            var image_w = sceneW / 10 * 8;
+            var image_h = image_w;
+            for (let i = 0; i < 4; i++) {
+                var animaImage = document.getElementById("image0" + i);
+                if (animaImage == null) {
+                    animaImage = CreateImageElement("image0" + i, image_w, image_h, "test0" + i + ".png", false);
+                    SetElementPos(animaImage, (sceneH - image_h) / 2, (sceneW - image_w) / 2 + sceneW, 0, 0);
+                    AddChild(uiDiv, animaImage);
+                } else {
+                    SetElementPos(animaImage, (sceneH - image_h) / 2, (sceneW - image_w) / 2 + sceneW, 0, 0);
+                }
+            }
+        }
+        var LightAnim = null;
+        function PlayUILightAnimation() {
+            var animaLight = document.getElementById("lightImage");
+            if (LightAnim != null) {
+                LightAnim = null;
+                clearInterval(LightAnim);
+            }
+            var x = sceneW;
+            var y = -2 * sceneH;
+            SetElementPos(animaLight, y, x, 0, 0);
+            animaLight.style.transform = "rotate(-45deg)";
+            LightAnim = setInterval(frame, 1);
+            console.log(LightAnim);
+            var lightTime = 0;
+            function frame() {
+                x -= sceneW/100;
+                y += sceneW/100;
+                lightTime++;
+
+                if (lightTime == 250) {
+                    RemoveModel();
+                }
+                if (y >= sceneH) {
+                    PlayImageAnimation(0);
+                    console.log("开始执行下一段动画")
+                    clearInterval(LightAnim);
+                } else {
+                    animaLight.style.marginLeft = x;
+                    animaLight.style.marginTop = y;
+                }
+            }
+        }
+
+        function PlayImageAnimation(index) {
+            var image = document.getElementById("image0" + index);
+            var id = setInterval(frame, 1);
+            console.log(image.style.width);
+            var w = Number(image.style.width.replace("px", ""));
+            var l = Number(image.style.marginLeft.replace("px", ""));
+            var target = (sceneW - w) / 2;
+            var lerp = 0;
+            var time = 0;
+            function frame() {
+                if (l >= target) {
+                    lerp = sceneW/100;
+                } else {
+                    time++;
+                    if (time < 300) {
+                        lerp = 0;
+                    } else {
+                        lerp = sceneW/100;
+                    }
+                }
+                if (l < -w) {
+                    console.log("播放动画" + index + "完毕");
+                    if (index < 3) {
+                        index++;
+                        PlayImageAnimation(index)
+                    } else if (index == 3) {
+                        arSystem.stop();
+                        isAnimationOver = true;
+                        Start()
+                    }
+                    clearInterval(id);
+                }
+                l = l - lerp
+                SetElementPos(image, "", l, 0, 0);
+
+            }
+        }
+
+        function AddNewDiv(divName) {
+            var div = document.createElement("div");
+            div.id = divName;
+            div.style.top = "0px";
+            div.style.left = "0px";
+            div.style.position = "fixed";
+            document.body.appendChild(div);
+            return div;
+        }
+
+        function CreateBtnElement(id, value, width, height, fontSize, imageUrl, isborder) {
+            var btn = document.createElement("input");
+            btn.id = id;
+            btn.type = "button";
+            btn.value = value;
+            btn.style.fontSize = fontSize;
+            SetElementWidthAndHeight(btn, width, height);
+            btn.style.backgroundSize = width + "px " + height + "px";
+            btn.style.backgroundImage = "url(./res/ui/" + imageUrl + ")";
+            btn.style.backgroundColor = "transparent";
+            if (!isborder)
+                btn.style.border = "0px";
+            return btn;
+        }
+
+        function CreateImageElement(id, width, height, imageUrl, isborder) {
+            var img = document.createElement("img");
+            img.id = id;
+            this.SetElementWidthAndHeight(img, width, height);
+            img.style.backgroundSize = width + "px " + height + "px";
+            img.src = "res/ui/" + imageUrl + "";
+            img.style.backgroundColor = "transparent";
+            if (!isborder)
+                img.style.border = "0px";
+            return img;
+        }
+
+        function SetElementWidthAndHeight(element, width, height) {
+            element.style.width = width;
+            element.style.height = height;
+        }
+
+        function AddChild(div, child) {
+            div.appendChild(child);
+        }
+
+        function SetElementPos(element, Top, Left, Right, Bottom) {
+            element.style.position = "fixed";
+            if (Top != "" || Top != 0)
+                element.style.marginTop = Top;
+            if (Left != "" || Left != 0)
+                element.style.marginLeft = Left;
+            if (Right != "" || Right != 0)
+                element.style.marginRight = Right;
+            if (Bottom != "" || Bottom != 0)
+                element.style.marginBottom = Bottom;
+        }
+
+        function SetActive(obj, isShow) {
+            if (isShow) {
+                obj.style.display = "inline";
+            } else {
+                obj.style.display = "none";
+            }
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <a-scene mindar-image="imageTargetSrc:res/mind/targets.mind;autoStart: false;" vr-mode-ui="enabled: false"
+        device-orientation-permission-ui="enabled: false">
+        <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+
+        <!-- 资源 -->
+        <a-assets>
+            <a-asset-item id="gltfBird" src="./res/bird.gltf"></a-asset-item>
+            <a-asset-item id="gltfBall" src="./res/ball.gltf"></a-asset-item>
+            <a-asset-item id="gltfText" src="./res/text.gltf"></a-asset-item>
+        </a-assets>
+
+
+        <a-entity id="mytarget" mytarget mindar-image-target="targetIndex: 0">
+
+            <!-- <a-gltf-model id="bird" rotation="-90 180 0" position="0 0 0" scale="1 1 1" src="#gltfBird"
+                     animation-mixer = "clampWhenFinished:true;loop:once">
+                </a-gltf-model>
+                <a-gltf-model id="ball" rotation="-90 180 0" position="0 0 0" scale="1 1 1" src="#gltfBall">
+                </a-gltf-model>
+                <a-gltf-model id="text" rotation="-90 180 0" position="0 0 0" scale="1 1 1" src="#gltfText">
+                </a-gltf-model> -->
+        </a-entity>
+
+    </a-scene>
+
+</body>
+
+</html>
