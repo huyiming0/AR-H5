@@ -207,8 +207,8 @@
             console.log(LightAnim);
             var lightTime = 0;
             function frame() {
-                x -= sceneW/100;
-                y += sceneW/100;
+                x -= sceneW/60;
+                y += sceneW/60;
                 lightTime++;
 
                 if (lightTime == 250) {
@@ -236,13 +236,13 @@
             var time = 0;
             function frame() {
                 if (l >= target) {
-                    lerp = sceneW/100;
+                    lerp = sceneW/80;
                 } else {
                     time++;
                     if (time < 300) {
                         lerp = 0;
                     } else {
-                        lerp = sceneW/100;
+                        lerp = sceneW/80;
                     }
                 }
                 if (l < -w) {
@@ -281,7 +281,7 @@
             btn.style.fontSize = fontSize;
             SetElementWidthAndHeight(btn, width, height);
             btn.style.backgroundSize = width + "px " + height + "px";
-            btn.style.backgroundImage = "url(./res/ui/" + imageUrl + ")";
+            btn.style.backgroundImage = "url(https://huyiming0.github.io/AR-H5/res/ui/" + imageUrl + ")";
             btn.style.backgroundColor = "transparent";
             if (!isborder)
                 btn.style.border = "0px";
@@ -293,7 +293,7 @@
             img.id = id;
             this.SetElementWidthAndHeight(img, width, height);
             img.style.backgroundSize = width + "px " + height + "px";
-            img.src = "res/ui/" + imageUrl + "";
+            img.src = "https://huyiming0.github.io/AR-H5/res/ui/" + imageUrl + "";
             img.style.backgroundColor = "transparent";
             if (!isborder)
                 img.style.border = "0px";
@@ -334,15 +334,15 @@
 </head>
 
 <body>
-    <a-scene mindar-image="imageTargetSrc:res/mind/targets.mind;autoStart: false;" vr-mode-ui="enabled: false"
+    <a-scene mindar-image="imageTargetSrc:https://huyiming0.github.io/AR-H5/res/mind/targets.mind;autoStart: false;" vr-mode-ui="enabled: false"
         device-orientation-permission-ui="enabled: false">
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
         <!-- 资源 -->
         <a-assets>
-            <a-asset-item id="gltfBird" src="./res/bird.gltf"></a-asset-item>
-            <a-asset-item id="gltfBall" src="./res/ball.gltf"></a-asset-item>
-            <a-asset-item id="gltfText" src="./res/text.gltf"></a-asset-item>
+            <a-asset-item id="gltfBird" src="https://huyiming0.github.io/AR-H5/res/bird.gltf"></a-asset-item>
+            <a-asset-item id="gltfBall" src="https://huyiming0.github.io/AR-H5/res/ball.gltf"></a-asset-item>
+            <a-asset-item id="gltfText" src="https://huyiming0.github.io/AR-H5/res/text.gltf"></a-asset-item>
         </a-assets>
 
 
