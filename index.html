@@ -21,66 +21,63 @@
             const sceneEl = document.querySelector('a-scene');
             arSystem = sceneEl.systems["mindar-image-system"];
             const mytarget = document.querySelector("#mytarget");
-
-            sceneW = document.body.clientWidth;
-            sceneH = document.body.clientHeight;
-            uiDiv = AddNewDiv("uiDiv")
-
-            var time = 0;
-            var clock;
-            AFRAME.registerComponent('mytarget', {
-                init: function () {
-                    this.el.addEventListener('targetFound', event => {
-                        console.log("target found");
-                        if (isAnimationOver) {
-                            isAnimationOver = false;
-                            var model = document.createElement('a-gltf-model');
-                            model.setAttribute("id", "modelBrid");
-                            model.setAttribute("src", "#gltfBird");
-                            model.setAttribute("rotation", { x: -90, y: 180, z: 0 });
-                            model.setAttribute("scale", { x: 1.5, y: 1.5, z: 1.5 });
-                            model.setAttribute("animation-mixer", { clampWhenFinished: true, loop: "once" });
-                            var modelball = document.createElement('a-gltf-model');
-                            modelball.setAttribute("id", "ball");
-                            modelball.setAttribute("src", "#gltfBall");
-                            modelball.setAttribute("rotation", { x: -90, y: 180, z: 0 });
-                            modelball.setAttribute("scale", { x: 1.5, y: 1.5, z: 1.5 });
-                            var modeltext = document.createElement('a-gltf-model');
-                            modeltext.setAttribute("id", "text");
-                            modeltext.setAttribute("src", "#gltfText");
-                            modeltext.setAttribute("rotation", { x: -90, y: 180, z: 0 });
-                            modeltext.setAttribute("scale", { x: 1.5, y: 1.5, z: 1.5 });
-                            mytarget.appendChild(model);
-                            mytarget.appendChild(modelball);
-                            mytarget.appendChild(modeltext);
-                            if (clock != null) {
-                                clearInterval(clock);
-                                time = 0;
-                            }
-                            clock = setInterval(frame, 10);
-                            function frame() {
-                                time++;
-                                update();
-                            }
-                        }
-                    });
-                    this.el.addEventListener('targetLost', event => {
-
-
-                    });
-                    //this.el.emit('targetFound');
-                }
-            });
-            var removeModel = function () {
-                RemoveModel();
-            }
-            var update = function () {
-                UpData(time);
-            }
-            Start();
-
         });
+        sceneW = document.body.clientWidth;
+        sceneH = document.body.clientHeight;
+        uiDiv = AddNewDiv("uiDiv")
 
+        var time = 0;
+        var clock;
+        AFRAME.registerComponent('mytarget', {
+            init: function () {
+                this.el.addEventListener('targetFound', event => {
+                    console.log("target found");
+                    if (isAnimationOver) {
+                        isAnimationOver = false;
+                        var model = document.createElement('a-gltf-model');
+                        model.setAttribute("id", "modelBrid");
+                        model.setAttribute("src", "#gltfBird");
+                        model.setAttribute("rotation", { x: -90, y: 180, z: 0 });
+                        model.setAttribute("scale", { x: 1.5, y: 1.5, z: 1.5 });
+                        model.setAttribute("animation-mixer", { clampWhenFinished: true, loop: "once" });
+                        var modelball = document.createElement('a-gltf-model');
+                        modelball.setAttribute("id", "ball");
+                        modelball.setAttribute("src", "#gltfBall");
+                        modelball.setAttribute("rotation", { x: -90, y: 180, z: 0 });
+                        modelball.setAttribute("scale", { x: 1.5, y: 1.5, z: 1.5 });
+                        var modeltext = document.createElement('a-gltf-model');
+                        modeltext.setAttribute("id", "text");
+                        modeltext.setAttribute("src", "#gltfText");
+                        modeltext.setAttribute("rotation", { x: -90, y: 180, z: 0 });
+                        modeltext.setAttribute("scale", { x: 1.5, y: 1.5, z: 1.5 });
+                        mytarget.appendChild(model);
+                        mytarget.appendChild(modelball);
+                        mytarget.appendChild(modeltext);
+                        if (clock != null) {
+                            clearInterval(clock);
+                            time = 0;
+                        }
+                        clock = setInterval(frame, 10);
+                        function frame() {
+                            time++;
+                            update();
+                        }
+                    }
+                });
+                this.el.addEventListener('targetLost', event => {
+
+
+                });
+                //this.el.emit('targetFound');
+            }
+        });
+        var removeModel = function () {
+            RemoveModel();
+        }
+        var update = function () {
+            UpData(time);
+        }
+        Start();
         function RemoveModel() {
             var model = document.querySelector('#modelBrid');
             var ball = document.querySelector('#ball');
@@ -207,8 +204,8 @@
             console.log(LightAnim);
             var lightTime = 0;
             function frame() {
-                x -= sceneW/60;
-                y += sceneW/60;
+                x -= sceneW / 60;
+                y += sceneW / 60;
                 lightTime++;
 
                 if (lightTime == 250) {
@@ -236,13 +233,13 @@
             var time = 0;
             function frame() {
                 if (l >= target) {
-                    lerp = sceneW/80;
+                    lerp = sceneW / 80;
                 } else {
                     time++;
                     if (time < 300) {
                         lerp = 0;
                     } else {
-                        lerp = sceneW/80;
+                        lerp = sceneW / 80;
                     }
                 }
                 if (l < -w) {
@@ -334,8 +331,8 @@
 </head>
 
 <body>
-    <a-scene mindar-image="imageTargetSrc:https://huyiming0.github.io/AR-H5/res/mind/targets.mind;autoStart: false;" vr-mode-ui="enabled: false"
-        device-orientation-permission-ui="enabled: false">
+    <a-scene mindar-image="imageTargetSrc:https://huyiming0.github.io/AR-H5/res/mind/targets.mind;autoStart: false;"
+        vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
         <!-- 资源 -->
