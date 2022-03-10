@@ -279,7 +279,7 @@
             btn.style.fontSize = fontSize;
             SetElementWidthAndHeight(btn, width, height);
             btn.style.backgroundSize = width + "px " + height + "px";
-            btn.style.backgroundImage = "url(https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Project/res/ui/" + imageUrl + ")";
+            btn.style.backgroundImage = "url(./res/ui/" + imageUrl + ")";
             btn.style.backgroundColor = "transparent";
             if (!isborder)
                 btn.style.border = "0px";
@@ -291,7 +291,7 @@
             img.id = id;
             this.SetElementWidthAndHeight(img, width, height);
             img.style.backgroundSize = width + "px " + height + "px";
-            img.src = "https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Project/res/ui/" + imageUrl + "";
+            img.src = "./res/ui/" + imageUrl + "";
             img.style.backgroundColor = "transparent";
             if (!isborder)
                 img.style.border = "0px";
@@ -424,19 +424,19 @@
     <div class="example-container">
         <div id="example-scanning-overlay" class="hidden">
             <div class="inner">
-                <img src="https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Project/res/ui/logo.jpg" />
+                <img src="./res/ui/logo.jpg" />
                 <div class="scanline"></div>
             </div>
         </div>
 
         <a-scene
-            mindar-image="imageTargetSrc: https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Project/res/mind/targets.mind; autoStart: false; uiScanning: #example-scanning-overlay;"
+            mindar-image="imageTargetSrc: ./res/mind/targets.mind; autoStart: false; uiScanning: #example-scanning-overlay;"
             embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights"
             vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
             <a-assets>
-                <a-asset-item id="gltfBird" src="https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Project/res/bird.gltf"></a-asset-item>
-                <a-asset-item id="gltfBall" src="https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Project/res/ball.gltf"></a-asset-item>
-                <a-asset-item id="gltfText" src="https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Project/res/text.gltf"></a-asset-item>
+                <a-asset-item id="gltfBird" src="./res/bird.gltf"></a-asset-item>
+                <a-asset-item id="gltfBall" src="./res/ball.gltf"></a-asset-item>
+                <a-asset-item id="gltfText" src="./res/text.gltf"></a-asset-item>
             </a-assets>
 
             <a-camera position="0 0 0" look-controls="enabled: false" cursor="fuse: false; rayOrigin: mouse;"
