@@ -1,17 +1,12 @@
+
 <html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.0.0/dist/mindar-image.prod.js"></script>
-    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.0.0/dist/mindar-image-aframe.prod.js"></script>
-
-    <!-- <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.3/dist/mindar-image.prod.js"></script>
-    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.3/dist/mindar-image-aframe.prod.js"></script> -->
-    <script>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.4/dist/mindar-image.prod.js"></script>
+      <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.4/dist/mindar-image-aframe.prod.js"></script>
+      <script>
         var sceneW;
         var sceneH;
         var uiDiv;
@@ -207,8 +202,8 @@
             console.log(LightAnim);
             var lightTime = 0;
             function frame() {
-                x -= sceneW/100;
-                y += sceneW/100;
+                x -= 4;
+                y += 4;
                 lightTime++;
 
                 if (lightTime == 250) {
@@ -236,13 +231,13 @@
             var time = 0;
             function frame() {
                 if (l >= target) {
-                    lerp = sceneW/100;
+                    lerp = 1;
                 } else {
                     time++;
                     if (time < 300) {
                         lerp = 0;
                     } else {
-                        lerp = sceneW/100;
+                        lerp = 1;
                     }
                 }
                 if (l < -w) {
@@ -331,34 +326,13 @@
 
     </script>
 
-</head>
-
-<body>
-    <a-scene mindar-image="imageTargetSrc:res/mind/targets.mind;autoStart: false;" vr-mode-ui="enabled: false"
-        device-orientation-permission-ui="enabled: false">
+    </head>
+    <body>
+      <a-scene mindar-image="imageTargetSrc: /res/mind/targets.mind" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+        <a-entity mindar-image-target="targetIndex: 0">
 
-        <!-- 资源 -->
-        <a-assets>
-            <a-asset-item id="gltfBird" src="./res/bird.gltf"></a-asset-item>
-            <a-asset-item id="gltfBall" src="./res/ball.gltf"></a-asset-item>
-            <a-asset-item id="gltfText" src="./res/text.gltf"></a-asset-item>
-        </a-assets>
-
-
-        <a-entity id="mytarget" mytarget mindar-image-target="targetIndex: 0">
-
-            <!-- <a-gltf-model id="bird" rotation="-90 180 0" position="0 0 0" scale="1 1 1" src="#gltfBird"
-                     animation-mixer = "clampWhenFinished:true;loop:once">
-                </a-gltf-model>
-                <a-gltf-model id="ball" rotation="-90 180 0" position="0 0 0" scale="1 1 1" src="#gltfBall">
-                </a-gltf-model>
-                <a-gltf-model id="text" rotation="-90 180 0" position="0 0 0" scale="1 1 1" src="#gltfText">
-                </a-gltf-model> -->
         </a-entity>
-
-    </a-scene>
-
-</body>
-
-</html>
+      </a-scene>
+    </body>
+  </html>
