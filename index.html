@@ -43,13 +43,14 @@
     var uiDiv;
     var arSystem;
     var isAnimationOver = true;
+    var isModelRemove = false;
     var mytarget;
     console.log(document);
     sceneW = document.body.clientWidth;
     sceneH = document.body.clientHeight;
     uiDiv = AddNewDiv("uiDiv")
-    var time = 0;
-    var clock;
+
+
     document.addEventListener("DOMContentLoaded", function () {
         const sceneEl = document.querySelector('a-scene');
         arSystem = sceneEl.systems["mindar-image-system"];
@@ -62,6 +63,7 @@
 
                     if (isAnimationOver) {
                         isAnimationOver = false;
+                        isModelRemove = false;
                         var model = document.createElement('a-gltf-model');
                         model.setAttribute("id", "modelBrid");
                         model.setAttribute("src", "#gltfBird");
@@ -86,16 +88,8 @@
                         mytarget.appendChild(model);
                         mytarget.appendChild(modelball);
                         mytarget.appendChild(modeltext);
-                        if (clock != null) {
 
-                            clearInterval(clock);
-                            time = 0;
-                        }
-                        clock = setInterval(frame, 10);
-                        function frame() {
-                            time++;
-                            update();
-                        }
+                        setTimeout("CreateAnimationBtn()", 8000)
                     }
                 });
                 this.el.addEventListener('targetLost', event => {
@@ -111,29 +105,27 @@
     var removeModel = function () {
         RemoveModel();
     }
-    var update = function () {
-        UpData(time);
-    }
+
     Start();
     function RemoveModel() {
+        if (isModelRemove) {
+            return;
+        }
+        isModelRemove = true;
+        var target = document.querySelector("#mytarget");
         var model = document.querySelector('#modelBrid');
         var ball = document.querySelector('#ball');
         var text = document.querySelector('#text');
-        mytarget.removeChild(model);
-        mytarget.removeChild(ball);
-        mytarget.removeChild(text);
+        target.removeChild(model);
+        target.removeChild(ball);
+        target.removeChild(text);
     }
 
     function Start() {
         CreateStartBtnUI();
     }
 
-    function UpData(time) {
-        if (time == 500) {
-            console.log("开启动画")
-            CreateAnimationBtn();
-        }
-    }
+
 
     function CreateStartBtnUI() {
         var startBtn = document.getElementById("startBtn");
@@ -245,7 +237,7 @@
             y += sceneW / 60;
             lightTime++;
 
-            if (lightTime == 250) {
+            if (x <= -sceneW ) {
                 RemoveModel();
             }
             if (y >= sceneH) {
