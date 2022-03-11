@@ -67,7 +67,8 @@
                         var model = document.createElement('a-gltf-model');
                         model.setAttribute("id", "modelBrid");
                         model.setAttribute("src", "#gltfBird");
-                        model.setAttribute("rotation", { x: -90, y: 180, z: 0 });
+                        model.setAttribute("rotation", { x: 0, y: 180, z: 0 });
+                        model.setAttribute("position", { x: 0, y: -0.35, z: 0 });
                         model.setAttribute("scale", { x: 1.5, y: 1.5, z: 1.5 });
                         model.setAttribute("animation-mixer", {
                             clampWhenFinished: true,
@@ -78,13 +79,15 @@
                         var modelball = document.createElement('a-gltf-model');
                         modelball.setAttribute("id", "ball");
                         modelball.setAttribute("src", "#gltfBall");
-                        modelball.setAttribute("rotation", { x: -90, y: 180, z: 0 });
+                        modelball.setAttribute("rotation", { x: 0, y: 180, z: 0 });
+                        modelball.setAttribute("position", { x: 0, y: -0.35, z: 0 });
                         modelball.setAttribute("scale", { x: 1.5, y: 1.5, z: 1.5 });
                         var modeltext = document.createElement('a-gltf-model');
                         modeltext.setAttribute("id", "text");
                         modeltext.setAttribute("src", "#gltfText");
-                        modeltext.setAttribute("rotation", { x: -90, y: 180, z: 0 });
-                        modeltext.setAttribute("scale", { x: 1.5, y: 1.5, z: 1.5 });
+                        modeltext.setAttribute("rotation", { x: 0, y: 180, z: 0 });
+                        modeltext.setAttribute("position", { x: 0, y: -0.3, z: 0 });
+                        modeltext.setAttribute("scale", { x: 1.35, y: 1.35, z: 1.35 });
                         mytarget.appendChild(model);
                         mytarget.appendChild(modelball);
                         mytarget.appendChild(modeltext);
