@@ -244,8 +244,8 @@
         console.log(LightAnim);
         var lightTime = 0;
         function frame() {
-            x -= sceneW / 80;
-            y += sceneW / 80;
+            x -= sceneW / 40;
+            y += sceneW / 40;
             lightTime++;
 
             if (x <= -sceneW) {
@@ -265,7 +265,7 @@
 
     function PlayImageAnimation(index) {
         var image = document.getElementById("image0" + index);
-        var id = setInterval(frame, 1);
+        var id = setInterval(frame, 2);
         var w_i = Number(image.style.width.replace("px", ""));
         var l_i = Number(image.style.marginLeft.replace("px", ""));
         var text = document.getElementById("text0" + index);
