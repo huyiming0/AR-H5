@@ -134,6 +134,7 @@
             startBtn.addEventListener("click", () => {
                 arSystem.start();
                 SetActive(startBtn, false);
+                // CreateAnimationBtn()
             })
             SetElementPos(startBtn, (sceneH - (sceneW / 5 * 4)) / 2, sceneW / 5 / 2, 0, 0)
             AddChild(uiDiv, startBtn);
@@ -206,15 +207,22 @@
         }
 
         var image_w = sceneW / 10 * 8;
-        var image_h = image_w;
-        for (let i = 0; i < 4; i++) {
+        var image_h = image_w * 2 / 3;
+        var text_w = sceneW / 2;
+        var text_h = text_w * 4 / 10;
+        for (let i = 0; i < 3; i++) {
             var animaImage = document.getElementById("image0" + i);
+            var textImage = document.getElementById("text0" + i);
             if (animaImage == null) {
-                animaImage = CreateImageElement("image0" + i, image_w, image_h, "test0" + i + ".png", false);
+                animaImage = CreateImageElement("image0" + i, image_w, image_h, "Image0" + i + ".jpg", false);
+                textImage = CreateImageElement("text0" + i, text_w, text_h, "text0" + i + ".png", false);
                 SetElementPos(animaImage, (sceneH - image_h) / 2, (sceneW - image_w) / 2 + sceneW, 0, 0);
+                SetElementPos(textImage, sceneH, sceneW - text_w, 0, 0);
                 AddChild(uiDiv, animaImage);
+                AddChild(uiDiv, textImage);
             } else {
                 SetElementPos(animaImage, (sceneH - image_h) / 2, (sceneW - image_w) / 2 + sceneW, 0, 0);
+                SetElementPos(textImage, sceneH, sceneW - text_w, 0, 0);
             }
         }
     }
@@ -233,11 +241,11 @@
         console.log(LightAnim);
         var lightTime = 0;
         function frame() {
-            x -= sceneW / 60;
-            y += sceneW / 60;
+            x -= sceneW / 80;
+            y += sceneW / 80;
             lightTime++;
 
-            if (x <= -sceneW ) {
+            if (x <= -sceneW) {
                 RemoveModel();
             }
             if (y >= sceneH) {
@@ -254,37 +262,65 @@
     function PlayImageAnimation(index) {
         var image = document.getElementById("image0" + index);
         var id = setInterval(frame, 1);
-        console.log(image.style.width);
-        var w = Number(image.style.width.replace("px", ""));
-        var l = Number(image.style.marginLeft.replace("px", ""));
-        var target = (sceneW - w) / 2;
-        var lerp = 0;
+        var w_i = Number(image.style.width.replace("px", ""));
+        var l_i = Number(image.style.marginLeft.replace("px", ""));
+        var text = document.getElementById("text0" + index);
+        var l_t = Number(text.style.marginLeft.replace("px", ""));
+        var l_h = Number(text.style.height.replace("px", ""));
+        var l_w = Number(text.style.height.replace("px", ""));
+        var t_t = Number(text.style.marginTop.replace("px", ""));
+        var lerp_t_t = 0;
+        var lerp_t_l = 0;
+
+        var target_i = (sceneW - w_i) / 2;
+        var target_t = (sceneH - l_h) / 2 + w_i / 2;
+        var target_t_l = (sceneW - l_w) / 2;
+        var lerp_i = 0;
         var time = 0;
         function frame() {
-            if (l >= target) {
-                lerp = sceneW / 80;
+            if (l_i >= target_i) {
+                lerp_i = sceneW / 80;
+                lerp_t_t = sceneH / 250;
+                lerp_t_l = 0;
             } else {
                 time++;
                 if (time < 300) {
-                    lerp = 0;
+                    lerp_i = 0;
+                    lerp_t_l = 0;
+                    if (t_t >= target_t) {
+                        lerp_t_t = sceneH / 400;
+                    } else {
+                        lerp_t_t = 0;
+                    }
                 } else {
-                    lerp = sceneW / 80;
+                    lerp_i = sceneW / 80;
+                    lerp_t_l = sceneW / 80;
+                }
+                if (lerp_t_l != 0) {
+                    if (l_t >= target_t_l) {
+                        lerp_t_l = sceneW / 80;
+                    } else {
+                        lerp_t_t = 0;
+                    }
                 }
             }
-            if (l < -w) {
+            if (l_i < -w_i) {
                 console.log("播放动画" + index + "完毕");
-                if (index < 3) {
+                if (index < 2) {
                     index++;
                     PlayImageAnimation(index)
-                } else if (index == 3) {
+                } else if (index == 2) {
                     arSystem.stop();
                     isAnimationOver = true;
                     Start()
                 }
                 clearInterval(id);
             }
-            l = l - lerp
-            SetElementPos(image, "", l, 0, 0);
+            l_i = l_i - lerp_i
+            t_t = t_t - lerp_t_t
+            l_t = l_t - lerp_t_l
+            SetElementPos(image, "", l_i, 0, 0);
+            SetElementPos(text, t_t, l_t, 0, 0);
 
         }
     }
@@ -307,7 +343,7 @@
         btn.style.fontSize = fontSize;
         SetElementWidthAndHeight(btn, width, height);
         btn.style.backgroundSize = width + "px " + height + "px";
-        btn.style.backgroundImage = "url(https://huyiming0.github.io/AR-H5/res/ui/" + imageUrl + ")";
+        btn.style.backgroundImage = "url(./res/ui/" + imageUrl + ")";
         btn.style.backgroundColor = "transparent";
         if (!isborder)
             btn.style.border = "0px";
@@ -319,7 +355,7 @@
         img.id = id;
         this.SetElementWidthAndHeight(img, width, height);
         img.style.backgroundSize = width + "px " + height + "px";
-        img.src = "https://huyiming0.github.io/AR-H5/res/ui/" + imageUrl + "";
+        img.src = "./res/ui/" + imageUrl + "";
         img.style.backgroundColor = "transparent";
         if (!isborder)
             img.style.border = "0px";
