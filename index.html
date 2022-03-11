@@ -247,11 +247,11 @@
 
             if (x <= -sceneW) {
                 RemoveModel();
-                arSystem.pause();
             }
             if (y >= sceneH) {
                 PlayImageAnimation(0);
                 console.log("开始执行下一段动画")
+                arSystem.pause();
                 clearInterval(LightAnim);
             } else {
                 animaLight.style.marginLeft = x;
@@ -285,7 +285,7 @@
                 lerp_t_l = 0;
             } else {
                 time++;
-                if (time < 300) {
+                if (time < 500) {
                     lerp_i = 0;
                     lerp_t_l = 0;
                     if (t_t >= target_t) {
