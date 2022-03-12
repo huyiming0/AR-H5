@@ -17,8 +17,9 @@
 </head>
 
 <body>
-    <a-scene mindar-image="imageTargetSrc:https://huyiming0.github.io/AR-H5/res/mind/targets.mind;autoStart: true;filterMinCF:0.002;filterBeta:0.0025;warmupTolerance: 20"
-        vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false" >
+    <a-scene
+        mindar-image="imageTargetSrc:https://huyiming0.github.io/AR-H5/res/mind/targets.mind;autoStart: true;filterMinCF:0.002;filterBeta:0.0025;warmupTolerance: 1"
+        vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
         <!-- 资源 -->
@@ -57,7 +58,7 @@
         arSystem = sceneEl.systems["mindar-image-system"];
         mytarget = document.querySelector("#mytarget");
         console.log(arSystem);
-
+        // CreateAnimationBtn()
         mytarget.addEventListener('targetFound', event => {
             console.log("target found");
             if (isAnimationOver) {
@@ -159,11 +160,10 @@
         isModelRemove = true;
         var target = document.querySelector("#mytarget");
         var model = document.querySelector('#modelBrid');
-        var ball = document.querySelector('#ball');
-        var text = document.querySelector('#text');
+        var plane = document.querySelector('#plane');
         target.removeChild(model);
-        target.removeChild(ball);
-        target.removeChild(text);
+        target.removeChild(plane);
+        // target.removeChild(text);
     }
 
     function Start() {
@@ -172,6 +172,7 @@
 
         } else {
             isAnimationOver = true;
+            isFirst = false;
         }
     }
 
@@ -253,17 +254,18 @@
     function CreateAnimationUI() {
         var animaLight = document.getElementById("lightImage")
         if (animaLight == null) {
-            animaLight = CreateImageElement("lightImage", sceneH * 2, sceneH * 2, "light.png", false);
-            SetElementPos(animaLight, -2 * sceneH, sceneW, 0, 0);
+            console.log(sceneH, sceneW)
+            animaLight = CreateImageElement("lightImage", (sceneH > sceneW ? sceneH : sceneW) * 2, (sceneH > sceneW ? sceneH : sceneW) * 2, "light.png", false);
+            SetElementPos(animaLight, (sceneH > sceneW ? -2 * sceneH : -2 * sceneW), (sceneH > sceneW ? sceneW : sceneH), 0, 0);
             AddChild(uiDiv, animaLight);
         } else {
             SetElementPos(animaLight, -2 * sceneH, sceneW, 0, 0);
         }
 
-        var image_w = sceneW / 10 * 8;
+        var image_w = (sceneH > sceneW ? sceneW : sceneH) / 10 * 8;
         var image_h = image_w * 2 / 3;
-        var text_w = sceneW / 2;
-        var text_h = text_w * 4 / 10;
+        var text_w = (sceneH > sceneW ? sceneW : sceneH) / 2;
+        var text_h = text_w * 2 / 5;
         for (let i = 0; i < 3; i++) {
             var animaImage = document.getElementById("image0" + i);
             var textImage = document.getElementById("text0" + i);
@@ -287,16 +289,16 @@
             LightAnim = null;
             clearInterval(LightAnim);
         }
-        var x = sceneW;
-        var y = -2 * sceneH;
+        var x = (sceneH > sceneW ? sceneW : sceneH);
+        var y = -2 * (sceneH > sceneW ? sceneH : sceneW);
         SetElementPos(animaLight, y, x, 0, 0);
         animaLight.style.transform = "rotate(-45deg)";
         LightAnim = setInterval(frame, 1);
         console.log(LightAnim);
         var lightTime = 0;
         function frame() {
-            x -= sceneW / 40;
-            y += sceneW / 40;
+            x -= (sceneH > sceneW ? sceneW : sceneH) / 40;
+            y += (sceneH > sceneW ? sceneW : sceneH) / 40;
             lightTime++;
 
             if (x <= -sceneW) {
@@ -322,7 +324,7 @@
         var text = document.getElementById("text0" + index);
         var l_t = Number(text.style.marginLeft.replace("px", ""));
         var l_h = Number(text.style.height.replace("px", ""));
-        var l_w = Number(text.style.height.replace("px", ""));
+        var l_w = Number(text.style.width.replace("px", ""));
         var t_t = Number(text.style.marginTop.replace("px", ""));
         var lerp_t_t = 0;
         var lerp_t_l = 0;
@@ -359,7 +361,7 @@
                     }
                 }
             }
-            if (l_i < -w_i) {
+            if (l_i < -w_i && l_t < -l_w) {
                 console.log("播放动画" + index + "完毕");
                 if (index < 2) {
                     index++;
