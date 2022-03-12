@@ -23,14 +23,16 @@
 
         <!-- 资源 -->
         <a-assets>
+            <img id="logo" src="./res/Assets/logo.jpg"></img>
             <a-asset-item id="gltfBird" src="./res/bird.gltf"></a-asset-item>
+            <a-asset-item id="gltfPlane" src="./res/plane.gltf"></a-asset-item>
             <a-asset-item id="gltfBall" src="https://huyiming0.github.io/AR-H5/res/ball.gltf"></a-asset-item>
             <a-asset-item id="gltfText" src="https://huyiming0.github.io/AR-H5/res/text.gltf"></a-asset-item>
         </a-assets>
 
 
         <a-entity id="mytarget" mytarget mindar-image-target="targetIndex: 0">
-
+            <a-plane src="#logo" position="0 0 0" height="1" width="1" rotation="0 0 0"></a-plane>
         </a-entity>
 
     </a-scene>
@@ -70,21 +72,27 @@
                     clampWhenFinished: true,
                     loop: "once"
                 });
-                var modelball = document.createElement('a-gltf-model');
-                modelball.setAttribute("id", "ball");
-                modelball.setAttribute("src", "#gltfBall");
-                modelball.setAttribute("rotation", { x: 0, y: 180, z: 0 });
-                modelball.setAttribute("position", { x: 0, y: -0.35, z: 0 });
-                modelball.setAttribute("scale", { x: 1.5, y: 1.5, z: 1.5 });
-                var modeltext = document.createElement('a-gltf-model');
-                modeltext.setAttribute("id", "text");
-                modeltext.setAttribute("src", "#gltfText");
-                modeltext.setAttribute("rotation", { x: 0, y: 180, z: 0 });
-                modeltext.setAttribute("position", { x: 0, y: -0.3, z: 0 });
-                modeltext.setAttribute("scale", { x: 1.35, y: 1.35, z: 1.35 });
+                var modelplane = document.createElement('a-gltf-model');
+                modelplane.setAttribute("id", "plane");
+                modelplane.setAttribute("src", "#gltfPlane");
+                modelplane.setAttribute("rotation", { x: 0, y: 0, z: 0 });
+                modelplane.setAttribute("position", { x: 0, y: 0, z: 0 });
+                modelplane.setAttribute("scale", { x: 10, y: 10, z: 10 });
+                // var modelball = document.createElement('a-gltf-model');
+                // modelball.setAttribute("id", "ball");
+                // modelball.setAttribute("src", "#gltfBall");
+                // modelball.setAttribute("rotation", { x: 0, y: 180, z: 0 });
+                // modelball.setAttribute("position", { x: 0, y: -0.35, z: 0 });
+                // modelball.setAttribute("scale", { x: 1.5, y: 1.5, z: 1.5 });
+                // var modeltext = document.createElement('a-gltf-model');
+                // modeltext.setAttribute("id", "text");
+                // modeltext.setAttribute("src", "#gltfText");
+                // modeltext.setAttribute("rotation", { x: 0, y: 180, z: 0 });
+                // modeltext.setAttribute("position", { x: 0, y: -0.3, z: 0 });
+                // modeltext.setAttribute("scale", { x: 1.35, y: 1.35, z: 1.35 });
                 mytarget.appendChild(model);
-                mytarget.appendChild(modelball);
-                mytarget.appendChild(modeltext);
+                mytarget.appendChild(modelplane);
+                // mytarget.appendChild(modeltext);
                 console.log("create");
                 setTimeout("CreateAnimationBtn()", 8000)
             }
@@ -177,7 +185,7 @@
             SetElementPos(startBtn, (sceneH - h) / 2, (sceneW - w) / 2, 0, 0)
             AddChild(uiDiv, startBtn);
         } else {
-            SetElementPos(startBtn, (sceneH - h) / 2,  (sceneW - w)  / 2, 0, 0)
+            SetElementPos(startBtn, (sceneH - h) / 2, (sceneW - w) / 2, 0, 0)
             SetActive(startBtn, true);
         }
 
