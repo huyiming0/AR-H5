@@ -78,12 +78,12 @@
                     loop: "once"
                 });
 
-                var modelplane = document.createElement('a-plane');
-                modelplane.setAttribute("id", "plane");
-                modelplane.setAttribute("src", "#logo");
-                modelplane.setAttribute("rotation", { x: 0, y: 0, z: 0 });
-                modelplane.setAttribute("height", 1);
-                modelplane.setAttribute("width", 1);
+                // var modelplane = document.createElement('a-plane');
+                // modelplane.setAttribute("id", "plane");
+                // modelplane.setAttribute("src", "#logo");
+                // modelplane.setAttribute("rotation", { x: 0, y: 0, z: 0 });
+                // modelplane.setAttribute("height", 1);
+                // modelplane.setAttribute("width", 1);
                 // var modelball = document.createElement('a-gltf-model');
                 // modelball.setAttribute("id", "ball");
                 // modelball.setAttribute("src", "#gltfBall");
@@ -97,7 +97,7 @@
                 // modeltext.setAttribute("position", { x: 0, y: -0.3, z: 0 });
                 // modeltext.setAttribute("scale", { x: 1.35, y: 1.35, z: 1.35 });
                 mytarget.appendChild(model);
-                mytarget.appendChild(modelplane);
+                // mytarget.appendChild(modelplane);
                 // mytarget.appendChild(modeltext);
                 console.log("create");
                 setTimeout("CreateAnimationBtn()", 8000)
@@ -163,9 +163,9 @@
         isModelRemove = true;
         var target = document.querySelector("#mytarget");
         var model = document.querySelector('#modelBrid');
-        var plane = document.querySelector('#plane');
+        // var plane = document.querySelector('#plane');
         target.removeChild(model);
-        target.removeChild(plane);
+        // target.removeChild(plane);
         // target.removeChild(text);
     }
 
