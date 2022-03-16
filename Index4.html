@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+		.animation {
+			width: 100vw;
+			height: 100vh;
+			position: inherit;
+			background-color: aquamarine;
+		}
+
+		@keyframes moveIn {
+			0% {
+				transform: translate(110vw, 0);
+				;
+			}
+
+			100% {
+				transform: translate(0, 0);
+			}
+
+			/* 95% {
+				transform:  translate(0, 0);
+		    }
+            100% {
+				transform:  translate(-110vw, 0);
+		    } */
+		}
+
+		@keyframes moveOut {
+			0% {
+				transform: translate(0, 0);
+				;
+			}
+
+			100% {
+				transform: translate(-110vw, 0);
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<script>
+		function T(params) {
+			var startTouch = 0;
+			var endTouch = 0;
+			var touchend = false;
+			var image01 = document.createElement("div");
+			image01.id = "Image01";
+			image01.style.width = "100vw";
+			image01.style.height = "100vh";
+			image01.style.backgroundColor = "aquamarine";
+			image01.style.marginLeft = "150vw";
+			image01.style.transition = "all 0.5s";
+			image01.addEventListener("touchstart", function (ele, ev) {
+				startTouch = ele.targetTouches[0].pageX
+				endTouch = startTouch;
+				touchend = false;
+			})
+			image01.addEventListener("touchmove", function (ele, ev) {
+				endTouch = ele.targetTouches[0].pageX
+				touchend = false;
+			})
+			image01.addEventListener("touchend", function (ele, ev) {
+				touchend = true;
+			})
+			setTimeout(() => {
+				image01.style.marginLeft = 0;
+			}, 1000)
+			var intId = setInterval(() => {
+				if (touchend && startTouch - endTouch > 0) {
+					console.log(123);
+					image01.style.marginLeft = "-110vw";
+					clearInterval(intId);
+				}
+			}, 1);
+
+			document.body.appendChild(image01);
+		}
+		console.log("123");
+		T();
+		//querySelector() 方法返回文档中匹配指定 CSS 选择器的第一个元素
+		// let btn = document.querySelector('.btn');
+		// let elem = document.querySelector('.animation');
+		// let state = elem.style['animationPlayState'];
+
+		// if (state === 'paused') {
+		// 	elem.style['animationPlayState'] = 'running';
+		// 	btn.innerText = 'stop';
+		// } else {
+		// 	elem.style['animationPlayState'] = 'paused';
+		// 	btn.innerText = 'play';
+		// }
+	</script>
+</body>
+
+</html>
