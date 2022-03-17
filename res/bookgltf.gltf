@@ -90,7 +90,7 @@
 	],
 	"images": [
 		{
-			"uri": "Assets/bookTexture.jpg"
+			"uri": "Assets/bookTexture2.jpg"
 		}
 	],
 	"materials": [
@@ -102,16 +102,16 @@
 				},
 				"baseColorFactor": [1, 1, 1, 1],
 				"metallicFactor": 0,
-				"roughnessFactor": 1
+				"roughnessFactor": 0.69
 			},
 			"emissiveFactor": [0, 0, 0],
 			"doubleSided": false,
-			"name": "Bird 1"
+			"name": "Book"
 		}
 	],
 	"meshes": [
 		{
-			"name": "mesh_Rectangle002_14530book",
+			"name": "mesh_Rectangle002_13672book",
 			"primitives": [
 				{
 					"attributes": {
@@ -135,7 +135,7 @@
 			]
 		},
 		{
-			"name": "node_book_-2342",
+			"name": "node_book_-1180",
 			"mesh": 0,
 			"matrix": [1, 0, 0, 0, 0, -1.192093E-07, 1, 0, 0, -1, -1.192093E-07, 0, 0, 0, 5.984768E-10, 1]
 		}

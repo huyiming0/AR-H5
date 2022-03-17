@@ -10,36 +10,10 @@
 			height: 100vh;
 			position: inherit;
 			background-color: aquamarine;
+			
 		}
 
-		@keyframes moveIn {
-			0% {
-				transform: translate(110vw, 0);
-				;
-			}
-
-			100% {
-				transform: translate(0, 0);
-			}
-
-			/* 95% {
-				transform:  translate(0, 0);
-		    }
-            100% {
-				transform:  translate(-110vw, 0);
-		    } */
-		}
-
-		@keyframes moveOut {
-			0% {
-				transform: translate(0, 0);
-				;
-			}
-
-			100% {
-				transform: translate(-110vw, 0);
-			}
-		}
+	
 	</style>
 </head>
 
@@ -54,7 +28,8 @@
 			image01.style.width = "100vw";
 			image01.style.height = "100vh";
 			image01.style.backgroundColor = "aquamarine";
-			image01.style.marginLeft = "150vw";
+			image01.style.marginLeft = "0";
+			image01.style.opacity = 0;
 			image01.style.transition = "all 0.5s";
 			image01.addEventListener("touchstart", function (ele, ev) {
 				startTouch = ele.targetTouches[0].pageX
@@ -69,7 +44,8 @@
 				touchend = true;
 			})
 			setTimeout(() => {
-				image01.style.marginLeft = 0;
+				image01.style.opacity = 1;
+				// image01.style.marginLeft = 0;
 			}, 1000)
 			var intId = setInterval(() => {
 				if (touchend && startTouch - endTouch > 0) {
