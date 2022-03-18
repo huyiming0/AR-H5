@@ -7,7 +7,9 @@
     <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.3/dist/mindar-image.prod.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.3/dist/mindar-image-aframe.prod.js"></script>
-    <style>
+
+
+    <!-- <style>
         #example-scanning-overlay {
             display: flex;
             align-items: center;
@@ -69,21 +71,21 @@
                 transform: rotate(360deg);
             }
         }
-    </style>
+    </style> -->
 
 </head>
 
 <body>
-    <div id="example-scanning-overlay" class="hidden">
+    <!-- <div id="example-scanning-overlay" class="hidden">
         <div class="inner">
-            <!-- <img src="./assets/card-example/card.png" /> -->
+             <img src="./assets/card-example/card.png" /> 
             <div class="scanline">
-                <!-- <img src="./res/ui/btn.png" /> -->
+                 <img src="./res/ui/btn.png" /> 
             </div>
         </div>
-    </div>
-    <a-scene mindar-image="imageTargetSrc:./res/mind/targets.mind;autoStart: true; uiScanning:#example-scanning-overlay"
-        vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+    </div> -->
+    <a-scene mindar-image="imageTargetSrc:./res/mind/targets.mind;autoStart: true;" vr-mode-ui="enabled: false"
+        device-orientation-permission-ui="enabled: false">
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
         <!-- 资源 -->
@@ -113,7 +115,6 @@
     var sceneH = document.body.clientHeight;
     var imageNumber = 4;
     uiDiv = AddNewDiv("uiDiv")
-
     document.addEventListener("DOMContentLoaded", function () {
         const sceneEl = document.querySelector('a-scene');
         arSystem = sceneEl.systems["mindar-image-system"];
@@ -145,6 +146,7 @@
                 mytarget.appendChild(modelBook);
                 sceneEl.addEventListener('animation-finished', () => {
                     setTimeout(() => {
+                        CreateUIBG();
                         CreateImage();
                         CreateFirstAnimation();
                         RemoveModel();
@@ -169,14 +171,31 @@
         target.removeChild(book);
         // target.removeChild(text);
     }
+    function CreateUIBG() {
+        var img = document.createElement("img");
+        img.id = "bg";
+        var w = sceneW;
+        var h = w * 3508 / 2480;
+        img.style.width = "100vw";
+        img.style.height = "100vh";
+        img.style.backgroundColor = "rgb(18, 48, 84)"
+        img.style.backgroundSize = w + "px " + h + "px";
+        img.style.opacity = 0;
+        img.style.transition = "all 0.3s";
+        img.style.position = "fixed";
+        uiDiv.appendChild(img);
+        setTimeout(() => {
+            img.style.opacity = 1;
+        }, 1);
+    }
 
 
     function CreateFirstAnimation() {
         var img = document.createElement("img");
-        img.id = "Image01";
-        img.src = "./res/ui/image01.jpg";
+        img.id = "first";
+        img.src = "./res/ui/first.jpg";
         var w = sceneW;
-        var h = w * 3508 / 2480;
+        var h = w * 2340 / 1080;
         img.style.width = w + "px";
         img.style.height = h + "px";
         img.style.marginLeft = "0px";
