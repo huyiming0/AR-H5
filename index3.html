@@ -11,7 +11,7 @@
 
 <body>
     <a-scene
-        mindar-image="imageTargetSrc:https://huyiming0.github.io/AR-H5/res/mind/targets.mind;autoStart: true;filterMinCF: -0.000000001; filterBeta:999999999; warmupTolerance: -1; missTolerance: -1"
+        mindar-image="imageTargetSrc:https://huyiming0.github.io/AR-H5/res/mind/targets.mind;autoStart: false;filterMinCF: -0.000000001; filterBeta:999999999; warmupTolerance: -1; missTolerance: -1"
         vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
@@ -44,7 +44,19 @@
     sceneW = document.body.clientWidth;
     sceneH = document.body.clientHeight;
     uiDiv = AddNewDiv("uiDiv")
-
+   
+ var name = "aaaa";
+ var obj = {
+     name:'obj',
+     dose:function(){
+         this.name = "dose"
+         return function () {
+             return this.name
+         }
+     }
+ }
+ var res = obj.dose().call(this);
+ console.log(res);
 
     document.addEventListener("DOMContentLoaded", function () {
         const sceneEl = document.querySelector('a-scene');

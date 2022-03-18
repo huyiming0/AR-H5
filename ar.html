@@ -84,12 +84,14 @@
             </div>
         </div>
     </div> -->
-    <a-scene mindar-image="imageTargetSrc:./res/mind/targets.mind;autoStart: true;" vr-mode-ui="enabled: false"
-        device-orientation-permission-ui="enabled: false">
+    <a-scene
+        mindar-image="imageTargetSrc:./res/mind/targets.mind;autoStart: true; warmupTolerance: -1; missTolerance: -1"
+        vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
         <!-- 资源 -->
         <a-assets>
+            <img id="logo" src="./res/Assets/plane.jpg"></img>
             <a-asset-item id="gltfBird" src="./res/bird.gltf"></a-asset-item>
             <a-asset-item id="gltfBook" src="./res/bookgltf.gltf"></a-asset-item>
         </a-assets>
@@ -127,8 +129,8 @@
                 model.setAttribute("id", "modelBrid");
                 model.setAttribute("src", "#gltfBird");
                 model.setAttribute("rotation", { x: -90, y: 180, z: 0 });
-                model.setAttribute("position", { x: 0, y: 0, z: 0 });
-                model.setAttribute("scale", { x: 3.2, y: 3.2, z: 3.2 });
+                model.setAttribute("position", { x: 0.3, y: 0.7, z: 0.3 });
+                model.setAttribute("scale", { x: 1.6, y: 1.6, z: 1.6 });
                 model.setAttribute("animation-mixer", {
                     clampWhenFinished: true,
                     loop: "once"
@@ -142,16 +144,39 @@
                 modelBook.setAttribute("rotation", { x: 0, y: 90, z: 90 });
                 modelBook.setAttribute("position", { x: 0, y: 0, z: 0 });
                 modelBook.setAttribute("scale", { x: 3, y: 3, z: 3 });
+
+                var modelplane = document.createElement('a-plane');
+                modelplane.setAttribute("id", "plane");
+                modelplane.setAttribute("src", "#logo");
+                modelplane.setAttribute("position", { x: 0, y: 0, z: 0.5 });
+                modelplane.setAttribute("rotation", { x: 0, y: 0, z: 0 });
+                modelplane.setAttribute("height", 1092 / 342 * 0.35);
+                modelplane.setAttribute("width", 0.35);
+                modelplane.setAttribute("transparent", true);
+                modelplane.setAttribute("opacity", 0);
+
                 mytarget.appendChild(model);
                 mytarget.appendChild(modelBook);
+                mytarget.appendChild(modelplane);
+
                 sceneEl.addEventListener('animation-finished', () => {
+                    var onum = 0;
+                    var id = setInterval(() => {
+                        if (onum >= 1) {
+                            onum = 1;
+                            clearInterval(id);
+                        } else {
+                            onum += 0.01;
+                        }
+                        modelplane.setAttribute("opacity", onum);
+                    }, 1);
                     setTimeout(() => {
                         CreateUIBG();
                         CreateImage();
                         CreateFirstAnimation();
                         RemoveModel();
                         arSystem.stop();
-                    }, 3000)
+                    }, 5000)
                 })
 
             }
@@ -167,8 +192,10 @@
         var target = document.querySelector("#mytarget");
         var model = document.querySelector('#modelBrid');
         var book = document.querySelector('#book');
+        var plane = document.querySelector('#plane');
         target.removeChild(model);
         target.removeChild(book);
+        target.removeChild(plane);
         // target.removeChild(text);
     }
     function CreateUIBG() {
