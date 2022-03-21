@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.3/dist/mindar-image-aframe.prod.js"></script>
 
 
-    <!-- <style>
+    <style>
         #example-scanning-overlay {
             display: flex;
             align-items: center;
@@ -71,21 +71,21 @@
                 transform: rotate(360deg);
             }
         }
-    </style> -->
+    </style>
 
 </head>
 
 <body>
-    <!-- <div id="example-scanning-overlay" class="hidden">
+    <div id="example-scanning-overlay" class="hidden">
         <div class="inner">
-             <img src="./assets/card-example/card.png" /> 
+             <!-- <img src="./assets/card-example/card.png" />  -->
             <div class="scanline">
-                 <img src="./res/ui/btn.png" /> 
+                 <img src="./res/ui/loading.png" /> 
             </div>
         </div>
-    </div> -->
+    </div>
     <a-scene
-        mindar-image="imageTargetSrc:./res/mind/targets.mind;autoStart: true;showStats: true;"
+        mindar-image="imageTargetSrc:./res/mind/targets.mind;autoStart: true;uiScanning: #example-scanning-overlay;"
         vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
