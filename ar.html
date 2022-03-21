@@ -125,19 +125,19 @@
             if (isAnimationOver) {
                 isAnimationOver = false;
                 isModelRemove = false;
-                var model = document.createElement('a-gltf-model');
-                model.setAttribute("id", "modelBrid");
-                model.setAttribute("src", "#gltfBird");
-                model.setAttribute("rotation", { x: -90, y: 180, z: 0 });
-                model.setAttribute("position", { x: 0.3, y: 0.7, z: 0.3 });
-                model.setAttribute("scale", { x: 1.6, y: 1.6, z: 1.6 });
-                model.setAttribute("animation-mixer", {
-                    clampWhenFinished: true,
-                    loop: "once"
-                });
+                // var model = document.createElement('a-gltf-model');
+                // model.setAttribute("id", "modelBrid");
+                // model.setAttribute("src", "#gltfBird");
+                // model.setAttribute("rotation", { x: -90, y: 180, z: 0 });
+                // model.setAttribute("position", { x: 0.3, y: 0.7, z: 0.3 });
+                // model.setAttribute("scale", { x: 1.6, y: 1.6, z: 1.6 });
+                // model.setAttribute("animation-mixer", {
+                //     clampWhenFinished: true,
+                //     loop: "once"
+                // });
 
-                var ma = model.getAttribute("material");
-                console.log(mytarget);
+                // var ma = model.getAttribute("material");
+                // console.log(mytarget);
                 var modelBook = document.createElement('a-gltf-model');
                 modelBook.setAttribute("id", "book");
                 modelBook.setAttribute("src", "#gltfBook");
@@ -155,7 +155,7 @@
                 modelplane.setAttribute("transparent", true);
                 modelplane.setAttribute("opacity", 0);
 
-                mytarget.appendChild(model);
+                // mytarget.appendChild(model);
                 mytarget.appendChild(modelBook);
                 mytarget.appendChild(modelplane);
 
@@ -190,10 +190,10 @@
         }
         isModelRemove = true;
         var target = document.querySelector("#mytarget");
-        var model = document.querySelector('#modelBrid');
+        // var model = document.querySelector('#modelBrid');
         var book = document.querySelector('#book');
         var plane = document.querySelector('#plane');
-        target.removeChild(model);
+        // target.removeChild(model);
         target.removeChild(book);
         target.removeChild(plane);
         // target.removeChild(text);
