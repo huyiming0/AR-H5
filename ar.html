@@ -11,55 +11,19 @@
 
     <style>
         #example-scanning-overlay {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            background: transparent;
-            z-index: 2;
-        }
-
-        @media (min-aspect-ratio: 1/1) {
-            #example-scanning-overlay .inner {
-                width: 50vh;
-                height: 50vh;
-            }
-        }
-
-        @media (max-aspect-ratio: 1/1) {
-            #example-scanning-overlay .inner {
-                width: 80vw;
-                height: 80vw;
-            }
-        }
-
-        #example-scanning-overlay .inner {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
+            width: 300vw;
+            height:  300vw;
+            background: url(./res/ui/loading.png) ;
+            background-size: 300vw 300vw;
+            animation: move 3s infinite linear;
+            margin-top: -45%;
+            margin-left: -98vw;
         }
 
         #example-scanning-overlay.hidden {
             display: none;
         }
 
-        #example-scanning-overlay img {
-            opacity: 0.6;
-            width: 90%;
-            align-self: center;
-        }
-
-        #example-scanning-overlay .inner .scanline {
-            position: absolute;
-            width: 50%;
-            height: 50%;
-            animation: move 2s infinite linear;
-        }
 
         @keyframes move {
 
@@ -77,12 +41,8 @@
 
 <body>
     <div id="example-scanning-overlay" class="hidden">
-        <div class="inner">
-             <!-- <img src="./assets/card-example/card.png" />  -->
-            <div class="scanline">
-                 <img src="./res/ui/loading.png" /> 
-            </div>
-        </div>
+        <!-- <img src="./assets/card-example/card.png" />  -->
+        <!-- <p><img src="./res/ui/loading.png" class="scanline"/> </p> -->
     </div>
     <a-scene
         mindar-image="imageTargetSrc:./res/mind/targets.mind;autoStart: true;uiScanning: #example-scanning-overlay;"
