@@ -12,8 +12,8 @@
     <style>
         #example-scanning-overlay {
             width: 300vw;
-            height:  300vw;
-            background: url(./res/ui/loading.png) ;
+            height: 300vw;
+            background: url(./res/ui/loading.png);
             background-size: 300vw 300vw;
             animation: move 3s infinite linear;
             margin-top: -45%;
@@ -45,13 +45,13 @@
         <!-- <p><img src="./res/ui/loading.png" class="scanline"/> </p> -->
     </div>
     <a-scene
-        mindar-image="imageTargetSrc:./res/mind/targets.mind;autoStart: true;uiScanning: #example-scanning-overlay;"
-        vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+    
+        mindar-image="imageTargetSrc: ./res/mind/targets.mind;autoStart: true;uiScanning: #example-scanning-overlay;">
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
         <!-- 资源 -->
         <a-assets>
-            <img id="logo" src="./res/Assets/plane.jpg"></img>
+            <img id="logo" src="./res/Assets/plane.png"></img>
             <a-asset-item id="gltfBird" src="./res/bird.gltf"></a-asset-item>
             <a-asset-item id="gltfBook" src="./res/bookgltf.gltf"></a-asset-item>
         </a-assets>
@@ -75,8 +75,10 @@
     console.log(document);
     var sceneW = document.body.clientWidth;
     var sceneH = document.body.clientHeight;
-    var imageNumber = 4;
+    var imageNumber = 8;
+
     uiDiv = AddNewDiv("uiDiv")
+
     document.addEventListener("DOMContentLoaded", function () {
         const sceneEl = document.querySelector('a-scene');
         arSystem = sceneEl.systems["mindar-image-system"];
@@ -89,8 +91,8 @@
                 model.setAttribute("id", "modelBrid");
                 model.setAttribute("src", "#gltfBird");
                 model.setAttribute("rotation", { x: -90, y: 180, z: 0 });
-                model.setAttribute("position", { x: 0.3, y: 0.7, z: 0.3 });
-                model.setAttribute("scale", { x: 1.6, y: 1.6, z: 1.6 });
+                model.setAttribute("position", { x: 0.1, y: 0.5, z: 0.15 });
+                model.setAttribute("scale", { x: 1, y: 1, z: 1 });
                 model.setAttribute("animation-mixer", {
                     clampWhenFinished: true,
                     loop: "once"
@@ -103,15 +105,15 @@
                 modelBook.setAttribute("src", "#gltfBook");
                 modelBook.setAttribute("rotation", { x: 0, y: 90, z: 90 });
                 modelBook.setAttribute("position", { x: 0, y: 0, z: 0 });
-                modelBook.setAttribute("scale", { x: 3, y: 3, z: 3 });
+                modelBook.setAttribute("scale", { x: 2, y: 2, z: 2 });
 
                 var modelplane = document.createElement('a-plane');
                 modelplane.setAttribute("id", "plane");
                 modelplane.setAttribute("src", "#logo");
-                modelplane.setAttribute("position", { x: 0, y: 0, z: 0.5 });
+                modelplane.setAttribute("position", { x: 0, y: 0, z: 0.303 });
                 modelplane.setAttribute("rotation", { x: 0, y: 0, z: 0 });
-                modelplane.setAttribute("height", 1092 / 342 * 0.35);
-                modelplane.setAttribute("width", 0.35);
+                modelplane.setAttribute("height", 1096 / 481 * 0.3);
+                modelplane.setAttribute("width", 0.3);
                 modelplane.setAttribute("transparent", true);
                 modelplane.setAttribute("opacity", 0);
 
@@ -130,13 +132,13 @@
                         }
                         modelplane.setAttribute("opacity", onum);
                     }, 1);
-                    setTimeout(() => {
-                        CreateUIBG();
-                        CreateImage();
-                        CreateFirstAnimation();
-                        RemoveModel();
-                        arSystem.stop();
-                    }, 5000)
+                    // setTimeout(() => {
+                    //     CreateUIBG();
+                    //     CreateImage();
+                    //     CreateFirstAnimation();
+                    //     RemoveModel();
+                    //     arSystem.stop();
+                    // }, 5000)
                 })
 
             }
@@ -176,7 +178,6 @@
         }, 1);
     }
 
-
     function CreateFirstAnimation() {
         var img = document.createElement("img");
         img.id = "first";
@@ -201,22 +202,42 @@
             ImageAnimation(1)
         }, 3000);
     }
+
     function CreateImage() {
         for (let i = 1; i < imageNumber + 1; i++) {
+            var w = sceneW;
+            var h = w * 1126 / 810;
+            var div = AddNewDiv("div0" + i);
+            div.style.width = w + "px";
+            div.style.height = h + "px";
+            div.style.marginLeft = "0px";
+            div.style.marginTop = (sceneH - h) / 2 + "px";
+            div.style.marginLeft = "150vw";
+            div.style.transition = "all 0.5s";
+            div.style.position = "fixed";
+
             var img = document.createElement("img");
             img.id = "Image0" + i;
-            img.src = "./res/ui/image" + i + ".jpg";
-            var w = sceneW;
-            var h = w * 3508 / 2480;
+            img.src = "./res/images/image0" + i + ".png";
             img.style.width = w + "px";
             img.style.height = h + "px";
-            img.style.marginLeft = "0px";
-            img.style.marginTop = (sceneH - h) / 2 + "px";
-            img.style.marginLeft = "150vw";
             img.style.backgroundSize = w + "px " + h + "px";
             img.style.transition = "all 0.5s";
             img.style.position = "fixed";
-            uiDiv.appendChild(img);
+            div.appendChild(img);
+
+            var text = document.createElement("img");
+            text.id = "Text0" + i;
+            text.src = "./res/images/text0" + i + ".png";
+            text.style.width = w + "px";
+            text.style.height = h + "px";
+            text.style.marginLeft = "0px";
+            text.style.backgroundSize = w + "px " + w + "px";
+            text.style.opacity = 0;
+            text.style.transition = "all 3s";
+            text.style.position = "fixed";
+            text.style.zIndex = 2;
+            div.appendChild(text);
 
         }
 
@@ -226,9 +247,13 @@
         var startTouch = 0;
         var endTouch = 0;
         var touchend = false;
-        var img = document.getElementById("Image0" + index);
+        var img = document.getElementById("div0" + index);
+        var text = document.getElementById("Text0" + index);
         setTimeout(() => {
             img.style.marginLeft = "0";
+            setTimeout(() => {
+                text.style.opacity = 1;
+            }, 800);
         }, 0.1);
         if (index != imageNumber) {
             img.addEventListener("touchstart", function (ele, ev) {
@@ -247,7 +272,7 @@
 
             var clock = setTimeout(() => {
                 img.style.marginLeft = "-110vw";
-                if (index < 4) {
+                if (index < imageNumber) {
                     index++;
                     ImageAnimation(index);
                 }
@@ -257,7 +282,7 @@
                     clearTimeout(clock);
                     clearInterval(intId);
                     img.style.marginLeft = "-110vw";
-                    if (index < 4) {
+                    if (index < imageNumber) {
                         index++;
                         ImageAnimation(index);
                     }
@@ -267,6 +292,8 @@
         }
 
     }
+
+
 
     /** Common **/
 
