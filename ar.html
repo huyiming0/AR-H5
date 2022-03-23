@@ -11,13 +11,13 @@
 
     <style>
         #example-scanning-overlay {
-            width: 300vw;
-            height: 300vw;
+            width: 530vw;
+            height: 530vw;
             background: url(./res/ui/loading.png);
-            background-size: 300vw 300vw;
+            background-size: 530vw 530vw;
             animation: move 3s infinite linear;
-            margin-top: -45%;
-            margin-left: -98vw;
+            margin-top: -190vw;
+            margin-left: -215vw;
         }
 
         #example-scanning-overlay.hidden {
@@ -32,7 +32,7 @@
             }
 
             100% {
-                transform: rotate(360deg);
+                transform: rotate(-360deg);
             }
         }
     </style>
@@ -45,8 +45,8 @@
         <!-- <p><img src="./res/ui/loading.png" class="scanline"/> </p> -->
     </div>
     <a-scene
-    
-        mindar-image="imageTargetSrc: ./res/mind/targets.mind;autoStart: true;uiScanning: #example-scanning-overlay;">
+        mindar-image="imageTargetSrc: ./res/mind/targets.mind;autoStart: true;uiScanning: #example-scanning-overlay;"
+        vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
         <!-- 资源 -->
@@ -58,9 +58,10 @@
         <a-light type="ambient" color="#FFFFFF" intensity="1"></a-light>
 
 
-        <a-entity id="mytarget" mytarget mindar-image-target="targetIndex: 0">
+        <a-entity id="mytarget0" mytarget mindar-image-target="targetIndex: 0">
         </a-entity>
-
+        <a-entity id="mytarget1" mytarget mindar-image-target="targetIndex: 1">
+        </a-entity>
     </a-scene>
 
 </body>
@@ -71,7 +72,8 @@
     var arSystem;
     var isAnimationOver = true;
     var isModelRemove = false;
-    var mytarget;
+    var mytarget0;
+    var mytarget1;
     console.log(document);
     var sceneW = document.body.clientWidth;
     var sceneH = document.body.clientHeight;
@@ -79,11 +81,14 @@
 
     uiDiv = AddNewDiv("uiDiv")
 
+    // CreateUIBG();
+    // CreateImage();
+    // CreateFirstAnimation();
     document.addEventListener("DOMContentLoaded", function () {
         const sceneEl = document.querySelector('a-scene');
         arSystem = sceneEl.systems["mindar-image-system"];
-        mytarget = document.querySelector("#mytarget");
-        mytarget.addEventListener('targetFound', event => {
+        mytarget0 = document.querySelector("#mytarget0");
+        mytarget0.addEventListener('targetFound', event => {
             if (isAnimationOver) {
                 isAnimationOver = false;
                 isModelRemove = false;
@@ -99,7 +104,6 @@
                 });
 
                 var ma = model.getAttribute("material");
-                console.log(mytarget);
                 var modelBook = document.createElement('a-gltf-model');
                 modelBook.setAttribute("id", "book");
                 modelBook.setAttribute("src", "#gltfBook");
@@ -111,15 +115,15 @@
                 modelplane.setAttribute("id", "plane");
                 modelplane.setAttribute("src", "#logo");
                 modelplane.setAttribute("position", { x: 0, y: 0, z: 0.303 });
-                modelplane.setAttribute("rotation", { x: 0, y: 0, z: 0 });
-                modelplane.setAttribute("height", 1096 / 481 * 0.3);
-                modelplane.setAttribute("width", 0.3);
+                modelplane.setAttribute("rotation", { x: 0, y: -0.15, z: 0 });
+                modelplane.setAttribute("height", 1096 / 481 * 0.4);
+                modelplane.setAttribute("width", 0.4);
                 modelplane.setAttribute("transparent", true);
                 modelplane.setAttribute("opacity", 0);
 
-                mytarget.appendChild(model);
-                mytarget.appendChild(modelBook);
-                mytarget.appendChild(modelplane);
+                mytarget0.appendChild(model);
+                mytarget0.appendChild(modelBook);
+                mytarget0.appendChild(modelplane);
 
                 sceneEl.addEventListener('animation-finished', () => {
                     var onum = 0;
@@ -132,13 +136,69 @@
                         }
                         modelplane.setAttribute("opacity", onum);
                     }, 1);
-                    // setTimeout(() => {
-                    //     CreateUIBG();
-                    //     CreateImage();
-                    //     CreateFirstAnimation();
-                    //     RemoveModel();
-                    //     arSystem.stop();
-                    // }, 5000)
+                    setTimeout(() => {
+                        CreateUIBG();
+                        CreateImage();
+                        CreateFirstAnimation();
+                    }, 5000)
+                })
+
+            }
+        });
+        mytarget1 = document.querySelector("#mytarget1");
+        mytarget1.addEventListener('targetFound', event => {
+            if (isAnimationOver) {
+                isAnimationOver = false;
+                isModelRemove = false;
+                var model = document.createElement('a-gltf-model');
+                model.setAttribute("id", "modelBrid");
+                model.setAttribute("src", "#gltfBird");
+                model.setAttribute("rotation", { x: -90, y: 180, z: 0 });
+                model.setAttribute("position", { x: 0.1, y: 0.5, z: 0.15 });
+                model.setAttribute("scale", { x: 1, y: 1, z: 1 });
+                model.setAttribute("animation-mixer", {
+                    clampWhenFinished: true,
+                    loop: "once"
+                });
+
+                var ma = model.getAttribute("material");
+                var modelBook = document.createElement('a-gltf-model');
+                modelBook.setAttribute("id", "book");
+                modelBook.setAttribute("src", "#gltfBook");
+                modelBook.setAttribute("rotation", { x: 0, y: 90, z: 90 });
+                modelBook.setAttribute("position", { x: 0, y: 0, z: 0 });
+                modelBook.setAttribute("scale", { x: 2, y: 2, z: 2 });
+
+                var modelplane = document.createElement('a-plane');
+                modelplane.setAttribute("id", "plane");
+                modelplane.setAttribute("src", "#logo");
+                modelplane.setAttribute("position", { x: 0, y: 0, z: 0.303 });
+                modelplane.setAttribute("rotation", { x: 0, y: -0.15, z: 0 });
+                modelplane.setAttribute("height", 1096 / 481 * 0.4);
+                modelplane.setAttribute("width", 0.4);
+                modelplane.setAttribute("transparent", true);
+                modelplane.setAttribute("opacity", 0);
+
+                mytarget1.appendChild(model);
+                mytarget1.appendChild(modelBook);
+                mytarget1.appendChild(modelplane);
+
+                sceneEl.addEventListener('animation-finished', () => {
+                    var onum = 0;
+                    var id = setInterval(() => {
+                        if (onum >= 1) {
+                            onum = 1;
+                            clearInterval(id);
+                        } else {
+                            onum += 0.01;
+                        }
+                        modelplane.setAttribute("opacity", onum);
+                    }, 1);
+                    setTimeout(() => {
+                        CreateUIBG();
+                        CreateImage();
+                        CreateFirstAnimation();
+                    }, 5000)
                 })
 
             }
@@ -151,13 +211,27 @@
             return;
         }
         isModelRemove = true;
-        var target = document.querySelector("#mytarget");
+        var target0 = document.querySelector("#mytarget0");
+        var target1 = document.querySelector("#mytarget1");
+
         var model = document.querySelector('#modelBrid');
         var book = document.querySelector('#book');
         var plane = document.querySelector('#plane');
-        target.removeChild(model);
-        target.removeChild(book);
-        target.removeChild(plane);
+        if (model != null && book != null && plane != null) {
+            console.log(target0.childElementCount);
+            console.log(target1.childElementCount);
+            if (target0.childElementCount > 0) {
+                target0.removeChild(model);
+                target0.removeChild(book);
+                target0.removeChild(plane);
+            }
+            if (target1.childElementCount > 0) {
+                target1.removeChild(model);
+                target1.removeChild(book);
+                target1.removeChild(plane);
+            }
+        }
+
         // target.removeChild(text);
     }
     function CreateUIBG() {
@@ -167,7 +241,7 @@
         var h = w * 3508 / 2480;
         img.style.width = "100vw";
         img.style.height = "100vh";
-        img.style.backgroundColor = "rgb(18, 48, 84)"
+        img.style.backgroundColor = "white"
         img.style.backgroundSize = w + "px " + h + "px";
         img.style.opacity = 0;
         img.style.transition = "all 0.3s";
@@ -199,6 +273,8 @@
 
         setTimeout(() => {
             img.style.marginLeft = "-110vw";
+            RemoveModel();
+            arSystem.stop();
             ImageAnimation(1)
         }, 3000);
     }
@@ -255,43 +331,49 @@
                 text.style.opacity = 1;
             }, 800);
         }, 0.1);
-        if (index != imageNumber) {
-            img.addEventListener("touchstart", function (ele, ev) {
-                startTouch = ele.targetTouches[0].pageX
-                endTouch = startTouch;
-                touchend = false;
-            })
-            img.addEventListener("touchmove", function (ele, ev) {
-                endTouch = ele.targetTouches[0].pageX
-                touchend = false;
-            })
-            img.addEventListener("touchend", function (ele, ev) {
-                touchend = true;
-            })
+        img.addEventListener("touchstart", function (ele, ev) {
+            startTouch = ele.targetTouches[0].pageX
+            endTouch = startTouch;
+            touchend = false;
+        })
+        img.addEventListener("touchmove", function (ele, ev) {
+            endTouch = ele.targetTouches[0].pageX
+            touchend = false;
+        })
+        img.addEventListener("touchend", function (ele, ev) {
+            touchend = true;
+        })
 
 
-            var clock = setTimeout(() => {
-                img.style.marginLeft = "-110vw";
+        var clock = setTimeout(() => {
+            img.style.marginLeft = "-110vw";
+            if (index < imageNumber) {
+                index++;
+                ImageAnimation(index);
+            }
+        }, 15000)
+        var intId = setInterval(() => {
+            if (touchend && startTouch - endTouch > 0) {
                 if (index < imageNumber) {
+                    img.style.marginLeft = "-110vw";
+                    clearTimeout(clock);
+                    clearInterval(intId);
                     index++;
                     ImageAnimation(index);
                 }
-            }, 15000)
-            var intId = setInterval(() => {
-                if (touchend && startTouch - endTouch > 0) {
+            }
+            if (touchend && startTouch - endTouch < 0) {
+                if (index <= imageNumber && index > 1) {
                     clearTimeout(clock);
                     clearInterval(intId);
-                    img.style.marginLeft = "-110vw";
-                    if (index < imageNumber) {
-                        index++;
-                        ImageAnimation(index);
-                    }
-
+                    img.style.marginLeft = "110vw";
+                    index--;
+                    ImageAnimation(index);
                 }
-            }, 1);
-        }
-
+            }
+        }, 1);
     }
+
 
 
 
