@@ -35,6 +35,24 @@
                 transform: rotate(-360deg);
             }
         }
+
+        @keyframes move2 {
+
+            0% {
+                margin-left: 90vw;
+                opacity: 1;
+            }
+
+            75% {
+                margin-left: 50vw;
+                opacity: 0;
+            }
+
+            100% {
+                margin-left: 50vw;
+                opacity: 0;
+            }
+        }
     </style>
 
 </head>
@@ -89,64 +107,13 @@
         arSystem = sceneEl.systems["mindar-image-system"];
         mytarget0 = document.querySelector("#mytarget0");
         mytarget0.addEventListener('targetFound', event => {
-            if (isAnimationOver) {
-                isAnimationOver = false;
-                isModelRemove = false;
-                var model = document.createElement('a-gltf-model');
-                model.setAttribute("id", "modelBrid");
-                model.setAttribute("src", "#gltfBird");
-                model.setAttribute("rotation", { x: -90, y: 180, z: 0 });
-                model.setAttribute("position", { x: 0.1, y: 0.5, z: 0.15 });
-                model.setAttribute("scale", { x: 1, y: 1, z: 1 });
-                model.setAttribute("animation-mixer", {
-                    clampWhenFinished: true,
-                    loop: "once"
-                });
-
-                var ma = model.getAttribute("material");
-                var modelBook = document.createElement('a-gltf-model');
-                modelBook.setAttribute("id", "book");
-                modelBook.setAttribute("src", "#gltfBook");
-                modelBook.setAttribute("rotation", { x: 0, y: 90, z: 90 });
-                modelBook.setAttribute("position", { x: 0, y: 0, z: 0 });
-                modelBook.setAttribute("scale", { x: 2, y: 2, z: 2 });
-
-                var modelplane = document.createElement('a-plane');
-                modelplane.setAttribute("id", "plane");
-                modelplane.setAttribute("src", "#logo");
-                modelplane.setAttribute("position", { x: 0, y: 0, z: 0.303 });
-                modelplane.setAttribute("rotation", { x: 0, y: -0.15, z: 0 });
-                modelplane.setAttribute("height", 1096 / 481 * 0.4);
-                modelplane.setAttribute("width", 0.4);
-                modelplane.setAttribute("transparent", true);
-                modelplane.setAttribute("opacity", 0);
-
-                mytarget0.appendChild(model);
-                mytarget0.appendChild(modelBook);
-                mytarget0.appendChild(modelplane);
-
-                sceneEl.addEventListener('animation-finished', () => {
-                    var onum = 0;
-                    var id = setInterval(() => {
-                        if (onum >= 1) {
-                            onum = 1;
-                            clearInterval(id);
-                        } else {
-                            onum += 0.01;
-                        }
-                        modelplane.setAttribute("opacity", onum);
-                    }, 1);
-                    setTimeout(() => {
-                        CreateUIBG();
-                        CreateImage();
-                        CreateFirstAnimation();
-                    }, 5000)
-                })
-
-            }
+            CreateModels(mytarget0);
         });
         mytarget1 = document.querySelector("#mytarget1");
         mytarget1.addEventListener('targetFound', event => {
+            CreateModels(mytarget0);
+        });
+        function CreateModels(targets) {
             if (isAnimationOver) {
                 isAnimationOver = false;
                 isModelRemove = false;
@@ -154,7 +121,7 @@
                 model.setAttribute("id", "modelBrid");
                 model.setAttribute("src", "#gltfBird");
                 model.setAttribute("rotation", { x: -90, y: 180, z: 0 });
-                model.setAttribute("position", { x: 0.1, y: 0.5, z: 0.15 });
+                model.setAttribute("position", { x: 0.25, y: 0.5, z: 0.15 });
                 model.setAttribute("scale", { x: 1, y: 1, z: 1 });
                 model.setAttribute("animation-mixer", {
                     clampWhenFinished: true,
@@ -172,16 +139,16 @@
                 var modelplane = document.createElement('a-plane');
                 modelplane.setAttribute("id", "plane");
                 modelplane.setAttribute("src", "#logo");
-                modelplane.setAttribute("position", { x: 0, y: 0, z: 0.303 });
+                modelplane.setAttribute("position", { x: 0, y: 0, z: 0.302 });
                 modelplane.setAttribute("rotation", { x: 0, y: -0.15, z: 0 });
                 modelplane.setAttribute("height", 1096 / 481 * 0.4);
                 modelplane.setAttribute("width", 0.4);
                 modelplane.setAttribute("transparent", true);
                 modelplane.setAttribute("opacity", 0);
 
-                mytarget1.appendChild(model);
-                mytarget1.appendChild(modelBook);
-                mytarget1.appendChild(modelplane);
+                targets.appendChild(model);
+                targets.appendChild(modelBook);
+                targets.appendChild(modelplane);
 
                 sceneEl.addEventListener('animation-finished', () => {
                     var onum = 0;
@@ -202,9 +169,11 @@
                 })
 
             }
-        });
+        }
 
     });
+
+
 
     function RemoveModel() {
         if (isModelRemove) {
@@ -251,6 +220,32 @@
             img.style.opacity = 1;
         }, 1);
     }
+    function CreateArrowAnimation() {
+        var ArrowDiv = AddNewDiv("ArrowDiv")
+        var img = document.createElement("img");
+        img.id = "Arrow";
+        img.src = "./res/ui/Arrow.png";
+        var w = sceneW / 7;
+        var h = w * 30 / 50;
+        img.style.width = w + "px";
+        img.style.height = h + "px";
+        img.style.marginLeft = sceneW - w;
+        img.style.marginTop = (sceneH -  (2 * h));
+        img.style.backgroundSize = w + "px " + h + "px";
+        img.style.opacity = 1;
+        img.style.animation = "move2 2s infinite ";
+        img.style.position = "fixed";
+        img.style.zIndex = 3;
+        //...
+        ArrowDiv.appendChild(img);
+        setTimeout(() => {
+            img.style.animation = ""
+            img.style.opacity = 0;
+
+        }, 7400);
+
+
+    }
 
     function CreateFirstAnimation() {
         var img = document.createElement("img");
@@ -276,7 +271,8 @@
             RemoveModel();
             arSystem.stop();
             ImageAnimation(1)
-        }, 3000);
+            CreateArrowAnimation()
+        }, 1500);
     }
 
     function CreateImage() {
@@ -310,7 +306,7 @@
             text.style.marginLeft = "0px";
             text.style.backgroundSize = w + "px " + w + "px";
             text.style.opacity = 0;
-            text.style.transition = "all 3s";
+            text.style.transition = "all 1.5s";
             text.style.position = "fixed";
             text.style.zIndex = 2;
             div.appendChild(text);
@@ -329,7 +325,7 @@
             img.style.marginLeft = "0";
             setTimeout(() => {
                 text.style.opacity = 1;
-            }, 800);
+            }, 500);
         }, 0.1);
         img.addEventListener("touchstart", function (ele, ev) {
             startTouch = ele.targetTouches[0].pageX
@@ -346,12 +342,12 @@
 
 
         var clock = setTimeout(() => {
-            img.style.marginLeft = "-110vw";
             if (index < imageNumber) {
+                img.style.marginLeft = "-110vw";
                 index++;
                 ImageAnimation(index);
             }
-        }, 15000)
+        }, 7500)
         var intId = setInterval(() => {
             if (touchend && startTouch - endTouch > 0) {
                 if (index < imageNumber) {
