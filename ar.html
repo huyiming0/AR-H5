@@ -63,17 +63,17 @@
         <!-- <p><img src="./res/ui/loading.png" class="scanline"/> </p> -->
     </div>
     <a-scene
-        mindar-image="imageTargetSrc: ./res/mind/targets.mind;autoStart: true;uiScanning: #example-scanning-overlay;"
+        mindar-image="imageTargetSrc: https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Ar/res/mind/targets.mind;autoStart: true;uiScanning: #example-scanning-overlay;"
         vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
-
+        
         <!-- 资源 -->
         <a-assets>
-            <img id="logo" src="./res/Assets/plane.png"></img>
-            <a-asset-item id="gltfBird" src="./res/bird.gltf"></a-asset-item>
-            <a-asset-item id="gltfBook" src="./res/bookgltf.gltf"></a-asset-item>
+            <img id="logo" src="https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Ar/res/Assets/plane.png"></img>
+            <a-asset-item id="gltfBird" src="https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Ar/res/bird.gltf"></a-asset-item>
+            <a-asset-item id="gltfBook" src="https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Ar/res/bookgltf.gltf"></a-asset-item>
         </a-assets>
-        <a-light type="ambient" color="#FFFFFF" intensity="1"></a-light>
+        <!-- <a-light type="ambient" color="#FFFFFF" intensity="1"></a-light> -->
 
 
         <a-entity id="mytarget0" mytarget mindar-image-target="targetIndex: 0">
@@ -111,7 +111,7 @@
         });
         mytarget1 = document.querySelector("#mytarget1");
         mytarget1.addEventListener('targetFound', event => {
-            CreateModels(mytarget0);
+            CreateModels(mytarget1);
         });
         function CreateModels(targets) {
             if (isAnimationOver) {
@@ -224,7 +224,7 @@
         var ArrowDiv = AddNewDiv("ArrowDiv")
         var img = document.createElement("img");
         img.id = "Arrow";
-        img.src = "./res/ui/Arrow.png";
+        img.src = "https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Ar/res/ui/Arrow.png";
         var w = sceneW / 7;
         var h = w * 30 / 50;
         img.style.width = w + "px";
@@ -250,7 +250,7 @@
     function CreateFirstAnimation() {
         var img = document.createElement("img");
         img.id = "first";
-        img.src = "./res/ui/first.jpg";
+        img.src = "https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Ar/res/ui/first.jpg";
         var w = sceneW;
         var h = w * 2340 / 1080;
         img.style.width = w + "px";
@@ -290,7 +290,7 @@
 
             var img = document.createElement("img");
             img.id = "Image0" + i;
-            img.src = "./res/images/image0" + i + ".png";
+            img.src = "https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Ar/res/images/image0" + i + ".png";
             img.style.width = w + "px";
             img.style.height = h + "px";
             img.style.backgroundSize = w + "px " + h + "px";
@@ -300,7 +300,7 @@
 
             var text = document.createElement("img");
             text.id = "Text0" + i;
-            text.src = "./res/images/text0" + i + ".png";
+            text.src = "https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Ar/res/images/text0" + i + ".png";
             text.style.width = w + "px";
             text.style.height = h + "px";
             text.style.marginLeft = "0px";
