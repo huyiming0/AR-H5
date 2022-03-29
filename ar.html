@@ -63,10 +63,10 @@
         <!-- <p><img src="./res/ui/loading.png" class="scanline"/> </p> -->
     </div>
     <a-scene
-        mindar-image="imageTargetSrc: https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Ar/res/mind/targets.mind;autoStart: true;uiScanning: #example-scanning-overlay;"
+        mindar-image="imageTargetSrc: https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Ar/res/mind/targets.mind;autoStart: false;uiScanning: #example-scanning-overlay;"
         vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
-        
+
         <!-- 资源 -->
         <a-assets>
             <img id="logo" src="https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Ar/res/Assets/plane.png"></img>
@@ -102,9 +102,44 @@
     // CreateUIBG();
     // CreateImage();
     // CreateFirstAnimation();
+    function startAr() {
+
+        try {
+            arSystem.start();
+        } catch (error) {
+            setTimeout(() => {
+                startAr();
+            }, 1000);
+        }
+    }
+
     document.addEventListener("DOMContentLoaded", function () {
         const sceneEl = document.querySelector('a-scene');
         arSystem = sceneEl.systems["mindar-image-system"];
+        if (detect() == "ios") {
+            var iosTipDiv = AddNewDiv("iosTipDiv")
+            iosTipDiv.style.width = "100vw";
+            iosTipDiv.style.height = "100vh";
+            iosTipDiv.style.backgroundColor = "white"
+            iosTipDiv.style.backgroundSize = "100vw 100vh";
+            iosTipDiv.style.opacity = 1;
+            iosTipDiv.style.position = "fixed";
+            var img2 = document.createElement("img");
+            img2.id = "iosTip";
+            img2.src = "https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Ar/res/ui/ios.jpg";
+            var w = sceneW;
+            var h = w * 2280 / 1242;
+            img2.style.width = w;
+            img2.style.height = h;
+            img2.style.backgroundSize = w + "px " + h + "px";
+            img2.style.opacity = 1;
+            img2.style.position = "fixed";
+            iosTipDiv.appendChild(img2);
+        } else {
+            startAr()
+        }
+
+
         mytarget0 = document.querySelector("#mytarget0");
         mytarget0.addEventListener('targetFound', event => {
             CreateModels(mytarget0);
@@ -139,7 +174,7 @@
                 var modelplane = document.createElement('a-plane');
                 modelplane.setAttribute("id", "plane");
                 modelplane.setAttribute("src", "#logo");
-                modelplane.setAttribute("position", { x: 0, y: 0, z: 0.302 });
+                modelplane.setAttribute("position", { x: 0, y: 0, z: 0.305 });
                 modelplane.setAttribute("rotation", { x: 0, y: -0.15, z: 0 });
                 modelplane.setAttribute("height", 1096 / 481 * 0.4);
                 modelplane.setAttribute("width", 0.4);
@@ -173,7 +208,20 @@
 
     });
 
-
+    function detect() {
+        var equipmentType = "";
+        var agent = navigator.userAgent.toLowerCase();
+        var android = agent.indexOf("android");
+        var iphone = agent.indexOf("iphone");
+        var ipad = agent.indexOf("ipad");
+        if (android != -1) {
+            equipmentType = "android";
+        }
+        if (iphone != -1 || ipad != -1) {
+            equipmentType = "ios";
+        }
+        return equipmentType;
+    }
 
     function RemoveModel() {
         if (isModelRemove) {
@@ -230,7 +278,7 @@
         img.style.width = w + "px";
         img.style.height = h + "px";
         img.style.marginLeft = sceneW - w;
-        img.style.marginTop = (sceneH -  (2 * h));
+        img.style.marginTop = (sceneH - (2 * h));
         img.style.backgroundSize = w + "px " + h + "px";
         img.style.opacity = 1;
         img.style.animation = "move2 2s infinite ";
