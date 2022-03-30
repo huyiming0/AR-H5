@@ -119,8 +119,7 @@
     document.addEventListener("DOMContentLoaded", function () {
         const sceneEl = document.querySelector('a-scene');
         arSystem = sceneEl.systems["mindar-image-system"];
-        if (detect() == "ios") {
-            var ua = navigator.userAgent.toLowerCase();
+        var ua = navigator.userAgent.toLowerCase();
             if (ua.match(/MicroMessenger/i) == "micromessenger") {
                 //使用微信浏览器(微信打开)输出
 
@@ -145,9 +144,35 @@
             } else {
                 startAr()
             }
-        } else {
-            startAr()
-        }
+        // if (detect() == "ios") {
+        //     var ua = navigator.userAgent.toLowerCase();
+        //     if (ua.match(/MicroMessenger/i) == "micromessenger") {
+        //         //使用微信浏览器(微信打开)输出
+
+        //         var iosTipDiv = AddNewDiv("iosTipDiv")
+        //         iosTipDiv.style.width = "100vw";
+        //         iosTipDiv.style.height = "100vh";
+        //         iosTipDiv.style.backgroundColor = "white"
+        //         iosTipDiv.style.backgroundSize = "100vw 100vh";
+        //         iosTipDiv.style.opacity = 1;
+        //         iosTipDiv.style.position = "fixed";
+        //         var img2 = document.createElement("img");
+        //         img2.id = "iosTip";
+        //         img2.src = "https://ar-project-1300064969.cos.ap-beijing.myqcloud.com/Ar/res/ui/ios.jpg";
+        //         var w = sceneW;
+        //         var h = w * 2280 / 1242;
+        //         img2.style.width = w;
+        //         img2.style.height = h;
+        //         img2.style.backgroundSize = w + "px " + h + "px";
+        //         img2.style.opacity = 1;
+        //         img2.style.position = "fixed";
+        //         iosTipDiv.appendChild(img2);
+        //     } else {
+        //         startAr()
+        //     }
+        // } else {
+        //     startAr()
+        // }
 
 
         mytarget0 = document.querySelector("#mytarget0");
